@@ -8,7 +8,8 @@ export default function SubmitButton({ value }) {
 const Button = styled.input`
   cursor: pointer;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  margin: ${styles.spacer.tiny};
+  margin: calc(${styles.spacer.fine} + ${styles.spacer.tiny})
+    ${styles.spacer.tiny} ${styles.spacer.tiny};
   border: 6px solid;
   border-image-slice: 1;
   border-width: ${styles.spacer.fine};

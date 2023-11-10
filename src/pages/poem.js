@@ -18,11 +18,11 @@ export default function Poem() {
             <br />
             and some have been known to fall in it.
             <br />
-            In tennis it's nothing, but it can be recieved,
+            In tennis it's nothing, but it can be received,
             <br />
             and sometimes a person may win it.
             <br />
-            Though it's not seen or heard it may be percieved,
+            Though it's not seen or heard it may be perceived,
             <br />
             unlike princes you'll find it in c<em>love</em>r.
             <br />
