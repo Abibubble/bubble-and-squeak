@@ -13,7 +13,7 @@ const guestList = [
   'Diane Goodwin',
   'Emily Thomson',
   'Emma Griffiths',
-  'Emma Stoyanona',
+  'Emma Stoyanova',
   'Eve Crabb',
   'Florence Nye',
   'Harry Wilcox',
