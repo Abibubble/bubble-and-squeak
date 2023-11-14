@@ -1,3 +1,6 @@
+import styled from 'styled-components'
+import styles from '../styles/styles'
+
 import Button from '../components/button'
 import Clue from '../components/clue'
 import ClueText from '../components/clue-text'
@@ -20,11 +23,24 @@ export default function Congratulations() {
           if you want to return to the main site.
         </Intro>
         <Intro>
-          Alternatively, you can save the next page to get directly to the main
-          site.
+          Alternatively, you can save the link below to access the main site
+          directly.
+        </Intro>
+        <Intro>
+          <Link href='/welcome'>
+            https://bubble-and-squeak.vercel.app/welcome
+          </Link>
         </Intro>
         <Button href='/welcome'>Main site</Button>
       </PageSection>
     </Wrapper>
   )
 }
+
+const Link = styled.a`
+  color: ${styles.colour.white};
+
+  &:visited {
+    color: ${styles.colour.white};
+  }
+`
