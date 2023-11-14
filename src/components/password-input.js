@@ -108,7 +108,9 @@ const Form = styled.form`
 
   @media (min-width: ${styles.breakpoint.medium}) {
     margin: ${props =>
-      props.intro ? `${styles.spacer.small} 0 0` : `${styles.spacer.medium} 0`};
+      props.intro
+        ? `${styles.spacer.small} 0 0`
+        : `${styles.spacer.medium} 0 0`};
   }
 
   ${props => props.intro && `margin: ${styles.spacer.small} 0 0;`}
