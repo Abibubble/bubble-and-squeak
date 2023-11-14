@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import styles from '../styles/styles'
 
-export default function Intro({ ...props }) {
-  return <StyledIntro>{props.children}</StyledIntro>
+export default function Intro({ intro, ...props }) {
+  return <StyledIntro intro={intro}>{props.children}</StyledIntro>
 }
 
 const StyledIntro = styled.h2`
@@ -10,10 +10,11 @@ const StyledIntro = styled.h2`
   margin: ${styles.spacer.small} 0;
 
   @media screen and (min-width: ${styles.breakpoint.small}) {
-    margin: ${styles.spacer.medium} 0;
+    margin: ${props =>
+      props.intro ? `${styles.spacer.large} 0 0` : `${styles.spacer.medium} 0`};
   }
 
   @media screen and (min-width: ${styles.breakpoint.medium}) {
-    margin: 32px 0;
+    margin: ${props => (props.intro ? `${styles.spacer.large} 0 0` : '32px 0')};
   }
 `

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Accommodation from './pages/accommodation'
+import Congratulations from './pages/congratulations'
 import DayPlan from './pages/day-plan'
 import DressCode from './pages/dress-code'
 import Gift from './pages/gift'
@@ -21,6 +22,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path='/accommodation' element={<Accommodation />} />
+        <Route path='/congratulations' element={<Congratulations />} />
         <Route path='/day-plan' element={<DayPlan />} />
         <Route path='/dress-code' element={<DressCode />} />
         <Route path='/gift' element={<Gift />} />

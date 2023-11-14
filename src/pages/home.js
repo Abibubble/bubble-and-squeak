@@ -16,14 +16,10 @@ export default function Home() {
           with a prize. Good luck!
         </Intro>
         <Intro>
-          We know that not all of you will be familiar with escape room puzzles.
-          <br />
-          If you'd like to avoid the puzzles, use the secret phrase we've sent
-          you in the input box below.
-          <br />
           If you're up for a challenge, click the "Let's go!" button.
         </Intro>
         <Button href='/password'>Let's go!</Button>
+        <Intro intro>If you have the secret phrase, enter it here</Intro>
         <PasswordInput intro />
       </PageSection>
     </Wrapper>

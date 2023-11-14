@@ -34,38 +34,34 @@ export default function PasswordInput({ intro = false }) {
       passwordInput = passwordInput.replace(/\s/g, '')
     }
 
-    if (passwordInput === passwordSix || passwordInput === passwordSixAlt) {
-      navigate('/welcome', { replace: true })
-    } else {
-      if (pathname === '/password') {
-        passwordInput === passwordOne
-          ? navigate('/poem', { replace: true })
-          : alert('Oops, try again!')
-      } else if (pathname === '/poem') {
-        passwordInput === passwordTwo
-          ? navigate('/pigpen', { replace: true })
-          : alert('Oops, try again!')
-      } else if (pathname === '/pigpen') {
-        passwordInput === passwordThree
-          ? navigate('/science', { replace: true })
-          : alert('Oops, try again!')
-      } else if (pathname === '/science') {
-        passwordInput === passwordFour
-          ? navigate('/maths', { replace: true })
-          : alert('Oops, try again!')
-      } else if (pathname === '/maths') {
-        passwordInput === passwordFive
-          ? navigate('/riddle', { replace: true })
-          : alert('Oops, try again!')
-      } else if (pathname === '/riddle') {
-        passwordInput === passwordSix || passwordInput === passwordSixAlt
-          ? navigate('/welcome', { replace: true })
-          : alert('Oops, try again!')
-      } else if (pathname === '/') {
-        passwordInput === passwordSkip || passwordInput === passwordSkipAlt
-          ? navigate('/welcome', { replace: true })
-          : alert('Oops, check your email to confirm this password!')
-      }
+    if (pathname === '/password') {
+      passwordInput === passwordOne
+        ? navigate('/poem', { replace: true })
+        : alert('Oops, try again!')
+    } else if (pathname === '/poem') {
+      passwordInput === passwordTwo
+        ? navigate('/pigpen', { replace: true })
+        : alert('Oops, try again!')
+    } else if (pathname === '/pigpen') {
+      passwordInput === passwordThree
+        ? navigate('/science', { replace: true })
+        : alert('Oops, try again!')
+    } else if (pathname === '/science') {
+      passwordInput === passwordFour
+        ? navigate('/maths', { replace: true })
+        : alert('Oops, try again!')
+    } else if (pathname === '/maths') {
+      passwordInput === passwordFive
+        ? navigate('/riddle', { replace: true })
+        : alert('Oops, try again!')
+    } else if (pathname === '/riddle') {
+      passwordInput === passwordSix || passwordInput === passwordSixAlt
+        ? navigate('/congratulations', { replace: true })
+        : alert('Oops, try again!')
+    } else if (pathname === '/') {
+      passwordInput === passwordSkip || passwordInput === passwordSkipAlt
+        ? navigate('/welcome', { replace: true })
+        : alert('Oops, check your email to confirm this password!')
     }
   }
 
@@ -104,14 +100,18 @@ export default function PasswordInput({ intro = false }) {
 }
 
 const Form = styled.form`
-  padding: ${styles.spacer.small};
   border-radius: ${styles.spacer.tiny};
+  padding: ${props =>
+    props.intro
+      ? `0 ${styles.spacer.small} ${styles.spacer.small}`
+      : styles.spacer.small};
 
   @media (min-width: ${styles.breakpoint.medium}) {
-    margin: ${styles.spacer.medium} 0;
+    margin: ${props =>
+      props.intro ? `${styles.spacer.small} 0 0` : `${styles.spacer.medium} 0`};
   }
 
-  ${props => props.intro && `margin: ${styles.spacer.medium} 0 0;`}
+  ${props => props.intro && `margin: ${styles.spacer.small} 0 0;`}
 `
 
 const Label = styled.label`
