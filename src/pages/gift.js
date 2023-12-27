@@ -9,7 +9,7 @@ import TextWrapper from '../components/text-wrapper'
 import Title from '../components/title'
 import Wrapper from '../components/wrapper'
 
-import QRCodeImage from '../images/honeymoon.jpeg'
+// import QRCodeImage from '../images/honeymoon.jpeg'
 
 export default function Gift() {
   return (
@@ -33,7 +33,7 @@ export default function Gift() {
         >
           Click here to donate to our honeymoon fund on PayPal
         </StyledLink>
-        <a
+        {/* <a
           href='https://paypal.me/theharrisonnyes?country.x=GB&locale.x=en_GB'
           target='_blank'
           rel='noopener noreferrer'
@@ -42,7 +42,7 @@ export default function Gift() {
             src={QRCodeImage}
             alt='QR code to take to PayPal donate page'
           />
-        </a>
+        </a> */}
         <Button href='/welcome'>Back</Button>
       </PageSection>
     </Wrapper>
@@ -75,9 +75,9 @@ const StyledLink = styled(Link)`
   }
 `
 
-const QRCode = styled.img`
-  display: block;
-  margin: 0 auto ${styles.spacer.medium};
-  width: calc(${styles.spacer.huge} * 3);
-  height: calc(${styles.spacer.huge} * 3);
-`
+// const QRCode = styled.img`
+//   display: block;
+//   margin: 0 auto ${styles.spacer.medium};
+//   width: calc(${styles.spacer.huge} * 3);
+//   height: calc(${styles.spacer.huge} * 3);
+// `
