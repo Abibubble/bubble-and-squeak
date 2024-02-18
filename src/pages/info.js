@@ -21,8 +21,8 @@ export default function Info() {
             about the order of the day.
           </Text>
           <Text>
-            Food will be confirmed closer to the date, but all allergies and
-            dietary requirements will be catered for
+            Food will be an indoor BBQ, and all allergies and dietary
+            requirements will be catered for
           </Text>
           <Text>There will be a cash / card bar available</Text>
           <Text>

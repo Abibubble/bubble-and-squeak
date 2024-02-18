@@ -20,9 +20,9 @@ export default function DayPlan() {
           <PlanGrid>
             <p>4pm</p>
             <p>Reception starts</p>
-            <p>TBC</p>
-            <p>Food</p>
-            <p>10pm</p>
+            <p>6pm</p>
+            <p>Dinner</p>
+            <p>11pm</p>
             <p>Carriages</p>
           </PlanGrid>
         </TextWrapper>
