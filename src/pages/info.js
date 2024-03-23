@@ -27,15 +27,23 @@ export default function Info() {
           <Text>There will be a cash / card bar available</Text>
           <Text>
             Partners and children are welcome by named invitation only. If
-            you're unsure, named guests are shown in the RSVP dropdown.
+            you're unsure, named guests are shown in the{' '}
+            <a href='/day-plan'>RSVP</a> dropdown.
           </Text>
           <Text>
             You're more than welcome to take photos at any time, we just request
             that you don't get in the way of our lovely photographer, Gino.
           </Text>
           <Text>
-            After the wedding, we will send out a link where we'd love for you
-            to upload any photos you took during our wedding.
+            If you{' '}
+            <a href='https://weduploader.com/upload/8Vyk8u1h4PbJrXRC'>
+              follow this link
+            </a>
+            , we'd love for you to upload any photos and videos that you take
+            during our wedding. You can also access this link by scanning the QR
+            code on the back of the I Spy cards, and we will also send the link
+            out via email after the wedding. These images get uploaded directly
+            to our Google Drive, and aren't stored anywhere else.
           </Text>
           <Text>We look forward to seeing you there!</Text>
         </TextWrapper>

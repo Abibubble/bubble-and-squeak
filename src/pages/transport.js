@@ -13,6 +13,7 @@ export default function Transport() {
     <Wrapper wedding>
       <PageSection>
         <Title>Transport</Title>
+        <Subtitle>Driving</Subtitle>
         <TextWrapper>
           <Text>Pinner is in the Ultra Low Emission Zone (ULEZ).</Text>
           <Text>
@@ -29,8 +30,8 @@ export default function Transport() {
         <TextWrapper>
           <Text>
             Unfortunately there isn't a lot of parking space at The Woodman, and
-            we recommend that you don't try to park in their car park. There is
-            free parking down the nearby side roads.
+            we ask that you don't try to park in their car park. There is free
+            parking down the nearby side roads.
           </Text>
           <Text>
             Alternatively, there is a car park near Eastcote station, which is

@@ -18,10 +18,7 @@ export default function DressCode() {
           <Text>
             Heels aren't required, so feel free to wear flats for comfort
           </Text>
-          <Text>
-            As the reception will be mostly outside, make sure you bring
-            something warm for the evening
-          </Text>
+          <Text>Make sure you bring something warm for the evening</Text>
           <Text>And don't forget your dancing shoes!</Text>
         </TextWrapper>
         <Button href='/welcome'>Back</Button>

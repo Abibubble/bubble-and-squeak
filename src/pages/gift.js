@@ -9,8 +9,6 @@ import TextWrapper from '../components/text-wrapper'
 import Title from '../components/title'
 import Wrapper from '../components/wrapper'
 
-// import QRCodeImage from '../images/honeymoon.jpeg'
-
 export default function Gift() {
   return (
     <Wrapper wedding>
@@ -33,16 +31,6 @@ export default function Gift() {
         >
           Click here to donate to our honeymoon fund on PayPal
         </StyledLink>
-        {/* <a
-          href='https://paypal.me/theharrisonnyes?country.x=GB&locale.x=en_GB'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <QRCode
-            src={QRCodeImage}
-            alt='QR code to take to PayPal donate page'
-          />
-        </a> */}
         <Button href='/welcome'>Back</Button>
       </PageSection>
     </Wrapper>
@@ -74,10 +62,3 @@ const StyledLink = styled(Link)`
     margin-bottom: ${styles.spacer.medium};
   }
 `
-
-// const QRCode = styled.img`
-//   display: block;
-//   margin: 0 auto ${styles.spacer.medium};
-//   width: calc(${styles.spacer.huge} * 3);
-//   height: calc(${styles.spacer.huge} * 3);
-// `

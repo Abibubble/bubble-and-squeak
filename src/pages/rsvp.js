@@ -14,14 +14,14 @@ export default function Rsvp() {
         <Title>RSVP</Title>
         <Info>
           Please fill out one RSVP per person. This allows us to keep track of
-          who has which allergies
+          who has which allergies and dietary requirements.
         </Info>
         <RsvpForm />
         <Button href='/welcome'>Back</Button>
         <InfoText>
           Please RSVP by 31st December 2023. Partners and children are welcome
-          by named invitation only. If you have any questions, please email us
-          at{' '}
+          by named invitation only. If you're unsure, named guests are shown in
+          the RSVP dropdown. If you have any questions, please email us at{' '}
           <EmailLink href='mailto:the.harrison.nyes@gmail.com'>
             the.harrison.nyes@gmail.com
           </EmailLink>
