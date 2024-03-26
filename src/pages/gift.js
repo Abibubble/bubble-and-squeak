@@ -41,7 +41,7 @@ const StyledLink = styled(Link)`
   background-color: ${styles.colour.transparentWhite};
   margin-bottom: ${styles.spacer.medium};
   height: fit-content;
-  max-width: 400px;
+  max-width: 344px;
   border: 6px solid;
   border-image-slice: 1;
   border-width: ${styles.spacer.fine};
