@@ -22,7 +22,8 @@ export default function Info() {
           </Text>
           <Text>
             Food will be an indoor BBQ, and all allergies and dietary
-            requirements will be catered for
+            requirements will be catered for. Please see Dale on the day if you
+            have allergies or dietary requirements so that he knows who you are.
           </Text>
           <Text>There will be a cash / card bar available</Text>
           <Text>
