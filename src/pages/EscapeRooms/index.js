@@ -1,6 +1,7 @@
 import { Card, MainContent } from '../../components'
 import * as Styled from './EscapeRooms.styled'
 import escapeRooms from '../../data/escape-rooms.json'
+import convertRatingsToOverall from '../../utils/convertRatingsToOverall'
 
 function EscapeRooms() {
   return (
@@ -8,14 +9,15 @@ function EscapeRooms() {
       <Styled.Title>Escape Rooms</Styled.Title>
       <Styled.Grid>
         {Object.values(escapeRooms).map(room => (
-          <Card
-            key={room.id}
-            imgSrc={room.image}
-            title={room.name}
-            rating={room.ourEscape.rating.overall}
-          >
-            {room.description}
-          </Card>
+          <a href={`/escape-rooms/room-info?roomId=${room.id}`} key={room.id}>
+            <Card
+              imgSrc={room.image}
+              title={room.name}
+              rating={convertRatingsToOverall(room.ourEscape.ratings)}
+            >
+              {room.description}
+            </Card>
+          </a>
         ))}
       </Styled.Grid>
     </MainContent>
