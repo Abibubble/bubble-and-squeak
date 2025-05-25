@@ -1,4 +1,4 @@
-import { Card, MainContent, Title } from '../../components'
+import { Card, CardsGrid, MainContent, Title } from '../../components'
 import * as Styled from './Parks.styled'
 import parks from '../../data/parks.json'
 
@@ -6,7 +6,7 @@ function Parks() {
   return (
     <MainContent>
       <Title>Theme Parks</Title>
-      <Styled.Grid>
+      <CardsGrid>
         {Object.values(parks)
           .sort((a, b) => a.name.localeCompare(b.name))
           .map(park => (
@@ -16,7 +16,7 @@ function Parks() {
               </Card>
             </a>
           ))}
-      </Styled.Grid>
+      </CardsGrid>
     </MainContent>
   )
 }

@@ -9,7 +9,7 @@
 }
 
 #root {
-  background-color: white;
+  background-color: lightgrey;
   color: black;
   display: flex;
   flex-direction: column;

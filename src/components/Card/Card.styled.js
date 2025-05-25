@@ -5,12 +5,12 @@ export const Card = styled.article`
   border: 1px solid black;
   border-radius: 16px;
   text-align: center;
-  width: 320px;
+  width: 300px;
 `
 
 export const Image = styled.img`
   height: auto;
-  max-width: 320px;
+  max-width: 300px;
   border-radius: 16px 16px 0 0;
 `
 

@@ -5,7 +5,7 @@
     "description": "Hyperia is a thrilling roller coaster that takes riders on a high-speed journey through loops and twists.",
     "height": 50,
     "speed": 70,
-    "duration": 120,
+    "duration": "1 minute 10 seconds",
     "inversions": 5,
     "type": "Steel",
     "manufacturer": "B&M",
@@ -14,7 +14,7 @@
     "image": "images/rides/hyperia.jpg",
     "rating": 5,
     "comment": ["An exhilarating experience! The loops are insane!"],
-    "heightRequirement": 54,
+    "heightRequirement": 1.3,
     "fastPassAvailable": true
   },
   {

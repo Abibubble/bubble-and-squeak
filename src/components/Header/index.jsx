@@ -4,7 +4,9 @@ import { Link } from '../index.js'
 export default function Header() {
   return (
     <Styled.HeaderContainer>
-      <p>Bubble & Squeak</p>
+      <a href='/'>
+        <p>Bubble & Squeak</p>
+      </a>
       <nav>
         <Styled.NavLinks>
           <li>
