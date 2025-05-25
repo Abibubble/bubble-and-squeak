@@ -7,13 +7,15 @@ function Parks() {
     <MainContent>
       <Title>Theme Parks</Title>
       <Styled.Grid>
-        {Object.values(parks).map(park => (
-          <a href={`/theme-parks/park-info?parkId=${park.id}`} key={park.id}>
-            <Card key={park.id} imgSrc={park.image} title={park.name}>
-              {park.description}
-            </Card>
-          </a>
-        ))}
+        {Object.values(parks)
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map(park => (
+            <a href={`/theme-parks/park-info?parkId=${park.id}`} key={park.id}>
+              <Card key={park.id} imgSrc={park.image} title={park.name}>
+                {park.description}
+              </Card>
+            </a>
+          ))}
       </Styled.Grid>
     </MainContent>
   )

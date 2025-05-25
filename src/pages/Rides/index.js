@@ -7,18 +7,20 @@ function Rides() {
     <MainContent>
       <Title>Rides</Title>
       <Styled.Grid>
-        {Object.values(rides).map(ride => (
-          <a href={`/rides/ride-info?rideId=${ride.id}`} key={ride.id}>
-            <Card
-              key={ride.id}
-              imgSrc={ride.image}
-              title={ride.name}
-              rating={ride.rating}
-            >
-              {ride.description}
-            </Card>
-          </a>
-        ))}
+        {Object.values(rides)
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .map(ride => (
+            <a href={`/rides/ride-info?rideId=${ride.id}`} key={ride.id}>
+              <Card
+                key={ride.id}
+                imgSrc={ride.image}
+                title={ride.name}
+                rating={ride.rating}
+              >
+                {ride.description}
+              </Card>
+            </a>
+          ))}
       </Styled.Grid>
     </MainContent>
   )
