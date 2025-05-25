@@ -6,8 +6,8 @@ export const HeaderContainer = styled.header`
   background-color: black;
   color: white;
   text-align: center;
-  min-height: 48px;
-  line-height: 48px;
+  min-height: 96px;
+  line-height: 96px;
 `
 
 export const NavLinks = styled.ul`

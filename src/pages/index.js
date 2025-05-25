@@ -1,5 +1,7 @@
 export { default as EscapeRooms } from './EscapeRooms'
 export { default as Home } from './Home'
 export { default as Parks } from './Parks'
+export { default as ParkInfo } from './Parks/ParkInfo'
 export { default as Rides } from './Rides'
+export { default as RideInfo } from './Rides/RideInfo'
 export { default as RoomInfo } from './EscapeRooms/RoomInfo'

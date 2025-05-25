@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Link = styled.a`
-  color: white;
+  ${({ $dark }) => ($dark ? 'color: black;' : 'color: white;')}
   text-decoration: none;
 
   &:hover {

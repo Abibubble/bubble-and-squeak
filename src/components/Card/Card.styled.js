@@ -13,3 +13,13 @@ export const Image = styled.img`
   max-width: 320px;
   border-radius: 16px 16px 0 0;
 `
+
+export const CardContent = styled.div`
+  padding: 16px;
+`
+
+export const CardTitle = styled.h2`
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+`

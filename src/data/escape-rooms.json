@@ -18,17 +18,18 @@
       "ratings": {
         "theming": 11,
         "puzzles": 9.5,
-        "gm": 11,
+        "games master": 11,
         "value": 10,
         "fun": 10
       },
       "timeRemaining": "07:00",
       "comment": "I cried"
     },
-    "image": "images/escape-rooms/the-toy-factory.png",
+    "image": "images/escape-rooms/rooms/the-toy-factory.png",
     "price": "€169",
     "language": ["English", "Dutch", "French"],
-    "link": "https://torchdale.be/en/the-toy-factory"
+    "link": "https://torchdale.be/en/the-toy-factory",
+    "status": "Currently open"
   },
   {
     "id": 64,
@@ -48,17 +49,18 @@
       "ratings": {
         "theming": 11,
         "puzzles": 10,
-        "gm": 11,
+        "games master": 11,
         "value": 10,
         "fun": 10
       },
       "timeRemaining": "07:27",
       "comment": "Awesome"
     },
-    "image": "images/escape-rooms/le-prince.png",
+    "image": "images/escape-rooms/rooms/le-prince.png",
     "price": "€150",
     "language": ["English", "Dutch"],
-    "link": "https://www.escaping.be/leprince/"
+    "link": "https://www.escaping.be/leprince/",
+    "status": "Currently open"
   },
   {
     "id": 63,
@@ -79,17 +81,18 @@
       "ratings": {
         "theming": 8,
         "puzzles": 8,
-        "gm": 7.5,
+        "games master": 7.5,
         "value": 8,
         "fun": 7.5
       },
       "timeRemaining": "07:05",
       "comment": "Touristy"
     },
-    "image": "images/escape-rooms/blacksad.jpg",
+    "image": "images/escape-rooms/rooms/blacksad.jpg",
     "price": "€88",
     "language": ["English", "Dutch", "French"],
-    "link": "https://www.escapeprod.com/en/adventures/3-blacksad.html"
+    "link": "https://www.escapeprod.com/en/adventures/3-blacksad.html",
+    "status": "Currently open"
   },
   {
     "id": 62,
@@ -109,17 +112,18 @@
       "ratings": {
         "theming": 9,
         "puzzles": 10,
-        "gm": 10,
+        "games master": 10,
         "value": 8.5,
         "fun": 10
       },
       "timeRemaining": "16:00",
       "comment": "Nostalgic"
     },
-    "image": "images/escape-rooms/token.jpg",
+    "image": "images/escape-rooms/rooms/token.jpg",
     "price": "£80",
     "language": ["English", "German", "French"],
-    "link": "https://www.basel.adventurerooms.ch/booking-games-en"
+    "link": "https://www.basel.adventurerooms.ch/booking-games-en",
+    "status": "Currently open"
   },
   {
     "id": 61,
@@ -139,17 +143,18 @@
       "ratings": {
         "theming": 9.5,
         "puzzles": 8.5,
-        "gm": 10,
+        "games master": 10,
         "value": 8,
         "fun": 9
       },
       "timeRemaining": "18:22",
       "comment": "Cool"
     },
-    "image": "images/escape-rooms/the-corp-1.jpg",
+    "image": "images/escape-rooms/rooms/the-corp-1.jpg",
     "price": "£89",
     "language": ["English", "German", "French"],
-    "link": "https://www.basel.adventurerooms.ch/booking-games-en"
+    "link": "https://www.basel.adventurerooms.ch/booking-games-en",
+    "status": "Currently open"
   },
   {
     "id": 60,
@@ -170,17 +175,18 @@
       "ratings": {
         "theming": 9,
         "puzzles": 7.5,
-        "gm": 10,
+        "games master": 10,
         "value": 8,
         "fun": 8.5
       },
       "timeRemaining": "24:48",
       "comment": "Pretty"
     },
-    "image": "images/escape-rooms/alice-in-puzzleland.jpg",
+    "image": "images/escape-rooms/rooms/alice-in-puzzleland.jpg",
     "price": "£60",
     "language": ["English"],
-    "link": "https://escapehunt.com/uk/woking/games/alice-in-puzzleland/"
+    "link": "https://escapehunt.com/uk/woking/games/alice-in-puzzleland/",
+    "status": "Currently open"
   },
   {
     "id": 59,
@@ -200,17 +206,18 @@
       "ratings": {
         "theming": 8,
         "puzzles": 8,
-        "gm": 10,
+        "games master": 10,
         "value": 9,
         "fun": 9.5
       },
       "timeRemaining": "11:48",
       "comment": "Fun"
     },
-    "image": "images/escape-rooms/missing-in-action.jpg",
+    "image": "images/escape-rooms/rooms/missing-in-action.jpg",
     "price": "£59.10",
     "language": ["English"],
-    "link": "https://paradoxparlours.com/book/woking/missing-in-action"
+    "link": "https://paradoxparlours.com/book/woking/missing-in-action",
+    "status": "Currently open"
   },
   {
     "id": 58,
@@ -230,17 +237,18 @@
       "ratings": {
         "theming": 7.5,
         "puzzles": 7,
-        "gm": 7,
+        "games master": 7,
         "value": 9.5,
         "fun": 8
       },
       "timeRemaining": "25:48",
       "comment": "Fun"
     },
-    "image": "images/escape-rooms/the-rig.jpg",
+    "image": "images/escape-rooms/rooms/the-rig.jpg",
     "price": "£60",
     "language": ["English"],
-    "link": "https://paradoxparlours.com/book/woking/the-rig"
+    "link": "https://paradoxparlours.com/book/woking/the-rig",
+    "status": "Currently open"
   },
   {
     "id": 57,
@@ -260,17 +268,18 @@
       "ratings": {
         "theming": 6,
         "puzzles": 6,
-        "gm": 7,
+        "games master": 7,
         "value": 7,
         "fun": 6
       },
       "timeRemaining": "11:26",
       "comment": "Confusing"
     },
-    "image": "images/escape-rooms/lab-lockdown.jpg",
+    "image": "images/escape-rooms/rooms/lab-lockdown.jpg",
     "price": "£60",
     "language": ["English"],
-    "link": "https://www.bustout360.co.uk/lablockdown"
+    "link": "https://www.bustout360.co.uk/lablockdown",
+    "status": "Currently open"
   },
   {
     "id": 56,
@@ -291,17 +300,18 @@
       "ratings": {
         "theming": 9,
         "puzzles": 8.5,
-        "gm": 10,
+        "games master": 10,
         "value": 9.5,
         "fun": 9.5
       },
       "timeRemaining": "5:21",
       "comment": "Cool"
     },
-    "image": "images/escape-rooms/dirty-money.jpg",
+    "image": "images/escape-rooms/rooms/dirty-money.jpg",
     "price": "£60",
     "language": ["English"],
-    "link": "https://knockoutescaperooms.com/dirty-money/"
+    "link": "https://knockoutescaperooms.com/dirty-money/",
+    "status": "Currently open"
   },
   {
     "id": 55,
@@ -322,16 +332,177 @@
       "ratings": {
         "theming": 9.5,
         "puzzles": 9.5,
-        "gm": 9,
+        "games master": 9,
         "value": 9.5,
         "fun": 9
       },
       "timeRemaining": "0:13",
       "comment": "Cool"
     },
-    "image": "images/escape-rooms/wizards-enigma.jpg",
+    "image": "images/escape-rooms/rooms/wizards-enigma.jpg",
     "price": "£60",
     "language": ["English"],
-    "link": "https://paradoxparlours.com/book/woking/wizards-enigma"
+    "link": "https://paradoxparlours.com/book/woking/wizards-enigma",
+    "status": "Currently open"
+  },
+  {
+    "id": 54,
+    "name": "Pub: The Lock Inn",
+    "company": "Other World Escapes",
+    "description": "",
+    "difficulty": 3,
+    "duration": 75,
+    "maxPlayers": 6,
+    "minPlayers": 2,
+    "minAge": 10,
+    "country": "England",
+    "location": "Portsmouth",
+    "ourEscape": {
+      "datePlayed": "2024-09-24",
+      "teamSize": 2,
+      "photo": "images/escape-rooms/photos/pub-the-lock-inn.jpg",
+      "ratings": {
+        "theming": 9.5,
+        "puzzles": 9,
+        "games master": 10,
+        "value": 9,
+        "fun": 9.5
+      },
+      "timeRemaining": "14:47",
+      "comment": "Shitbox"
+    },
+    "image": "images/escape-rooms/rooms/pub-the-lock-inn.jpg",
+    "price": "£60",
+    "language": ["English"],
+    "link": "",
+    "status": "Currently open"
+  },
+  {
+    "id": 53,
+    "name": "The Western Job",
+    "company": "The Real Escape",
+    "description": "",
+    "difficulty": 3,
+    "duration": 60,
+    "maxPlayers": 6,
+    "minPlayers": 2,
+    "minAge": 10,
+    "country": "England",
+    "location": "Portsmouth",
+    "ourEscape": {
+      "datePlayed": "2024-09-24",
+      "teamSize": 2,
+      "photo": "images/escape-rooms/photos/the-western-job.jpg",
+      "ratings": {
+        "theming": 9.5,
+        "puzzles": 9,
+        "games master": 10,
+        "value": 9,
+        "fun": 9
+      },
+      "timeRemaining": "8:34",
+      "comment": "Shooty"
+    },
+    "image": "images/escape-rooms/rooms/the-western-job.jpg",
+    "price": "£60",
+    "language": ["English"],
+    "link": "",
+    "status": "Currently open"
+  },
+  {
+    "id": 52,
+    "name": "Vermilion Diamonds",
+    "company": "Other World Escapes",
+    "description": "",
+    "difficulty": 3,
+    "duration": 60,
+    "maxPlayers": 6,
+    "minPlayers": 2,
+    "minAge": 10,
+    "country": "England",
+    "location": "Portsmouth",
+    "ourEscape": {
+      "datePlayed": "2024-09-24",
+      "teamSize": 2,
+      "photo": "images/escape-rooms/photos/vermilion-diamonds.jpg",
+      "ratings": {
+        "theming": 9.5,
+        "puzzles": 9.5,
+        "games master": 9,
+        "value": 9.5,
+        "fun": 9
+      },
+      "timeRemaining": "11:53",
+      "comment": ""
+    },
+    "image": "images/escape-rooms/rooms/vermilion-diamonds.jpg",
+    "price": "£60",
+    "language": ["English"],
+    "link": "",
+    "status": "Currently open"
+  },
+  {
+    "id": 51,
+    "name": "The Journey To Xibalba",
+    "company": "Other World Escapes",
+    "description": "",
+    "difficulty": 3,
+    "duration": 90,
+    "maxPlayers": 6,
+    "minPlayers": 2,
+    "minAge": 10,
+    "country": "England",
+    "location": "Portsmouth",
+    "ourEscape": {
+      "datePlayed": "2024-09-23",
+      "teamSize": 2,
+      "photo": "images/escape-rooms/photos/journey-to-xibalba.jpg",
+      "ratings": {
+        "theming": 10,
+        "puzzles": 9.5,
+        "games master": 10,
+        "value": 10,
+        "fun": 10
+      },
+      "timeRemaining": "24:34",
+      "comment": ""
+    },
+    "image": "images/escape-rooms/rooms/journey-to-xibalba.jpg",
+    "price": "£75",
+    "language": ["English"],
+    "link": "",
+    "status": "Currently open"
+  },
+  {
+    "id": 50,
+    "name": "Steampunk Adventure",
+    "company": "MyEscape.Club",
+    "description": "",
+    "difficulty": 3,
+    "duration": 75,
+    "maxPlayers": 6,
+    "minPlayers": 2,
+    "minAge": 10,
+    "country": "Netherlands",
+    "location": "Amsterdam",
+    "ourEscape": {
+      "datePlayed": "2024-09-21",
+      "teamSize": 2,
+      "photo": "images/escape-rooms/photos/steampunk-adventure.jpg",
+      "ratings": {
+        "theming": 9,
+        "puzzles": 9,
+        "games master": 9.5,
+        "value": 8.5,
+        "fun": 9.5
+      },
+      "timeRemaining": "1:18",
+      "comment": ""
+    },
+    "image": "images/escape-rooms/rooms/steampunk-adventure.jpg",
+    "price": "€110",
+    "language": ["English", "Dutch"],
+    "link": "",
+    "status": "Currently open"
   }
 ]

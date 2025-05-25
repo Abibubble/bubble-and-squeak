@@ -1,12 +1,13 @@
 import * as Styled from './Card.styled.js'
 
-export default function Card({ children, imgSrc, rating, title }) {
+export default function Card({ children, imgSrc, title }) {
   return (
     <Styled.Card>
       <Styled.Image src={imgSrc} alt={title} />
-      <h2>{title}</h2>
-      {rating && <p>Rating: {rating}</p>}
-      <p>{children}</p>
+      <Styled.CardContent>
+        <Styled.CardTitle>{title}</Styled.CardTitle>
+        <p>{children}</p>
+      </Styled.CardContent>
     </Styled.Card>
   )
 }

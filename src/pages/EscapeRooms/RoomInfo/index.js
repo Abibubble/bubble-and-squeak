@@ -1,8 +1,8 @@
-import { MainContent } from '../../../components'
+import { Link, MainContent, Title } from '../../../components'
 import * as Styled from './RoomInfo.styled'
 import escapeRooms from '../../../data/escape-rooms.json'
-import convertRatingsToOverall from '../../../utils/convertRatingsToOverall'
 import { useLocation } from 'react-router-dom'
+import { convertRatingsToOverall, formatString } from '../../../utils'
 
 function RoomInfo() {
   const location = useLocation()
@@ -14,9 +14,9 @@ function RoomInfo() {
 
   return (
     <MainContent>
-      <Styled.Title>{room.name}</Styled.Title>
+      <Title>{room.name}</Title>
       <p>Room number: {room.id}</p>
-      <img src={room.image} alt={room.name} />
+      <Styled.Image src={`../${room.ourEscape.photo}`} alt={room.name} />
       <p>{room.description}</p>
       <p>Rating: {convertRatingsToOverall(room.ourEscape.ratings)}</p>
       <p>Difficulty: {room.difficulty}</p>
@@ -24,11 +24,16 @@ function RoomInfo() {
       <p>Max players: {room.maxPlayers}</p>
       <p>Min players: {room.minPlayers}</p>
       <p>Price: {room.price}</p>
-      <p>Languages available: {room.language}</p>
+      <p>Languages available: {room.language.join(', ')}</p>
       <p>
         Location: {room.country}, {room.location}
       </p>
-      <p>Booking link: {room.link}</p>
+      <p>
+        Booking link:{' '}
+        <Link dark href={room.link}>
+          {room.link}
+        </Link>
+      </p>
       <p>Our escape:</p>
       <p>Date played: {room.ourEscape.datePlayed}</p>
       <p>Rating: {convertRatingsToOverall(room.ourEscape.ratings)}</p>
@@ -37,7 +42,7 @@ function RoomInfo() {
       <div>
         {Object.entries(room.ourEscape.ratings).map(([key, value]) => (
           <p>
-            {key}: {value}
+            {formatString(key, 'space', 'first-string')}: {value}
           </p>
         ))}
       </div>

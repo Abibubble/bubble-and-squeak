@@ -2,58 +2,28 @@
   {
     "id": 1,
     "name": "Thorpe Park",
-    "location": "England",
+    "country": "England",
+    "location": "Surrey",
     "description": "Thorpe Park is a theme park located in Surrey, England. It is known for its thrilling rides and attractions, including roller coasters, water rides, and live entertainment.",
     "image": "images/parks/thorpe-park.jpg",
-    "events": [
-      {
-        "name": "Halloween Fright Nights",
-        "date": "October 1 - October 31",
-        "description": "Experience the park transformed into a spooky wonderland with haunted attractions and scare zones."
-      },
-      {
-        "name": "Summer Nights",
-        "date": "June 1 - August 31",
-        "description": "Enjoy extended park hours with live music, entertainment, and fireworks."
-      }
-    ]
+    "link": "https://www.thorpepark.com"
   },
   {
     "id": 2,
     "name": "Thorpe Park",
-    "location": "England",
+    "country": "England",
+    "location": "Surrey",
     "description": "Thorpe Park is a theme park located in Surrey, England. It is known for its thrilling rides and attractions, including roller coasters, water rides, and live entertainment.",
     "image": "images/parks/thorpe-park.jpg",
-    "events": [
-      {
-        "name": "Halloween Fright Nights",
-        "date": "October 1 - October 31",
-        "description": "Experience the park transformed into a spooky wonderland with haunted attractions and scare zones."
-      },
-      {
-        "name": "Summer Nights",
-        "date": "June 1 - August 31",
-        "description": "Enjoy extended park hours with live music, entertainment, and fireworks."
-      }
-    ]
+    "link": "https://www.thorpepark.com"
   },
   {
     "id": 3,
     "name": "Thorpe Park",
-    "location": "England",
+    "country": "England",
+    "location": "Surrey",
     "description": "Thorpe Park is a theme park located in Surrey, England. It is known for its thrilling rides and attractions, including roller coasters, water rides, and live entertainment.",
     "image": "images/parks/thorpe-park.jpg",
-    "events": [
-      {
-        "name": "Halloween Fright Nights",
-        "date": "October 1 - October 31",
-        "description": "Experience the park transformed into a spooky wonderland with haunted attractions and scare zones."
-      },
-      {
-        "name": "Summer Nights",
-        "date": "June 1 - August 31",
-        "description": "Enjoy extended park hours with live music, entertainment, and fireworks."
-      }
-    ]
+    "link": "https://www.thorpepark.com"
   }
 ]
