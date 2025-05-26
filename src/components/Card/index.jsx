@@ -1,13 +1,24 @@
 import * as Styled from './Card.styled.js'
 
-export default function Card({ children, imgSrc, title }) {
+export default function Card({ children, item, type }) {
+  let base = type
+  if (type === 'park') {
+    base = 'theme-park'
+  } else if (type === 'room') {
+    base = 'escape-room'
+  }
+  const url = `/${base}s/${type}-info?${type}Id=${item.id}`
+
   return (
-    <Styled.Card>
-      <Styled.Image src={imgSrc} alt={title} />
-      <Styled.CardContent>
-        <Styled.CardTitle>{title}</Styled.CardTitle>
-        <p>{children}</p>
-      </Styled.CardContent>
-    </Styled.Card>
+    <Styled.Link href={url} key={item.id}>
+      <Styled.Grid>
+        <Styled.Image src={`../${item.image}`} alt={item.name} />
+        <div>
+          <Styled.Title>{item.name}</Styled.Title>
+          <Styled.Location>{item.location}</Styled.Location>
+          <Styled.StatsGrid>{children}</Styled.StatsGrid>
+        </div>
+      </Styled.Grid>
+    </Styled.Link>
   )
 }

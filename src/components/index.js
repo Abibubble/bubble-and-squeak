@@ -1,5 +1,6 @@
 export { default as Card } from './Card'
-export { default as CardsGrid } from './CardsGrid'
+export { default as CardsFlex } from './CardsFlex'
+export { default as CardStat } from './CardStat'
 export { default as Footer } from './Footer'
 export { default as Header } from './Header'
 export { default as Link } from './Link'

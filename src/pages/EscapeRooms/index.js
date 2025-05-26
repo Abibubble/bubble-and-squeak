@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Card, CardsGrid, MainContent, Title } from '../../components'
+import { Card, CardsFlex, CardStat, MainContent, Title } from '../../components'
 import * as Styled from './EscapeRooms.styled'
 import escapeRooms from '../../data/escape-rooms.json'
 import { convertRatingsToOverall } from '../../utils'
@@ -41,15 +41,19 @@ function EscapeRooms() {
         <option value='highest'>Highest Rated</option>
         <option value='lowest'>Lowest Rated</option>
       </select>
-      <CardsGrid>
-        {sortedRooms.map(room => (
-          <a href={`/escape-rooms/room-info?roomId=${room.id}`} key={room.id}>
-            <Card imgSrc={room.image} title={room.name}>
-              {room.description}
-            </Card>
-          </a>
+      <CardsFlex>
+        {Object.values(sortedRooms).map(room => (
+          <Card item={room} type='room' key={room.id}>
+            {Object.entries(room.stats).map(([key, value]) => (
+              <CardStat
+                stat={key}
+                value={Array.isArray(value) ? value.join(', ') : value}
+                key={key}
+              />
+            ))}
+          </Card>
         ))}
-      </CardsGrid>
+      </CardsFlex>
     </MainContent>
   )
 }
