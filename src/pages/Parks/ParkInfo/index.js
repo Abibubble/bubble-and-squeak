@@ -15,7 +15,6 @@ function ParkInfo() {
     <MainContent>
       <Title>{park.name}</Title>
       <Styled.Image src={`../${park.image}`} alt={park.name} />
-      <p>{park.description}</p>
       <p>
         Location: {park.location}, {park.country}
       </p>
@@ -25,6 +24,8 @@ function ParkInfo() {
           {park.link}
         </Link>
       </p>
+      <p>{park.description}</p>
+      <p>Opening year: {park.yearOpened}</p>
     </MainContent>
   )
 }

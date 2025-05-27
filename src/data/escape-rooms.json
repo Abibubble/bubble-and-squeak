@@ -6,18 +6,18 @@
     "description": "The old toy factory of the Harsh family was the leader in its industry for 5 generations. The factory was widely known for producing the most toys. Unfortunately, these days, the factory is in bad condition and the only orders they get are small and from very faraway countries. Strangely enough, the factory is always looking for additional staff. Why don't you apply to work there for an hour? After all, the chances of being turned down are slim.",
     "country": "Belgium",
     "location": "Zoersel (Antwerp)",
-    "our-escape": {
-      "date-played": "2025-05-13",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2025-05-13",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/the-toy-factory.jpg",
       "ratings": {
         "theming": 11,
         "puzzles": 9.5,
-        "games-master": 11,
+        "gamesMaster": 11,
         "value": 10,
         "fun": 10
       },
-      "time-remaining": "07:00",
+      "timeRemaining": "07:00",
       "comment": "I cried"
     },
     "image": "images/escape-rooms/rooms/the-toy-factory.png",
@@ -28,9 +28,9 @@
       "status": "Currently open",
       "difficulty": 4,
       "duration": 75,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 16
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 16
     }
   },
   {
@@ -40,18 +40,18 @@
     "description": "Le Prince was the first to invent a camera with a single lens. For a few weeks he had the feeling of being followed, as if someone was constantly watching him. Le Prince notices that he has his prototype with him but has forgotten his plans. He no longer dares to go to the studio himself, so he contacts the only ones who can help him: you! He asks you to go to his studio unnoticed to find his plans and bring them to him before the train leaves.",
     "country": "Belgium",
     "location": "Retie",
-    "our-escape": {
-      "date-played": "2025-05-11",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2025-05-11",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/le-prince.jpg",
       "ratings": {
         "theming": 11,
         "puzzles": 10,
-        "games-master": 11,
+        "gamesMaster": 11,
         "value": 10,
         "fun": 10
       },
-      "time-remaining": "07:27",
+      "timeRemaining": "07:27",
       "comment": "Awesome"
     },
     "image": "images/escape-rooms/rooms/le-prince.png",
@@ -62,8 +62,8 @@
       "status": "Currently open",
       "difficulty": 5,
       "duration": 90,
-      "max-players": 6,
-      "min-players": 2
+      "maxPlayers": 6,
+      "minPlayers": 2
     }
   },
   {
@@ -73,18 +73,18 @@
     "description": "Blacksad needs you! A criminal mastermind is putting the famous detective in danger. To stop him, you need to sneak into his secret lair, uncover its secrets and find the documents needed to save Blacksad!",
     "country": "Belgium",
     "location": "Brussels",
-    "our-escape": {
-      "date-played": "2025-05-10",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2025-05-10",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/blacksad.jpg",
       "ratings": {
         "theming": 8,
         "puzzles": 8,
-        "games-master": 7.5,
+        "gamesMaster": 7.5,
         "value": 8,
         "fun": 7.5
       },
-      "time-remaining": "07:05",
+      "timeRemaining": "07:05",
       "comment": "Touristy"
     },
     "image": "images/escape-rooms/rooms/blacksad.jpg",
@@ -95,9 +95,9 @@
       "status": "Currently open",
       "difficulty": 4.5,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 12
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 12
     }
   },
   {
@@ -107,18 +107,18 @@
     "description": "At home while cleaning up, you'll find a long-forgotten free spin game token...",
     "country": "Switzerland",
     "location": "Basel",
-    "our-escape": {
-      "date-played": "2025-04-15",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2025-04-15",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/token.jpg",
       "ratings": {
         "theming": 9,
         "puzzles": 10,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 8.5,
         "fun": 10
       },
-      "time-remaining": "16:00",
+      "timeRemaining": "16:00",
       "comment": "Nostalgic"
     },
     "image": "images/escape-rooms/rooms/token.jpg",
@@ -129,8 +129,8 @@
       "status": "Currently open",
       "difficulty": 4,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2
+      "maxPlayers": 6,
+      "minPlayers": 2
     }
   },
   {
@@ -140,18 +140,18 @@
     "description": "Be part of the history. Join our team.",
     "country": "Switzerland",
     "location": "Basel",
-    "our-escape": {
-      "date-played": "2025-04-15",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2025-04-15",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/the-corp-1.jpg",
       "ratings": {
         "theming": 9.5,
         "puzzles": 8.5,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 8,
         "fun": 9
       },
-      "time-remaining": "18:22",
+      "timeRemaining": "18:22",
       "comment": "Cool"
     },
     "image": "images/escape-rooms/rooms/the-corp-1.jpg",
@@ -162,8 +162,8 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2
+      "maxPlayers": 6,
+      "minPlayers": 2
     }
   },
   {
@@ -173,18 +173,18 @@
     "description": "The Mad Hatter is in trouble. Save him from the Queen of Hearts without losing your heads. Step into Wonderland, where the Hatter has been accused of stealing the Queen's Tarts. With Alice nowhere to be seen, it's time for you to fill her shoes. You find yourself at the Hatter's cottage. The table is set but no one is around. A sign on the lawn reads 'Tea Party Cancelled by Royal Decree'. Curiouser and curiouser... Find and return the Queen's Tarts in 60 minutes, or it's off with the Hatter's head. Chop chop. Tumble down the rabbit hole in this Alice themed escape room.",
     "country": "England",
     "location": "Woking",
-    "our-escape": {
-      "date-played": "2025-03-02",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2025-03-02",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/alice-in-puzzleland.jpg",
       "ratings": {
         "theming": 9,
         "puzzles": 7.5,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 8,
         "fun": 8.5
       },
-      "time-remaining": "24:48",
+      "timeRemaining": "24:48",
       "comment": "Pretty"
     },
     "image": "images/escape-rooms/rooms/alice-in-puzzleland.jpg",
@@ -195,9 +195,9 @@
       "status": "Currently open",
       "difficulty": 2,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 8
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 8
     }
   },
   {
@@ -207,18 +207,18 @@
     "description": "Agent Maxwell was on a secret mission to destroy enemy weapon factories, but he's gone silent, and we just received a distress signal from his transmitter. Complete his mission before it's too late!",
     "country": "England",
     "location": "Woking",
-    "our-escape": {
-      "date-played": "2025-03-02",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2025-03-02",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/missing-in-action.jpg",
       "ratings": {
         "theming": 8,
         "puzzles": 8,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 9,
         "fun": 9.5
       },
-      "time-remaining": "11:48",
+      "timeRemaining": "11:48",
       "comment": "Fun"
     },
     "image": "images/escape-rooms/rooms/missing-in-action.jpg",
@@ -229,8 +229,8 @@
       "status": "Currently open",
       "difficulty": 2,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2
+      "maxPlayers": 6,
+      "minPlayers": 2
     }
   },
   {
@@ -240,18 +240,18 @@
     "description": "Catastrophe looms ahead unless you and your team take action now! Can you prevent it by stopping the drill before the pressure reaches critical levels? Every second counts, and failure is not an option.",
     "country": "England",
     "location": "Woking",
-    "our-escape": {
-      "date-played": "2025-01-26",
-      "team-size": 5,
+    "ourEscape": {
+      "datePlayed": "2025-01-26",
+      "teamSize": 5,
       "photo": "images/escape-rooms/photos/the-rig.jpg",
       "ratings": {
         "theming": 7.5,
         "puzzles": 7,
-        "games-master": 7,
+        "gamesMaster": 7,
         "value": 9.5,
         "fun": 8
       },
-      "time-remaining": "25:48",
+      "timeRemaining": "25:48",
       "comment": "Fun"
     },
     "image": "images/escape-rooms/rooms/the-rig.jpg",
@@ -262,8 +262,8 @@
       "status": "Currently open",
       "difficulty": 2,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2
+      "maxPlayers": 6,
+      "minPlayers": 2
     }
   },
   {
@@ -273,22 +273,22 @@
     "description": "You and your team have been secretly working to develop a drug that gives super powers & create real life super heroes. The government discovered your plan and is about to shut down your lab for good. With no lab assistants or test subjects, you must develop and test the drug on yourself... This is your last chance to change the world... CAN YOU DEVELOP THE DRUG BEFORE THEY LOCKDOWN YOUR LAB?",
     "difficulty": 2,
     "duration": 60,
-    "max-players": 8,
-    "min-players": 2,
+    "maxPlayers": 8,
+    "minPlayers": 2,
     "country": "England",
     "location": "Slough",
-    "our-escape": {
-      "date-played": "2024-12-30",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-12-30",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/lab-lockdown.jpg",
       "ratings": {
         "theming": 6,
         "puzzles": 6,
-        "games-master": 7,
+        "gamesMaster": 7,
         "value": 7,
         "fun": 6
       },
-      "time-remaining": "11:26",
+      "timeRemaining": "11:26",
       "comment": "Confusing"
     },
     "image": "images/escape-rooms/rooms/lab-lockdown.jpg",
@@ -299,8 +299,8 @@
       "status": "Currently open",
       "difficulty": 2,
       "duration": 60,
-      "max-players": 8,
-      "min-players": 2
+      "maxPlayers": 8,
+      "minPlayers": 2
     }
   },
   {
@@ -310,18 +310,18 @@
     "description": "After months of detective work, you have been led to Sudz Laundrette, which we believe is linked to a money laundering gang. We have the main suspect, “The Don”, in custody and only an hour remaining before he is released. As investigators, you have this hour to secure the evidence before it is too late. The whole operation rests on you…",
     "country": "England",
     "location": "Reading",
-    "our-escape": {
-      "date-played": "2024-12-30",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-12-30",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/dirty-money.jpg",
       "ratings": {
         "theming": 9,
         "puzzles": 8.5,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 9.5,
         "fun": 9.5
       },
-      "time-remaining": "5:21",
+      "timeRemaining": "5:21",
       "comment": "Cool"
     },
     "image": "images/escape-rooms/rooms/dirty-money.jpg",
@@ -332,9 +332,9 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 10
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 10
     }
   },
   {
@@ -344,18 +344,18 @@
     "description": "Embark on a spellbinding adventure in Paradox Parlour's brand new game, Wizard's Enigma. Trapped between worlds, Maxwell Mysterium needs your help to find the elusive Elixir and return him to his rightful realm. Gather your team, sharpen your wits, and prepare for a mesmerising journey into the unknown!",
     "country": "England",
     "location": "Woking",
-    "our-escape": {
-      "date-played": "2024-11-03",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-11-03",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/wizards-enigma.jpg",
       "ratings": {
         "theming": 9.5,
         "puzzles": 9.5,
-        "games-master": 9,
+        "gamesMaster": 9,
         "value": 9.5,
         "fun": 9
       },
-      "time-remaining": "0:13",
+      "timeRemaining": "0:13",
       "comment": "Cool"
     },
     "image": "images/escape-rooms/rooms/wizards-enigma.jpg",
@@ -366,9 +366,9 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 10
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 10
     }
   },
   {
@@ -378,18 +378,18 @@
     "description": "",
     "country": "England",
     "location": "Portsmouth",
-    "our-escape": {
-      "date-played": "2024-09-24",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-09-24",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/pub-the-lock-inn.jpg",
       "ratings": {
         "theming": 9.5,
         "puzzles": 9,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 9,
         "fun": 9.5
       },
-      "time-remaining": "14:47",
+      "timeRemaining": "14:47",
       "comment": "Shitbox"
     },
     "image": "images/escape-rooms/rooms/pub-the-lock-inn.jpg",
@@ -400,9 +400,9 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 75,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 10
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 10
     }
   },
   {
@@ -412,18 +412,18 @@
     "description": "",
     "country": "England",
     "location": "Portsmouth",
-    "our-escape": {
-      "date-played": "2024-09-24",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-09-24",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/the-western-job.jpg",
       "ratings": {
         "theming": 9.5,
         "puzzles": 9,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 9,
         "fun": 9
       },
-      "time-remaining": "8:34",
+      "timeRemaining": "8:34",
       "comment": "Shooty"
     },
     "image": "images/escape-rooms/rooms/the-western-job.jpg",
@@ -434,9 +434,9 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 10
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 10
     }
   },
   {
@@ -446,18 +446,18 @@
     "description": "",
     "country": "England",
     "location": "Portsmouth",
-    "our-escape": {
-      "date-played": "2024-09-24",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-09-24",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/vermilion-diamonds.jpg",
       "ratings": {
         "theming": 9.5,
         "puzzles": 9.5,
-        "games-master": 9,
+        "gamesMaster": 9,
         "value": 9.5,
         "fun": 9
       },
-      "time-remaining": "11:53",
+      "timeRemaining": "11:53",
       "comment": ""
     },
     "image": "images/escape-rooms/rooms/vermilion-diamonds.jpg",
@@ -468,9 +468,9 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 60,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 10
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 10
     }
   },
   {
@@ -480,18 +480,18 @@
     "description": "",
     "country": "England",
     "location": "Portsmouth",
-    "our-escape": {
-      "date-played": "2024-09-23",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-09-23",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/journey-to-xibalba.jpg",
       "ratings": {
         "theming": 10,
         "puzzles": 9.5,
-        "games-master": 10,
+        "gamesMaster": 10,
         "value": 10,
         "fun": 10
       },
-      "time-remaining": "24:34",
+      "timeRemaining": "24:34",
       "comment": ""
     },
     "image": "images/escape-rooms/rooms/journey-to-xibalba.jpg",
@@ -502,9 +502,9 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 90,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 10
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 10
     }
   },
   {
@@ -514,18 +514,18 @@
     "description": "",
     "country": "Netherlands",
     "location": "Amsterdam",
-    "our-escape": {
-      "date-played": "2024-09-21",
-      "team-size": 2,
+    "ourEscape": {
+      "datePlayed": "2024-09-21",
+      "teamSize": 2,
       "photo": "images/escape-rooms/photos/steampunk-adventure.jpg",
       "ratings": {
         "theming": 9,
         "puzzles": 9,
-        "games-master": 9.5,
+        "gamesMaster": 9.5,
         "value": 8.5,
         "fun": 9.5
       },
-      "time-remaining": "1:18",
+      "timeRemaining": "1:18",
       "comment": ""
     },
     "image": "images/escape-rooms/rooms/steampunk-adventure.jpg",
@@ -536,9 +536,9 @@
       "status": "Currently open",
       "difficulty": 3,
       "duration": 75,
-      "max-players": 6,
-      "min-players": 2,
-      "min-age": 10
+      "maxPlayers": 6,
+      "minPlayers": 2,
+      "minAge": 10
     }
   }
 ]

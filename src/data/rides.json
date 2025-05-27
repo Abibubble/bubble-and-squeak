@@ -4,15 +4,15 @@
     "name": "Hyperia",
     "description": "Hyperia is a thrilling roller coaster that takes riders on a high-speed journey through loops and twists.",
     "stats": {
-      "height": 50,
-      "speed": 70,
+      "height": "50ft",
+      "speed": "70mph",
       "duration": "1 minute 10 seconds",
       "inversions": 5,
       "type": "Steel",
       "manufacturer": "B&M",
-      "year-opened": 2024,
-      "height-requirement": 1.3,
-      "fast-pass-available": "Yes"
+      "yearOpened": 2024,
+      "heightRequirement": "1.3 metres",
+      "fastPassAvailable": "Yes"
     },
     "location": "Thorpe Park",
     "image": "images/rides/hyperia.jpg",
@@ -24,15 +24,15 @@
     "name": "Voltron",
     "description": "Voltron is a family-friendly roller coaster that offers a gentle ride with scenic views.",
     "stats": {
-      "height": 50,
-      "speed": 70,
+      "height": "50ft",
+      "speed": "70mph",
       "duration": "1 minute 10 seconds",
       "inversions": 5,
       "type": "Steel",
       "manufacturer": "B&M",
-      "year-opened": 2024,
-      "height-requirement": 1.3,
-      "fast-pass-available": "Yes"
+      "yearOpened": 2024,
+      "heightRequirement": "1.3 metres",
+      "fastPassAvailable": "Yes"
     },
     "location": "Europa Park",
     "image": "images/rides/voltron.jpg",
@@ -44,15 +44,15 @@
     "name": "EuroMir",
     "description": "EuroMir is a spinning roller coaster that takes riders on a dizzying journey through twists and turns.",
     "stats": {
-      "height": 50,
-      "speed": 70,
+      "height": "50ft",
+      "speed": "70mph",
       "duration": "1 minute 10 seconds",
       "inversions": 5,
       "type": "Steel",
       "manufacturer": "B&M",
-      "year-opened": 2024,
-      "height-requirement": 1.3,
-      "fast-pass-available": "Yes"
+      "yearOpened": 2024,
+      "heightRequirement": "1.3 metres",
+      "fastPassAvailable": "Yes"
     },
     "location": "Europa Park",
     "image": "images/rides/euromir.jpeg",
@@ -64,15 +64,15 @@
     "name": "Toutatis",
     "description": "Toutatis is a thrilling roller coaster that takes riders on a high-speed journey through loops and twists.",
     "stats": {
-      "height": 50,
-      "speed": 70,
+      "height": "50ft",
+      "speed": "70mph",
       "duration": "1 minute 10 seconds",
       "inversions": 5,
       "type": "Steel",
       "manufacturer": "B&M",
-      "year-opened": 2024,
-      "height-requirement": 1.3,
-      "fast-pass-available": "Yes"
+      "yearOpened": 2024,
+      "heightRequirement": "1.3 metres",
+      "fastPassAvailable": "Yes"
     },
     "location": "Parc Astérix",
     "image": "images/rides/toutatis.jpeg",

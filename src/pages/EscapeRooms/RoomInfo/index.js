@@ -19,12 +19,12 @@ function RoomInfo() {
       <Styled.Image src={`../${room.ourEscape.photo}`} alt={room.name} />
       <p>{room.description}</p>
       <p>Rating: {convertRatingsToOverall(room.ourEscape.ratings)}</p>
-      <p>Difficulty: {room.difficulty}</p>
-      <p>Duration: {room.duration} minutes</p>
-      <p>Max players: {room.maxPlayers}</p>
-      <p>Min players: {room.minPlayers}</p>
-      <p>Price: {room.price}</p>
-      <p>Languages available: {room.language.join(', ')}</p>
+      <p>Difficulty: {room.stats.difficulty}</p>
+      <p>Duration: {room.stats.duration} minutes</p>
+      <p>Max players: {room.stats.maxPlayers}</p>
+      <p>Min players: {room.stats.minPlayers}</p>
+      <p>Price: {room.stats.price}</p>
+      <p>Languages available: {room.stats.language.join(', ')}</p>
       <p>
         Location: {room.country}, {room.location}
       </p>

@@ -2,6 +2,8 @@ export const formatString = (text, spacing, casing) => {
   let spacedText = text
   let formattedText
 
+  spacedText = spacedText.replace(/(?!^)([A-Z])/g, ' $1')
+
   switch (spacing) {
     case 'space':
       spacedText = spacedText.split('-').join(' ')

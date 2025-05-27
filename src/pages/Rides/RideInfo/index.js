@@ -17,16 +17,16 @@ function RideInfo() {
       <Styled.Image src={`../${ride.image}`} alt={ride.name} />
       <p>{ride.description}</p>
       <p>Rating: {ride.rating}</p>
-      <p>Duration: {ride.duration} seconds</p>
+      <p>Duration: {ride.stats.duration}</p>
       <p>Location: {ride.location}</p>
-      <p>Height: {ride.height}</p>
-      <p>Speed: {ride.speed}</p>
-      <p>Inversions: {ride.inversions}</p>
-      <p>Type: {ride.type}</p>
-      <p>Min height: {ride.minHeight}</p>
-      <p>Year opened: {ride.yearOpened}</p>
-      <p>Manufacturer: {ride.manufacturer}</p>
-      <p>Fast pass available: {ride.fastPassAvailable}</p>
+      <p>Height: {ride.stats.height}</p>
+      <p>Speed: {ride.stats.speed}</p>
+      <p>Inversions: {ride.stats.inversions}</p>
+      <p>Type: {ride.stats.type}</p>
+      <p>Height requirement: {ride.stats.heightRequirement}</p>
+      <p>Year opened: {ride.stats.yearOpened}</p>
+      <p>Manufacturer: {ride.stats.manufacturer}</p>
+      <p>Fast pass available: {ride.stats.fastPassAvailable}</p>
     </MainContent>
   )
 }
