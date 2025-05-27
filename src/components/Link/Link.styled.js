@@ -9,6 +9,6 @@ export const Link = styled.a`
   }
 
   &:visited {
-    color: white;
+    ${({ $dark }) => ($dark ? 'color: black;' : 'color: white;')}
   }
 `

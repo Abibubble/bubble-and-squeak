@@ -1,2 +1,5 @@
 export { default as convertRatingsToOverall } from './convertRatingsToOverall'
 export { default as formatString } from './formatString'
+export { filterData } from './filtering'
+export { getUniqueOptions } from './filtering'
+export { sortData } from './sorting'
