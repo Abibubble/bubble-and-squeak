@@ -34,6 +34,11 @@ export const Location = styled.h3`
   margin-bottom: 24px;
 `
 
+export const Description = styled.p`
+  font-size: 16px;
+  margin-bottom: 16px;
+`
+
 export const StatsGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;

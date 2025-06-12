@@ -1,172 +1,128 @@
 [
   {
-    "id": 1,
+    "name": "Phantasialand",
+    "location": "North Rhine-Westphalia",
+    "country": "Germany",
+    "link": "https://www.phantasialand.de/en/",
+    "yearOpened": 1967
+  },
+  {
+    "name": "Efteling",
+    "location": "North Brabant",
+    "country": "Netherlands",
+    "link": "https://www.efteling.com/en",
+    "yearOpened": 1952
+  },
+  {
+    "name": "Alton Towers",
+    "location": "Staffordshire",
+    "country": "UK",
+    "link": "https://www.altontowers.com/",
+    "yearOpened": 1980
+  },
+  {
+    "name": "Parc Asterix",
+    "location": "Hauts-de-France",
+    "country": "France",
+    "link": "https://www.parcasterix.fr/en",
+    "yearOpened": 1989
+  },
+  {
+    "name": "Europa Park",
+    "location": "Rust",
+    "country": "Germany",
+    "link": "https://www.europapark.de/en",
+    "yearOpened": 1975
+  },
+  {
     "name": "Thorpe Park",
-    "country": "England",
     "location": "Surrey",
-    "description": "Thorpe Park is a theme park located in Surrey, England. It is known for its thrilling rides and attractions, including roller coasters, water rides, and live entertainment.",
-    "image": "images/parks/thorpe-park.jpg",
+    "country": "UK",
     "link": "https://www.thorpepark.com",
     "yearOpened": 1979
   },
   {
-    "id": 2,
-    "name": "Alton Towers",
-    "country": "England",
-    "location": "Staffordshire",
-    "description": "Alton Towers is awesome.",
-    "image": "images/parks/alton-towers-bg.png",
-    "link": "https://www.altontowers.com/",
-    "yearOpened": 1979
-  },
-  {
-    "id": 3,
-    "name": "Legoland Windsor",
-    "country": "England",
-    "location": "Windsor",
-    "description": "Legoland has lego.",
-    "image": "images/parks/legoland-windsor.png",
-    "link": "https://www.legoland.co.uk/",
-    "yearOpened": 1979
-  },
-  {
-    "id": 4,
-    "name": "Efteling",
-    "country": "Netherlands",
-    "location": "Kaatsheuvel",
-    "description": "Yay Efteling!",
-    "image": "images/parks/efteling.jpg",
-    "link": "https://www.efteling.com/en",
-    "yearOpened": 1979
-  },
-  {
-    "id": 5,
-    "name": "Parc Astérix",
-    "country": "France",
-    "location": "Plailly",
-    "description": "Parc Astérix is a theme park located in Plailly, France. It is based on the stories of Asterix and Obelix, featuring attractions and shows inspired by the comic book series.",
-    "image": "images/parks/parc-asterix.jpg",
-    "link": "https://www.parcasterix.fr/en",
-    "yearOpened": 1979
-  },
-  {
-    "id": 6,
-    "name": "Europa-Park",
-    "country": "Germany",
-    "location": "Rust",
-    "description": "Europa-Park is the largest theme park in Germany and one of the most popular in Europe. It features a variety of themed areas, rides, and attractions based on different European countries.",
-    "image": "images/parks/europa-park.jpg",
-    "link": "https://www.europapark.de/en",
-    "yearOpened": 1979
-  },
-  {
-    "id": 7,
-    "name": "Poulton's Park",
-    "country": "England",
-    "location": "Hampshire",
-    "description": "Poulton's Park is a family theme park located in Hampshire, England. It features a variety of rides and attractions suitable for all ages, including roller coasters, water rides, and themed areas.",
-    "image": "images/parks/poultons-park.jpg",
-    "link": "https://www.paultonspark.co.uk/",
-    "yearOpened": 1979
-  },
-  {
-    "id": 8,
-    "name": "Chessington World of Adventures",
-    "country": "England",
+    "name": "Chessington World Of Adventures",
     "location": "Surrey",
-    "description": "Chessington World of Adventures is a theme park and zoo located in Surrey, England. It features a variety of rides, attractions, and animal exhibits, making it a popular destination for families.",
-    "image": "images/parks/chessington.png",
+    "country": "UK",
     "link": "https://www.chessington.com/",
-    "yearOpened": 1979
+    "yearOpened": 1987
   },
   {
-    "id": 9,
-    "name": "Blackpool Pleasure Beach",
-    "country": "England",
-    "location": "Blackpool",
-    "description": "Blackpool Pleasure Beach is a famous amusement park located in Blackpool, England. It is known for its iconic roller coasters, family rides, and entertainment shows.",
-    "image": "images/parks/blackpool-pleasure-beach.jpg",
-    "link": "https://www.blackpoolpleasurebeach.com/",
-    "yearOpened": 1979
-  },
-  {
-    "id": 10,
-    "name": "PortAventura World",
-    "country": "Spain",
-    "location": "Salou",
-    "description": "PortAventura World is a large theme park located in Salou, Spain. It features a variety of themed areas, rides, and attractions, including roller coasters and water rides.",
-    "image": "images/parks/portaventura-world.jpg",
-    "link": "https://www.portaventuraworld.com/en",
-    "yearOpened": 1979
-  },
-  {
-    "id": 11,
-    "name": "Plopsaland De Panne",
-    "country": "Belgium",
-    "location": "De Panne",
-    "description": "Plopsaland De Panne is a family theme park located in De Panne, Belgium. It features a variety of rides and attractions based on popular children's characters and TV shows.",
-    "image": "images/parks/plopsaland-de-panne.jpg",
-    "link": "https://www.plopsalanddepanne.be/en",
-    "yearOpened": 1979
-  },
-  {
-    "id": 12,
-    "name": "Ferrari Land",
-    "country": "Spain",
-    "location": "Salou",
-    "description": "Ferrari Land is a theme park located in Salou, Spain, dedicated to the Ferrari brand. It features attractions and rides inspired by Ferrari's history and racing heritage.",
-    "image": "images/parks/ferrari-land.jpg",
-    "link": "https://www.portaventuraworld.com/en/ferrari-land",
-    "yearOpened": 1979
-  },
-  {
-    "id": 13,
-    "name": "Futuroscope",
-    "country": "France",
-    "location": "Poitiers",
-    "description": "Futuroscope is a theme park located in Poitiers, France, known for its futuristic attractions and multimedia experiences. It features a variety of rides, shows, and exhibitions that explore technology and innovation.",
-    "image": "images/parks/futuroscope.jpg",
-    "link": "https://www.futuroscope.com/en/",
-    "yearOpened": 1979
-  },
-  {
-    "id": 14,
-    "name": "Phantasialand",
-    "country": "Germany",
-    "location": "Brühl",
-    "description": "Phantasialand is a theme park located in Brühl, Germany. It features a variety of themed areas, rides, and attractions, including roller coasters, water rides, and live shows.",
-    "image": "images/parks/phantasialand.jpeg",
-    "link": "https://www.phantasialand.de/en/",
-    "yearOpened": 1979
-  },
-  {
-    "id": 15,
     "name": "Toverland",
+    "location": "Limburg",
     "country": "Netherlands",
-    "location": "Sevenum",
-    "description": "Toverland is a theme park located in Sevenum, Netherlands. It features a variety of indoor and outdoor attractions, including roller coasters, water rides, and themed areas.",
-    "image": "images/parks/toverland.png",
     "link": "https://www.toverland.com/en",
-    "yearOpened": 1979
+    "yearOpened": 2001
   },
   {
-    "id": 16,
-    "name": "Walibi Belgium",
-    "country": "Belgium",
-    "location": "Wavre",
-    "description": "Walibi Belgium is a theme park located in Wavre, Belgium. It features a variety of rides and attractions, including roller coasters, water rides, and family-friendly attractions.",
-    "image": "images/parks/walibi-belgium.jpg",
-    "link": "https://www.walibi.be/en",
-    "yearOpened": 1979
+    "name": "Poultons Park",
+    "location": "Hampshire",
+    "country": "UK",
+    "link": "https://www.paultonspark.co.uk/",
+    "yearOpened": 1983
   },
   {
-    "id": 17,
     "name": "Walibi Holland",
+    "location": "Flevoland",
     "country": "Netherlands",
-    "location": "Biddinghuizen",
-    "description": "Walibi Holland is a theme park located in Biddinghuizen, Netherlands. It features a variety of rides and attractions, including roller coasters, water rides, and family-friendly attractions.",
-    "image": "images/parks/walibi-holland.jpg",
     "link": "https://www.walibi.nl/en",
-    "yearOpened": 1979
+    "yearOpened": 1971
+  },
+  {
+    "name": "Plopsaland De Panne",
+    "location": "West-Vlaanderen",
+    "country": "Belgium",
+    "link": "https://www.plopsalanddepanne.be/en",
+    "yearOpened": 2000
+  },
+  {
+    "name": "Walibi Belgium",
+    "location": "Walloon Brabant",
+    "country": "Belgium",
+    "link": "https://www.walibi.be/en",
+    "yearOpened": 1975
+  },
+  {
+    "name": "Legoland Windsor",
+    "location": "Berkshire",
+    "country": "UK",
+    "link": "https://www.legoland.co.uk/",
+    "yearOpened": 1996
+  },
+  {
+    "name": "Futuroscope",
+    "location": "Nouvelle-Aquitaine",
+    "country": "France",
+    "link": "https://www.futuroscope.com/en/",
+    "yearOpened": 1987
+  },
+  {
+    "name": "Ferrari Land",
+    "location": "Tarragona",
+    "country": "Spain",
+    "link": "https://www.portaventuraworld.com/en/ferrari-land",
+    "yearOpened": 2017
+  },
+  {
+    "name": "PortAventura World",
+    "location": "Tarragona",
+    "country": "Spain",
+    "link": "https://www.portaventuraworld.com/en",
+    "yearOpened": 1995
+  },
+  {
+    "name": "Blackpool Pleasure Beach",
+    "location": "Lancashire",
+    "country": "UK",
+    "link": "https://www.blackpoolpleasurebeach.com/",
+    "yearOpened": 1896
+  },
+  {
+    "name": "Adventure Island",
+    "location": "Essex",
+    "country": "UK",
+    "link": "https://adventureisland.co.uk/",
+    "yearOpened": 1976
   }
 ]

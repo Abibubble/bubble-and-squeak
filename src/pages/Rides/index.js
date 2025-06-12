@@ -22,42 +22,42 @@ const sortOptions = [
   {
     value: 'height-desc',
     label: 'Height (Highest to Lowest)',
-    key: 'stats.height',
+    key: 'height',
     direction: 'desc',
     type: 'number',
   },
   {
     value: 'height-asc',
     label: 'Height (Lowest to Highest)',
-    key: 'stats.height',
+    key: 'height',
     direction: 'asc',
     type: 'number',
   },
   {
     value: 'speed-asc',
     label: 'Speed (Slow to Fast)',
-    key: 'stats.speed',
+    key: 'speed',
     direction: 'asc',
     type: 'number',
   },
   {
     value: 'speed-desc',
     label: 'Speed (Fast to Slow)',
-    key: 'stats.speed',
+    key: 'speed',
     direction: 'desc',
     type: 'number',
   },
   {
     value: 'year-asc',
     label: 'Year Opened (Oldest to Newest)',
-    key: 'stats.yearOpened',
+    key: 'yearOpened',
     direction: 'asc',
     type: 'number',
   },
   {
     value: 'year-desc',
     label: 'Year Opened (Newest to Oldest)',
-    key: 'stats.yearOpened',
+    key: 'yearOpened',
     direction: 'desc',
     type: 'number',
   },
@@ -70,19 +70,13 @@ function Rides() {
   const [manufacturerFilter, setManufacturerFilter] = useState('')
 
   const locationOptions = getUniqueOptions(rides, ride => ride.location)
-  const heightOptions = getUniqueOptions(
-    rides,
-    ride => ride.stats.heightRequirement
-  )
-  const manufacturerOptions = getUniqueOptions(
-    rides,
-    ride => ride.stats.manufacturer
-  )
+  const heightOptions = getUniqueOptions(rides, ride => ride.heightRequirement)
+  const manufacturerOptions = getUniqueOptions(rides, ride => ride.manufacturer)
 
   const filters = {
     location: locationFilter,
-    'stats.heightRequirement': heightFilter,
-    'stats.manufacturer': manufacturerFilter,
+    heightRequirement: heightFilter,
+    manufacturer: manufacturerFilter,
   }
 
   const filteredRides = filterData(rides, filters)
@@ -145,7 +139,7 @@ function Rides() {
       <CardsFlex>
         {sortedRides.map(ride => (
           <Card item={ride} type='ride' key={ride.id}>
-            {Object.entries(ride.stats).map(([key, value]) => (
+            {Object.entries(ride).map(([key, value]) => (
               <CardStat stat={key} value={value} key={key} />
             ))}
           </Card>

@@ -13,35 +13,46 @@ const sortOptions = [
   {
     value: 'newest',
     label: 'Newest to Oldest',
-    key: 'ourEscape.datePlayed',
+    key: 'id',
     direction: 'desc',
-    type: 'date',
+    type: 'number',
   },
   {
     value: 'oldest',
     label: 'Oldest to Newest',
-    key: 'ourEscape.datePlayed',
+    key: 'id',
     direction: 'asc',
-    type: 'date',
+    type: 'number',
   },
   {
     value: 'highest',
     label: 'Highest Rated',
-    key: 'ourEscape.ratings',
+    key: 'total',
     direction: 'desc',
-    type: 'rating',
+    type: 'number',
   },
   {
     value: 'lowest',
     label: 'Lowest Rated',
-    key: 'ourEscape.ratings',
+    key: 'total',
     direction: 'asc',
-    type: 'rating',
+    type: 'number',
   },
 ]
 
+const roomStats = [
+  'theme',
+  'duration',
+  'minPlayers',
+  'maxPlayers',
+  'difficulty',
+  'escapePercentage',
+  'minAge',
+  'languages',
+]
+
 function getOverall(room) {
-  return convertRatingsToOverall(room.ourEscape?.ratings || {}, false)
+  return convertRatingsToOverall(room.total || {}, false)
 }
 
 function EscapeRooms() {
@@ -54,22 +65,25 @@ function EscapeRooms() {
   const countryOptions = getUniqueOptions(escapeRooms, room => room.country)
   const durationOptions = getUniqueOptions(
     escapeRooms,
-    room => room.stats.duration
+    room => room.duration,
+    'number'
   )
   const minPlayersOptions = getUniqueOptions(
     escapeRooms,
-    room => room.stats.minPlayers
+    room => room.minPlayers,
+    'number'
   )
   const maxPlayersOptions = getUniqueOptions(
     escapeRooms,
-    room => room.stats.maxPlayers
+    room => room.maxPlayers,
+    'number'
   )
 
   const filters = {
     country: countryFilter,
-    'stats.duration': durationFilter,
-    'stats.minPlayers': minPlayersFilter,
-    'stats.maxPlayers': maxPlayersFilter,
+    duration: durationFilter,
+    minPlayers: minPlayersFilter,
+    maxPlayers: maxPlayersFilter,
   }
 
   const filteredRooms = filterData(escapeRooms, filters)
@@ -77,7 +91,7 @@ function EscapeRooms() {
   const selectedSort = sortOptions.find(option => option.value === sortOrder)
 
   let sortedRooms = [...filteredRooms]
-  if (selectedSort.type === 'rating') {
+  if (selectedSort.type === 'total') {
     sortedRooms.sort((a, b) =>
       selectedSort.direction === 'desc'
         ? getOverall(b) - getOverall(a)
@@ -123,7 +137,7 @@ function EscapeRooms() {
         <option value=''>All Durations</option>
         {durationOptions.map(option => (
           <option value={option} key={option}>
-            {option} min
+            {option} minutes
           </option>
         ))}
       </select>
@@ -151,14 +165,25 @@ function EscapeRooms() {
       </select>
       <CardsFlex>
         {sortedRooms.map(room => (
-          <Card item={room} type='room' key={room.id}>
-            {Object.entries(room.stats).map(([key, value]) => (
-              <CardStat
-                stat={key}
-                value={Array.isArray(value) ? value.join(', ') : value}
-                key={key}
-              />
-            ))}
+          <Card
+            description={room.description}
+            item={room}
+            type='room'
+            key={room.id}
+          >
+            {roomStats
+              .filter(stat => room[stat] !== null && room[stat] !== '')
+              .map(stat => (
+                <CardStat
+                  stat={stat}
+                  value={
+                    Array.isArray(room[stat])
+                      ? room[stat].join(', ')
+                      : room[stat]
+                  }
+                  key={stat}
+                />
+              ))}
           </Card>
         ))}
       </CardsFlex>

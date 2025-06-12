@@ -3,6 +3,7 @@ import * as Styled from './RideInfo.styled'
 import rides from '../../../data/rides.json'
 import parks from '../../../data/parks.json'
 import { useLocation } from 'react-router-dom'
+import { formatString } from '../../../utils'
 
 function RideInfo() {
   const location = useLocation()
@@ -18,6 +19,8 @@ function RideInfo() {
 
   const park = parks.find(park => park.name === ride.location)
 
+  console.log(`images/rides/${formatString(ride.name, 'dash', 'lower')}.jpg`)
+
   return (
     <MainContent>
       <Styled.PageWrapper>
@@ -31,7 +34,18 @@ function RideInfo() {
           </Link>
         </Styled.Subtitle>
         <p>Rating: {ratingStars}</p>
-        <Styled.Image src={`../${ride.image}`} alt={ride.name} />
+        <Styled.Image
+          src={`../images/rides/${formatString(
+            ride.name,
+            'dash',
+            'lower'
+          )}.jpg`}
+          alt={ride.name}
+          onError={e => {
+            e.target.onerror = null
+            e.target.src = '../images/bubble-and-squeak.png'
+          }}
+        />
         <Styled.InfoGrid>
           {Object.entries(ride.stats).map(([key, value]) => (
             <CardStat stat={key} value={value} key={key} />

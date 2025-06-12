@@ -12,6 +12,7 @@ export const formatString = (text, spacing, casing) => {
     case 'dash':
       spacedText = spacedText.split(' ').join('-')
       spacedText = spacedText.split('_').join('-')
+      spacedText = spacedText.replace(/-+/g, '-')
       break
     case 'under':
       spacedText = spacedText.split(' ').join('_')

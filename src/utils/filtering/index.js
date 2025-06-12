@@ -1,5 +1,23 @@
-export function getUniqueOptions(array, accessor) {
-  return Array.from(new Set(array.map(accessor))).filter(Boolean)
+export function getUniqueOptions(
+  array,
+  accessor,
+  type = 'string',
+  direction = 'asc'
+) {
+  let options = Array.from(new Set(array.map(accessor))).filter(Boolean)
+  if (type === 'number') {
+    options = options.map(Number).filter(n => !isNaN(n))
+  }
+  options.sort((a, b) => {
+    if (type === 'number') {
+      return direction === 'asc' ? a - b : b - a
+    }
+    if (direction === 'asc') {
+      return String(a).localeCompare(String(b))
+    }
+    return String(b).localeCompare(String(a))
+  })
+  return options
 }
 
 export function filterData(data, filters) {
