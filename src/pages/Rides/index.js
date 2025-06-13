@@ -69,12 +69,12 @@ function Rides() {
   const [heightFilter, setHeightFilter] = useState('')
   const [manufacturerFilter, setManufacturerFilter] = useState('')
 
-  const locationOptions = getUniqueOptions(rides, ride => ride.location)
+  const locationOptions = getUniqueOptions(rides, ride => ride.park)
   const heightOptions = getUniqueOptions(rides, ride => ride.heightRequirement)
   const manufacturerOptions = getUniqueOptions(rides, ride => ride.manufacturer)
 
   const filters = {
-    location: locationFilter,
+    park: locationFilter,
     heightRequirement: heightFilter,
     manufacturer: manufacturerFilter,
   }

@@ -1,6 +1,16 @@
-export const formatString = (text, spacing, casing) => {
+export const formatString = (text, spacing, casing, url = true) => {
   let spacedText = text
   let formattedText
+
+  if (url && typeof spacedText === 'string') {
+    spacedText = spacedText
+      .replace(/\s*\(.*?\)\s*/g, '')
+      .replace(/&/g, 'and')
+      .replace(/['#:.\\\\/]/g, '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .trim()
+  }
 
   spacedText = spacedText.replace(/(?!^)([A-Z])/g, ' $1')
 

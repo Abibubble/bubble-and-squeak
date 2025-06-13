@@ -23,6 +23,9 @@ export default function Card({ children, description, item, type }) {
   }
   const url = `/${base}s/${type}-info?${type}Id=${item.id}`
 
+  console.log(
+    `images/${baseUrl}/${formatString(item.name, 'dash', 'lower')}.jpg`
+  )
   return (
     <Styled.Link href={url} key={item.id}>
       <Styled.Grid>
