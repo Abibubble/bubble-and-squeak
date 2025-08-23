@@ -4,10 +4,10 @@ import { fonts, spacing, colours, breakpoints } from '../../theme'
 export const ToggleContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: ${spacing.tiny};
-  margin: ${spacing.small} 0 0;
-  width: 100%;
+  margin: ${spacing.small} auto 0;
+  width: fit-content;
 
   @media (min-width: ${breakpoints.tablet}) {
     flex-direction: row;

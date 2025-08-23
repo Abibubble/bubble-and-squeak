@@ -13,6 +13,7 @@ import {
   ViewToggle,
 } from '../../components'
 import { EscapeRoom } from '../../types'
+import * as Styled from './EscapeRooms.styled'
 
 const escapeRooms = escapeRoomsData as EscapeRoom[]
 
@@ -75,16 +76,19 @@ export default function EscapeRooms() {
     escapeRooms,
     room => room.country
   ).map(option => ({ value: option, label: option }))
+
   const durationOptions = getUniqueOptions(
     escapeRooms,
     room => room.duration,
     'number'
   ).map(option => ({ value: option, label: `${option} minutes` }))
+
   const minPlayersOptions = getUniqueOptions(
     escapeRooms,
     room => room.minPlayers,
     'number'
   ).map(option => ({ value: option, label: option }))
+
   const maxPlayersOptions = getUniqueOptions(
     escapeRooms,
     room => room.maxPlayers,
@@ -124,7 +128,9 @@ export default function EscapeRooms() {
   return (
     <MainContent>
       <Title>Escape Rooms</Title>
-      <p>{sortedRooms.length} escape rooms played</p>
+      <Styled.CenteredCount>
+        {sortedRooms.length} escape rooms played
+      </Styled.CenteredCount>
 
       <ViewToggle viewMode={viewMode} onViewChange={setViewMode} />
 
