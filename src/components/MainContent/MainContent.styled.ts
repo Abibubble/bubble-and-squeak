@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { colours, spacing } from '../../theme'
+import { colours, spacing, breakpoints } from '../../theme'
 
 export const ContentContainer = styled.section`
   margin: 0 auto;
@@ -10,15 +10,15 @@ export const ContentContainer = styled.section`
   flex-direction: column;
   flex: 1;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     padding: 0;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: ${breakpoints.desktopLarge}) {
     max-width: 1140px;
   }
 
-  @media (max-width: 1199px) {
+  @media (max-width: ${parseInt(breakpoints.desktopLarge) - 1}px) {
     max-width: 95%;
   }
 `

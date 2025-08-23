@@ -59,7 +59,6 @@ const roomStats = [
 ]
 
 function getOverall(room: EscapeRoom): number {
-  // Parse percentage string like "100%" to number like 100
   const totalStr = room.total || '0%'
   return parseFloat(totalStr.replace('%', ''))
 }

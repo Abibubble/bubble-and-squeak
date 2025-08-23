@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-import { spacing, colours } from '../../theme'
+import { spacing, colours, breakpoints } from '../../theme'
 
 export const HeaderContainer = styled.header`
   background-color: ${colours.black};
   color: ${colours.white};
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +27,7 @@ export const HeaderTop = styled.div`
     line-height: 1.2;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     padding: 0;
     flex: 0 0 auto;
   }
@@ -53,7 +53,7 @@ export const BurgerButton = styled.button`
     outline-offset: 2px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     display: none;
   }
 `
@@ -81,12 +81,12 @@ export const BurgerLine = styled.div<{ isOpen: boolean }>`
 `
 
 export const NavContainer = styled.nav<{ isOpen: boolean }>`
-  @media (max-width: 767px) {
+  @media (max-width: ${parseInt(breakpoints.tabletLarge) - 1}px) {
     display: ${props => (props.isOpen ? 'block' : 'none')};
     border-top: 1px solid ${colours.darkGrey};
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     display: block;
     flex: 1;
   }
@@ -113,7 +113,7 @@ export const NavLinks = styled.ul`
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: ${parseInt(breakpoints.tabletLarge) - 1}px) {
     gap: 0;
 
     li:not(:last-child) {
@@ -121,7 +121,9 @@ export const NavLinks = styled.ul`
     }
   }
 
-  @media (min-width: 400px) and (max-width: 767px) {
+  @media (min-width: ${breakpoints.mobileMedium}) and (max-width: ${parseInt(
+      breakpoints.tabletLarge
+    ) - 1}px) {
     grid-template-columns: repeat(2, 1fr);
 
     li {
@@ -133,7 +135,7 @@ export const NavLinks = styled.ul`
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     display: flex;
     justify-content: flex-end;
     gap: ${spacing.medium};

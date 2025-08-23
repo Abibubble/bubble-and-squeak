@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts, spacing, colours } from '../../theme'
+import { fonts, spacing, colours, breakpoints } from '../../theme'
 
 export const ToggleContainer = styled.div`
   display: flex;
@@ -9,7 +9,7 @@ export const ToggleContainer = styled.div`
   margin: ${spacing.small} 0 0;
   width: 100%;
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     flex-direction: row;
     align-items: center;
     gap: 12px;
@@ -31,7 +31,7 @@ export const ToggleButtonGroup = styled.div`
   background: ${colours.white};
   width: 100%;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     width: auto;
   }
 `
@@ -64,7 +64,7 @@ export const ToggleButton = styled.button<ToggleButtonProps>`
     border-right: ${spacing.micro} solid ${colours.lightGrey};
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     flex: initial;
     justify-content: flex-start;
   }

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts, spacing, colours } from '../../theme'
+import { fonts, spacing, colours, breakpoints } from '../../theme'
 
 export const TableContainer = styled.div`
   width: 100%;
@@ -10,7 +10,7 @@ export const TableContainer = styled.div`
   box-shadow: 0 ${spacing.mini} ${spacing.tiny} ${colours.shadowLight};
   background: ${colours.white};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     margin: ${spacing.small} 0;
     border-radius: ${spacing.tiny};
   }
@@ -24,16 +24,16 @@ export const Table = styled.table`
   min-width: 320px;
   table-layout: fixed;
 
-  @media (min-width: 360px) {
+  @media (min-width: ${breakpoints.mobileSmall}) {
     min-width: 400px;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     min-width: 500px;
     table-layout: auto;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     min-width: 600px;
   }
 `
@@ -67,7 +67,7 @@ export const TableHeader = styled.th`
   word-wrap: break-word;
   overflow-wrap: break-word;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     padding: 12px ${spacing.small};
   }
 `
@@ -85,7 +85,7 @@ export const TableCell = styled.td`
   max-width: 0;
   width: 1%;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     padding: 12px ${spacing.small};
     max-width: none;
     width: auto;
@@ -132,7 +132,7 @@ export const ScoreCell = styled.span<ScoreCellProps>`
     return colours.red
   }};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     min-width: 40px;
   }
 `

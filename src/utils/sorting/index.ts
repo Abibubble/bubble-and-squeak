@@ -16,7 +16,6 @@ export function sortData<T>(
   type: 'string' | 'number' | 'date' = 'string'
 ): T[] {
   return [...data].sort((a, b) => {
-    // Support nested keys like 'stats.height'
     const getValue = (obj: any, key: string): any =>
       key.split('.').reduce((o: any, k: string) => (o ? o[k] : undefined), obj)
     let valueA = getValue(a, sortKey)
@@ -34,7 +33,6 @@ export function sortData<T>(
       return direction === 'asc' ? valueA - valueB : valueB - valueA
     }
 
-    // String comparison
     const stringA = String(valueA).toLowerCase()
     const stringB = String(valueB).toLowerCase()
 

@@ -1,10 +1,14 @@
 import * as Styled from './RatingStars.styled'
+import { ScreenReaderOnly } from '../ScreenReaderOnly'
 
 export type RatingStarsProps = {
   percentage: number
 }
 
 export default function RatingStars({ percentage }: RatingStarsProps) {
+  const rating = Math.round((percentage / 100) * 5 * 10) / 10
+  const ratingText = `${rating} out of 5 stars (${percentage}% rating)`
+
   const getStarsDisplay = (percentage: number) => {
     const clampedPercentage = Math.max(0, percentage)
 
@@ -48,5 +52,10 @@ export default function RatingStars({ percentage }: RatingStarsProps) {
 
   const ratingStars = getStarsDisplay(percentage)
 
-  return <Styled.Rating>Rating: {ratingStars}</Styled.Rating>
+  return (
+    <Styled.Rating role='img' aria-label={ratingText} title={ratingText}>
+      <span aria-hidden='true'>Rating: {ratingStars}</span>
+      <ScreenReaderOnly>{ratingText}</ScreenReaderOnly>
+    </Styled.Rating>
+  )
 }

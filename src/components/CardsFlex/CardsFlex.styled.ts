@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { spacing } from '../../theme'
+import { spacing, breakpoints } from '../../theme'
 
 export const FlexContainer = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const FlexContainer = styled.div`
   justify-content: center;
   padding: ${spacing.tiny};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     gap: ${spacing.small};
     padding: ${spacing.small};
   }

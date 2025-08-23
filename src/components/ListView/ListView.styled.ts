@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts, spacing, colours } from '../../theme'
+import { fonts, spacing, colours, breakpoints } from '../../theme'
 
 export const TableContainer = styled.div`
   width: 100%;
@@ -10,7 +10,7 @@ export const TableContainer = styled.div`
   box-shadow: 0 ${spacing.mini} ${spacing.tiny} ${colours.shadowLight};
   background: ${colours.white};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     margin: ${spacing.small} 0;
     border-radius: ${spacing.tiny};
     overflow-x: auto;
@@ -25,15 +25,15 @@ export const Table = styled.table`
   min-width: 320px;
   table-layout: auto;
 
-  @media (min-width: 360px) {
+  @media (min-width: ${breakpoints.mobileSmall}) {
     min-width: 360px;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     min-width: 500px;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     min-width: 600px;
   }
 `
@@ -66,18 +66,18 @@ export const TableHeader = styled.th`
   font-size: ${fonts.small};
   word-wrap: break-word;
 
-  @media (min-width: 360px) {
+  @media (min-width: ${breakpoints.mobileSmall}) {
     padding: ${spacing.tiny} ${spacing.fine};
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     padding: 12px ${spacing.small};
   }
 
   &.hide-mobile {
     display: none;
 
-    @media (min-width: 640px) {
+    @media (min-width: ${breakpoints.tablet}) {
       display: table-cell;
     }
   }
@@ -85,7 +85,7 @@ export const TableHeader = styled.th`
   &.hide-small {
     display: none;
 
-    @media (min-width: 480px) {
+    @media (min-width: ${breakpoints.mobileLarge}) {
       display: table-cell;
     }
   }
@@ -102,18 +102,18 @@ export const TableCell = styled.td`
   hyphens: auto;
   min-width: 0;
 
-  @media (min-width: 360px) {
+  @media (min-width: ${breakpoints.mobileSmall}) {
     padding: ${spacing.tiny} ${spacing.fine};
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     padding: 12px ${spacing.small};
   }
 
   &.hide-mobile {
     display: none;
 
-    @media (min-width: 640px) {
+    @media (min-width: ${breakpoints.tablet}) {
       display: table-cell;
     }
   }
@@ -121,7 +121,7 @@ export const TableCell = styled.td`
   &.hide-small {
     display: none;
 
-    @media (min-width: 480px) {
+    @media (min-width: ${breakpoints.mobileLarge}) {
       display: table-cell;
     }
   }
@@ -168,12 +168,12 @@ export const ScoreCell = styled.span<ScoreCellProps>`
     return colours.red
   }};
 
-  @media (min-width: 360px) {
+  @media (min-width: ${breakpoints.mobileSmall}) {
     padding: ${spacing.fine} ${spacing.tiny};
     min-width: 30px;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     min-width: 40px;
   }
 `

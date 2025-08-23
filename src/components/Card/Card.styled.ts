@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts, spacing, colours } from '../../theme'
+import { fonts, spacing, colours, breakpoints } from '../../theme'
 
 export const Grid = styled.div`
   display: grid;
@@ -11,12 +11,12 @@ export const Grid = styled.div`
   border-radius: ${spacing.tiny};
   text-align: center;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     grid-template-columns: 40% 60%;
     text-align: left;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     grid-template-columns: 30% 70%;
     gap: ${spacing.small};
   }
@@ -40,12 +40,12 @@ export const Title = styled.h2`
   font-size: ${fonts.body};
   margin-bottom: ${spacing.tiny};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     font-size: ${fonts.large};
     margin-bottom: auto;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     font-size: ${fonts.huge};
   }
 `
@@ -55,12 +55,12 @@ export const Location = styled.h3`
   font-weight: normal;
   margin-bottom: ${spacing.tiny};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     font-size: ${fonts.body};
     margin-bottom: ${spacing.small};
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     font-size: ${fonts.large};
     margin-bottom: ${spacing.medium};
   }
@@ -78,7 +78,7 @@ export const StatsGrid = styled.div`
   padding-bottom: ${spacing.tiny};
   text-align: center;
 
-  @media (min-width: 360px) {
+  @media (min-width: ${breakpoints.mobileSmall}) {
     grid-template-columns: 1fr 1fr;
     text-align: left;
   }

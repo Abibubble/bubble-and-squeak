@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts, spacing, colours } from '../../theme'
+import { fonts, spacing, colours, breakpoints } from '../../theme'
 
 export const InfoContainer = styled.div`
   border: ${spacing.mini} solid ${colours.borderGrey};
@@ -11,7 +11,7 @@ export const InfoTitle = styled.h3`
   margin: ${spacing.tiny};
   font-size: ${fonts.body};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     margin: ${spacing.tiny} ${spacing.small};
     font-size: ${fonts.large};
   }
@@ -24,12 +24,12 @@ export const InfoGrid = styled.div`
   margin: ${spacing.tiny};
   text-align: center;
 
-  @media (min-width: 360px) {
+  @media (min-width: ${breakpoints.mobileSmall}) {
     grid-template-columns: 2fr 1fr;
     text-align: left;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     grid-template-columns: 3fr 1fr;
     gap: ${spacing.tiny} ${spacing.small};
     margin: ${spacing.tiny} ${spacing.small};

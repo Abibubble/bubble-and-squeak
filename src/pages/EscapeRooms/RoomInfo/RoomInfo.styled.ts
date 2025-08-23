@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { spacing, fonts, colours } from '../../../theme'
+import { spacing, fonts, colours, breakpoints } from '../../../theme'
 
 export const Location = styled.p`
   font-style: italic;
@@ -17,7 +17,7 @@ export const Image = styled.img`
   width: 100%;
   height: auto;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     max-width: 400px;
   }
 `
@@ -25,11 +25,11 @@ export const Image = styled.img`
 export const Description = styled.p`
   margin: ${spacing.small};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     margin: ${spacing.small} ${spacing.medium};
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     margin: ${spacing.small} ${spacing.giant};
   }
 `
@@ -40,17 +40,17 @@ export const InfoGrid = styled.div`
   gap: ${spacing.medium};
   margin: 0 ${spacing.small};
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     grid-template-columns: repeat(2, 1fr);
     gap: ${spacing.small};
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     margin: 0 ${spacing.medium};
     gap: 0 ${spacing.medium};
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: ${breakpoints.desktop}) {
     margin: 0 ${spacing.giant};
   }
 `
@@ -62,15 +62,15 @@ export const OurEscapeContainer = styled.div`
   border-radius: ${spacing.tiny};
   background-color: ${colours.white};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     padding: ${spacing.small} ${spacing.small};
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: ${breakpoints.tabletLarge}) {
     margin: ${spacing.medium} ${spacing.medium} ${spacing.large};
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: ${breakpoints.desktop}) {
     margin: ${spacing.medium} ${spacing.giant} ${spacing.large};
   }
 `
@@ -82,7 +82,7 @@ export const EscapeHeader = styled.div`
   gap: ${spacing.small};
   margin-bottom: ${spacing.small};
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     flex-direction: row;
     align-items: center;
     gap: ${spacing.medium};
@@ -95,7 +95,7 @@ export const OurEscapeTitle = styled.h3`
   color: ${colours.darkGrey};
   font-weight: 600;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     font-size: ${fonts.large};
   }
 `

@@ -16,13 +16,14 @@ export default function Header() {
   return (
     <Styled.HeaderContainer>
       <Styled.HeaderTop>
-        <a href='/'>
+        <a href='/' aria-label='Bubble & Squeak - Home'>
           <p>Bubble & Squeak</p>
         </a>
         <Styled.BurgerButton
           onClick={toggleMobileMenu}
           aria-label='Toggle navigation menu'
           aria-expanded={isMobileMenuOpen}
+          aria-controls='main-navigation'
         >
           <Styled.BurgerLine isOpen={isMobileMenuOpen} />
           <Styled.BurgerLine isOpen={isMobileMenuOpen} />
@@ -30,28 +31,30 @@ export default function Header() {
         </Styled.BurgerButton>
       </Styled.HeaderTop>
       <Styled.NavContainer isOpen={isMobileMenuOpen}>
-        <Styled.NavLinks>
-          <li>
-            <Link href='/' onClick={closeMobileMenu}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link href='/theme-parks' onClick={closeMobileMenu}>
-              Theme Parks
-            </Link>
-          </li>
-          <li>
-            <Link href='/rides' onClick={closeMobileMenu}>
-              Rides
-            </Link>
-          </li>
-          <li>
-            <Link href='/escape-rooms' onClick={closeMobileMenu}>
-              Escape Rooms
-            </Link>
-          </li>
-        </Styled.NavLinks>
+        <nav id='main-navigation' aria-label='Main navigation'>
+          <Styled.NavLinks>
+            <li>
+              <Link href='/' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href='/theme-parks' onClick={closeMobileMenu}>
+                Theme Parks
+              </Link>
+            </li>
+            <li>
+              <Link href='/rides' onClick={closeMobileMenu}>
+                Rides
+              </Link>
+            </li>
+            <li>
+              <Link href='/escape-rooms' onClick={closeMobileMenu}>
+                Escape Rooms
+              </Link>
+            </li>
+          </Styled.NavLinks>
+        </nav>
       </Styled.NavContainer>
     </Styled.HeaderContainer>
   )

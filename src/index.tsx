@@ -10,7 +10,7 @@ import {
   Parks,
   ParkInfo,
 } from './pages'
-import { Footer, Header } from './components'
+import { Footer, Header, SkipLink } from './components'
 
 const rootElement = document.getElementById('root')
 if (!rootElement) throw new Error('Failed to find the root element')
@@ -18,6 +18,7 @@ if (!rootElement) throw new Error('Failed to find the root element')
 const root = ReactDOM.createRoot(rootElement)
 root.render(
   <React.StrictMode>
+    <SkipLink />
     <Header />
     <main id='main-content'>
       <Router>

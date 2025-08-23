@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { fonts, spacing, colours } from '../../theme'
+import { fonts, spacing, colours, breakpoints } from '../../theme'
 
 export const SelectorContainer = styled.div`
   display: flex;
@@ -8,7 +8,7 @@ export const SelectorContainer = styled.div`
   gap: ${spacing.tiny};
   width: 100%;
 
-  @media (min-width: 640px) {
+  @media (min-width: ${breakpoints.tablet}) {
     flex-direction: row;
     align-items: center;
     gap: 12px;
@@ -55,7 +55,7 @@ export const Select = styled.select`
     box-shadow: 0 0 0 2px ${colours.blue}20;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     width: auto;
     min-width: 120px;
   }

@@ -20,11 +20,20 @@ export default function Selector({
   onChange,
   placeholder = 'Select...',
 }: SelectorProps) {
+  const selectId = `selector-${label.toLowerCase().replace(/\s+/g, '-')}`
+
   return (
     <Styled.SelectorContainer>
-      <Styled.SelectorLabel>{label}:</Styled.SelectorLabel>
+      <label htmlFor={selectId}>
+        <Styled.SelectorLabel>{label}:</Styled.SelectorLabel>
+      </label>
       <Styled.SelectorWrapper>
-        <Styled.Select value={value} onChange={e => onChange(e.target.value)}>
+        <Styled.Select
+          id={selectId}
+          value={value}
+          onChange={e => onChange(e.target.value)}
+          aria-label={`${label} selection`}
+        >
           <option value=''>{placeholder}</option>
           {options.map(option => (
             <option value={option.value} key={option.value}>

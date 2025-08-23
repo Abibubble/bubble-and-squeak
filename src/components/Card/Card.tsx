@@ -50,30 +50,40 @@ export default function Card({ children, description, item, type }: CardProps) {
     'lower'
   )}.jpg`
 
+  const linkText = `View details for ${item.name} in ${location}, ${country}`
+
   return (
-    <Styled.Link href={url} key={item.id || item.name}>
-      <Styled.Grid>
-        <Styled.Image
-          src={imageUrl}
-          alt={item.name}
-          onError={e => {
-            const target = e.target as HTMLImageElement
-            target.onerror = null
-            target.src = '/images/bubble-and-squeak.png'
-            console.log(`Image not found: ${imageUrl}`)
-          }}
-        />
-        <div>
-          <Styled.Title>{item.name}</Styled.Title>
-          <Styled.Location>
-            {location}, {country}
-          </Styled.Location>
-          {description && (
-            <Styled.Description>{item.description}</Styled.Description>
-          )}
-          <Styled.StatsGrid>{children}</Styled.StatsGrid>
-        </div>
-      </Styled.Grid>
-    </Styled.Link>
+    <article>
+      <Styled.Link href={url} key={item.id || item.name} aria-label={linkText}>
+        <Styled.Grid>
+          <Styled.Image
+            src={imageUrl}
+            alt={`${item.name} - ${
+              type === 'park'
+                ? 'Theme park'
+                : type === 'room'
+                ? 'Escape room'
+                : 'Ride'
+            }`}
+            onError={e => {
+              const target = e.target as HTMLImageElement
+              target.onerror = null
+              target.src = '/images/bubble-and-squeak.png'
+              target.alt = 'Default placeholder image'
+            }}
+          />
+          <div>
+            <Styled.Title>{item.name}</Styled.Title>
+            <Styled.Location>
+              {location}, {country}
+            </Styled.Location>
+            {description && (
+              <Styled.Description>{item.description}</Styled.Description>
+            )}
+            <Styled.StatsGrid>{children}</Styled.StatsGrid>
+          </div>
+        </Styled.Grid>
+      </Styled.Link>
+    </article>
   )
 }

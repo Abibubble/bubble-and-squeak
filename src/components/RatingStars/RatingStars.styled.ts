@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { spacing } from '../../theme'
+import { spacing, breakpoints } from '../../theme'
 
 export const Rating = styled.p`
   text-align: center;
@@ -7,7 +7,7 @@ export const Rating = styled.p`
   font-size: 1em;
   letter-spacing: 1px;
 
-  @media (min-width: 480px) {
+  @media (min-width: ${breakpoints.mobileLarge}) {
     font-size: 1.2em;
     letter-spacing: 2px;
     margin: ${spacing.tiny} 0;
