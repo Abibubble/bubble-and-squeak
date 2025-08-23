@@ -84,7 +84,6 @@ function Rides() {
   const [manufacturerFilter, setManufacturerFilter] = useState('')
   const [viewMode, setViewMode] = useState<'list' | 'blog'>('blog')
 
-  // Add a render counter for unique keys
   const renderCount = Date.now()
 
   const locationOptions = getUniqueOptions(rides, ride => ride.park).map(
@@ -99,7 +98,6 @@ function Rides() {
     ride => ride.manufacturer
   ).map(option => ({ value: option, label: option }))
 
-  // Use useMemo to ensure filtering is computed correctly
   const filteredRides = useMemo(() => {
     const filters = {
       park: locationFilter,
@@ -165,17 +163,15 @@ function Rides() {
           <ListViewStyled.Table>
             <ListViewStyled.TableHead>
               <ListViewStyled.TableRow>
-                <ListViewStyled.TableHeader>
-                  Ride Name
+                <ListViewStyled.TableHeader>Ride</ListViewStyled.TableHeader>
+                <ListViewStyled.TableHeader className='hide-small'>
+                  Park
                 </ListViewStyled.TableHeader>
-                <ListViewStyled.TableHeader>
-                  Location (Park)
-                </ListViewStyled.TableHeader>
-                <ListViewStyled.TableHeader>
+                <ListViewStyled.TableHeader className='hide-mobile'>
                   Manufacturer
                 </ListViewStyled.TableHeader>
-                <ListViewStyled.TableHeader>
-                  Year Opened
+                <ListViewStyled.TableHeader className='hide-mobile'>
+                  Year
                 </ListViewStyled.TableHeader>
               </ListViewStyled.TableRow>
             </ListViewStyled.TableHead>
@@ -193,13 +189,13 @@ function Rides() {
                       {ride.name}
                     </ListViewStyled.RoomLink>
                   </ListViewStyled.TableCell>
-                  <ListViewStyled.TableCell>
+                  <ListViewStyled.TableCell className='hide-small'>
                     {ride.park}
                   </ListViewStyled.TableCell>
-                  <ListViewStyled.TableCell>
+                  <ListViewStyled.TableCell className='hide-mobile'>
                     {ride.manufacturer || 'Unknown'}
                   </ListViewStyled.TableCell>
-                  <ListViewStyled.TableCell>
+                  <ListViewStyled.TableCell className='hide-mobile'>
                     {ride.yearOpened || 'Unknown'}
                   </ListViewStyled.TableCell>
                 </ListViewStyled.TableRow>

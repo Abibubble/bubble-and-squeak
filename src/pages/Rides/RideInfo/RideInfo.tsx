@@ -13,8 +13,6 @@ function RideInfo() {
   )
   if (!ride) return <div>Ride not found</div>
 
-  const ratingStars = '☆'.repeat(5) // No ratings available for rides
-
   const park = parks.find(park => park.name === ride.park)
 
   return (
@@ -37,7 +35,6 @@ function RideInfo() {
             {ride.park}, {park ? park.country : 'Unknown'}
           </Link>
         </Styled.Subtitle>
-        <p>Rating: {ratingStars}</p>
         <Styled.Image
           src={`/images/rides/${formatString(ride.name, 'dash', 'lower')}.jpg`}
           alt={ride.name}

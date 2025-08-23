@@ -49,10 +49,8 @@ function Parks() {
           <ListViewStyled.Table>
             <ListViewStyled.TableHead>
               <ListViewStyled.TableRow>
-                <ListViewStyled.TableHeader>
-                  Park Name
-                </ListViewStyled.TableHeader>
-                <ListViewStyled.TableHeader>
+                <ListViewStyled.TableHeader>Park</ListViewStyled.TableHeader>
+                <ListViewStyled.TableHeader className='hide-mobile'>
                   Location
                 </ListViewStyled.TableHeader>
               </ListViewStyled.TableRow>
@@ -73,7 +71,7 @@ function Parks() {
                         {park.name}
                       </ListViewStyled.RoomLink>
                     </ListViewStyled.TableCell>
-                    <ListViewStyled.TableCell>
+                    <ListViewStyled.TableCell className='hide-mobile'>
                       {park.location}, {park.country}
                     </ListViewStyled.TableCell>
                   </ListViewStyled.TableRow>

@@ -3,9 +3,18 @@ import { fonts, spacing, colours } from '../../theme'
 
 export const ToggleContainer = styled.div`
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: ${spacing.tiny};
   margin: ${spacing.small} 0;
+  width: 100%;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: auto;
+  }
 `
 
 export const ToggleLabel = styled.span`
@@ -20,6 +29,11 @@ export const ToggleButtonGroup = styled.div`
   border-radius: 6px;
   overflow: hidden;
   background: ${colours.white};
+  width: 100%;
+
+  @media (min-width: 480px) {
+    width: auto;
+  }
 `
 
 interface ToggleButtonProps {
@@ -38,6 +52,8 @@ export const ToggleButton = styled.button<ToggleButtonProps>`
   transition: all 0.2s ease;
   font-size: ${fonts.small};
   font-weight: 500;
+  flex: 1;
+  justify-content: center;
 
   &:hover {
     background: ${props =>
@@ -46,6 +62,11 @@ export const ToggleButton = styled.button<ToggleButtonProps>`
 
   &:not(:last-child) {
     border-right: ${spacing.micro} solid ${colours.lightGrey};
+  }
+
+  @media (min-width: 480px) {
+    flex: initial;
+    justify-content: flex-start;
   }
 `
 

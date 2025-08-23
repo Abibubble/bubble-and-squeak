@@ -20,6 +20,7 @@ export const formatString = (
     spacedText = spacedText
       .replace(/\s*\(.*?\)\s*/g, '')
       .replace(/&/g, 'and')
+      .replace(/½/g, '-5')
       .replace(/['#:.\\\\/]/g, '')
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')

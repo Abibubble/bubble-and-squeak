@@ -4,6 +4,7 @@ import escapeRooms from '../../../data/escape-rooms.json'
 import { useParams } from 'react-router-dom'
 import { formatString } from '../../../utils'
 import { fonts } from '../../../theme'
+import { RatingStars } from '../../../components/RatingStars'
 
 function RoomInfo() {
   const { roomName } = useParams<{ roomName: string }>()
@@ -26,7 +27,9 @@ function RoomInfo() {
 
   return (
     <MainContent>
-      <Title>{room.name}</Title>
+      <Title>
+        #{room.id}: {room.name}
+      </Title>
       <Link bold center dark fontSize={fonts.large} href={room.link}>
         {room.company}
       </Link>
@@ -49,14 +52,22 @@ function RoomInfo() {
         />
       </Styled.ImageContainer>
       <Styled.Description>{room.description}</Styled.Description>
+      <RatingStars percentage={parseInt(room.total.replace('%', ''))} />
       <Styled.InfoGrid>
         <Info item={room} keys={stats} type='Stats' />
         <Info item={room} keys={ratings} type='Our ratings' />
       </Styled.InfoGrid>
-      <p>Our escape:</p>
-      <p>Room number: {room.id}</p>
-      <p>Date played: {room.datePlayed}</p>
-      <p>Review: {room.review}</p>
+      <Styled.OurEscapeContainer>
+        <Styled.EscapeHeader>
+          <Styled.OurEscapeTitle>Our escape</Styled.OurEscapeTitle>
+        </Styled.EscapeHeader>
+        <Styled.EscapeDetail>
+          <strong>Date played:</strong> {room.datePlayed}
+        </Styled.EscapeDetail>
+        <Styled.EscapeReview>
+          <strong>Review:</strong> {room.review}
+        </Styled.EscapeReview>
+      </Styled.OurEscapeContainer>
     </MainContent>
   )
 }

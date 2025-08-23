@@ -44,20 +44,23 @@ export default function Card({ children, description, item, type }: CardProps) {
     url = `/rides/ride-info/${urlId}`
   }
 
+  const imageUrl = `/images/${baseUrl}/${formatString(
+    item.name,
+    'dash',
+    'lower'
+  )}.jpg`
+
   return (
     <Styled.Link href={url} key={item.id || item.name}>
       <Styled.Grid>
         <Styled.Image
-          src={`/images/${baseUrl}/${formatString(
-            item.name,
-            'dash',
-            'lower'
-          )}.jpg`}
+          src={imageUrl}
           alt={item.name}
           onError={e => {
             const target = e.target as HTMLImageElement
             target.onerror = null
             target.src = '/images/bubble-and-squeak.png'
+            console.log(`Image not found: ${imageUrl}`)
           }}
         />
         <div>

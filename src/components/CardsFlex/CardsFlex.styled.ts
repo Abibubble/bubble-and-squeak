@@ -6,7 +6,12 @@ export const FlexContainer = styled.div`
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  gap: ${spacing.small};
+  gap: ${spacing.tiny};
   justify-content: center;
-  padding: ${spacing.small};
+  padding: ${spacing.tiny};
+
+  @media (min-width: 480px) {
+    gap: ${spacing.small};
+    padding: ${spacing.small};
+  }
 `

@@ -19,7 +19,7 @@
     "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "A mysterious employer has hired your crack team of thieves to break into the home of an antiquities professor and steal a legendary artifact. Break into the house, locate and navigate the art vault and steal 5 items in the house that you think are worth the most value to sell on the black market before the police arrive.",
     "link": "https://www.elusionrooms.com/pandora-heist",
     "languages": "English",
@@ -29,7 +29,7 @@
     "maxPlayers": 8,
     "minAge": null,
     "escapePercentage": "89%",
-    "review": "Amazing"
+    "review": "House within the shop, lovely host calmed me down, lazer grid, chessboard opening the hidden door, first item you see when you go in is the one you want!"
   },
   {
     "id": 2,
@@ -42,11 +42,11 @@
     "duration": 60,
     "price": "£50",
     "theming": 9,
-    "puzzles": 9,
+    "puzzles": 9.5,
     "gamesMaster": 9,
     "value": 9,
-    "fun": 9,
-    "total": "90%",
+    "fun": 10,
+    "total": "93%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": 10.24,
@@ -60,8 +60,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Locked in, had to open bookcase, then in a cell, numbers under the bed, clues on TV, R/C car, pea shooter and bomb, we got 10th on the leaderboard"
   },
   {
     "id": 3,
@@ -75,15 +75,15 @@
     "price": "£52",
     "theming": 2,
     "puzzles": 3,
-    "gamesMaster": 2,
+    "gamesMaster": 1,
     "value": 2,
     "fun": 2,
-    "total": "22%",
+    "total": "20%",
     "escaped": "Y",
     "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "​Our Da Vinci Room will see you take on the role of thief, but for the greater good. Dr John Albright has studied the workings of Da Vinci in great detail. He has amassed a considerable collection over the years, including what many believe to be the Holy Grail. Having gained his trust by helping him \"acquire\" items over the years, you have access to areas of his home and knowledge of his security that no-one else does. You've been paid well for your services over the years, but you've always felt that an item of the importance of the Holy Grail should be on display for everyone. The professor is away and now is your chance. Get in the room, grab the Holy Grail and get out. It should be easy!",
     "link": "https://www.escape-london.co.uk/the-da-vinci-room",
     "languages": "English",
@@ -92,8 +92,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Not great theming, lots of strange puzzles, got our game wrong, GM at the end was very weird, cloaks hung in corners, very empty room"
   },
   {
     "id": 4,
@@ -108,14 +108,14 @@
     "theming": 7,
     "puzzles": 8,
     "gamesMaster": 6,
-    "value": 7.5,
+    "value": 7,
     "fun": 7,
-    "total": "71%",
+    "total": "70%",
     "escaped": "N",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You’ve been tasked to steal the Royal jewels from the most secure bank in London. With a small window of opportunity and hacked security footage, you’re on the clock to crack the code.",
     "link": "https://www.escape-entertainment.co.uk/escape-rooms/bank-heist",
     "languages": "English",
@@ -124,8 +124,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Security guard on chair, squishy puzzles on the floor, sooo many keys for the safes, hidden room with a portrait of the Queen, balancing floorboards"
   },
   {
     "id": 5,
@@ -147,7 +147,7 @@
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The brilliant mind, Professor Samuel Pottenger, has been kidnapped and we need your help! Pottenger’s research is lying unguarded and we need a team of the greatest scientific minds, codename Timelock, to recover it before it falls into the wrong hands! Enter the study and discover his secrets… ",
     "link": "https://lockedinaroom.co.uk/milton-keynes/rooms",
     "languages": "English",
@@ -156,8 +156,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 7,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Awesome theming from the start, smoky corridor, Pandora's lock, batteries in chair leg"
   },
   {
     "id": 6,
@@ -165,7 +165,7 @@
     "location": "London",
     "country": "UK",
     "company": "Locked in a Room",
-    "name": "Invisibility Gene",
+    "name": "The Invisibility Gene",
     "theme": "Sci-Fi",
     "duration": 60,
     "price": "£60",
@@ -179,7 +179,7 @@
     "photo": "Y",
     "timeRemaining": 9.08,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "An infamous colleague, Professor Scabworthy, has been acting even more suspicious recently in the lab. Whilst he is detained for questioning, thoroughly investigate his workshop with your team of investigators to discover and prevent the catastrophe he is attempting to unleash...",
     "link": "https://www.escapethereview.co.uk/escape-room/12562/locked-in-a-room-london-invisibility-gene/",
     "languages": "English",
@@ -188,8 +188,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 7,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Writing on the walls, had to turn off lights for the code, room through bookshelf, one clue"
   },
   {
     "id": 7,
@@ -211,7 +211,7 @@
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You have been exploring the beautiful city of Reading when you find the entrance of a secret library. Your curiosity has taken you inside where you realise you can only get out if you solve the mystery of the library in 60 minutes.",
     "link": "https://www.escapethereview.co.uk/escape-room/12303/escape-reading-library/",
     "languages": "English",
@@ -220,8 +220,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Secret room through bookshelf that Conor didn't remove the shelves for, had to link books into the clues we found, old phone we used keypad on"
   },
   {
     "id": 8,
@@ -243,7 +243,7 @@
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 4,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You wake up in a small darkened room. Nobody can clearly remember it all seems so blurry. You realise you have been Kidnapped.",
     "link": "https://escapereading.co.uk/book/#escape-rooms",
     "languages": "English",
@@ -252,8 +252,8 @@
     "minPlayers": 2,
     "maxPlayers": 7,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Sara + PJ, 5 different rooms, xrays, blood samples, weird glasses to read information, secret room through fridge, security alarm, piano, record player and warning that neighbours would complain"
   },
   {
     "id": 9,
@@ -275,7 +275,7 @@
     "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "New York Underworld takes place in 1930 on the streets of Little Italy. You have been tasked as an undercover federal agent to investigate the old barbershop, as something fishy is going on inside. People such as Al Capone, Joe Gallo, and Lucky Luciano have been seen going inside in the last month.",
     "link": "https://www.arcadia-escape.co.uk/",
     "languages": "English",
@@ -284,8 +284,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Wonderful theming, mob casino hidden in a barber shop, rigged typewriter to find hidden message, radio message gave a musical clue"
   },
   {
     "id": 10,
@@ -307,7 +307,7 @@
     "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You're trapped with nowhere to go with a body in front of you, what do you do next? You've been abducted by Dr. D Ranged and have woken up in his laboratory of horrors. Here he takes innocent bystanders and turns them into mutilated experiments... But you have a chance to escape before your time is up!",
     "link": "https://www.arcadia-escape.co.uk/",
     "languages": "English",
@@ -316,8 +316,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 16,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Horror theme turned down for us, tic tacs and blindfolds to 'knock us out', jail cell, iPad video message, mirror for code 'bitch', xrays on UV lights, suction cup, struggled getting out of exit door, gave money (£40.50) back due to 1 faulty padlock"
   },
   {
     "id": 11,
@@ -339,7 +339,7 @@
     "photo": "Y",
     "timeRemaining": 8.08,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "POISONED, CHAINED, BLINDFOLDED. Escape the lair of a serial killer... or die trying. Trapped and poisoned in the basement of a serial killer, you will have to confront each of the Seven Deadly Sins to survive. But for all of you to escape you will each need an antidote to the deadly poison coursing through your veins. The only way you will get enough antidotes is by proving yourself worthy and completing the killers Trials of Sin.",
     "link": "https://www.elusionrooms.com/seven-sins",
     "languages": "English",
@@ -349,7 +349,7 @@
     "maxPlayers": 8,
     "minAge": 15,
     "escapePercentage": "80%",
-    "review": "Amazing"
+    "review": "Crawling through a cupboard, four rooms, handcuffed to opposite walls, poisoned so had to find antidotes as well, removed jump scares, weighing meat to open door, dark room with video tapes to order for a code, crawl space with dolls hanging from ceiling to find their cause of death"
   },
   {
     "id": 12,
@@ -362,16 +362,16 @@
     "duration": 60,
     "price": "£44",
     "theming": 5,
-    "puzzles": 5,
+    "puzzles": 4,
     "gamesMaster": 2,
-    "value": 6,
+    "value": 5,
     "fun": 2,
-    "total": "40%",
+    "total": "36%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 3,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The galaxy is in peril, trapped under the cyborg fist of the feared Alpha One faction. The imperial regime rules from the space-fortress codenamed Horizon Alpha, a terrifying superweapon with an impenetrable security system. You are a plucky band of rebels - the best in the parsec - chosen to infiltrate the Horizon Alpha. In 60 minutes a massive rebel fleet will arrive through hyperspace and fire on the base, but you must manually deactivate the shields if this daring assault is to work. Grab your laser-swords. Arm your blasters. Complete the mission and escape before the Horizon Alpha is reduced to atoms. Good luck, you're our only hope!",
     "link": "https://breakinescaperooms.co.uk/",
     "languages": "English",
@@ -380,8 +380,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Zandro, single room, space themed, automatic cupboards under centre console, robot guy (R2D2) with video message, linear, hold hands to exit"
   },
   {
     "id": 13,
@@ -397,13 +397,13 @@
     "puzzles": 7,
     "gamesMaster": 10,
     "value": 9,
-    "fun": 7,
-    "total": "78%",
+    "fun": 8,
+    "total": "80%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The Wexell Corporation has developed an artificial intelligence, designed to create bespoke escape rooms that adapt to the competency of the players in real time. This exciting technology of tomorrow is not yet ready for widespread use, but this is your opportunity to get a sneak peek and apply to Wexell to become a beta-tester. You will be tasked with testing the system to it’s limits and provide feedback about how to improve it for the future; that is, as long as nothing goes wrong in the process...",
     "link": "https://deadlockedrooms.com/home.html",
     "languages": "English",
@@ -412,8 +412,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Portal theme, white room with projector, column with puzzle, EROS, hidden rooms, safe with £100, option to sabotage other player via bluetooth earpiece, different ending options, computer cables"
   },
   {
     "id": 14,
@@ -425,17 +425,17 @@
     "theme": "Spy",
     "duration": 60,
     "price": "£40",
-    "theming": 7.5,
+    "theming": 7,
     "puzzles": 7,
     "gamesMaster": 10,
     "value": 9,
     "fun": 9,
-    "total": "85%",
+    "total": "84%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Professor Bradley Samwell, the head of research at the Wexell Corporation, has gone missing. His bizarre disappearance coincides with the completion of some rather questionable, but valuable research on a project called ‘Phoenix’. The Wexell Corporation has asked your team, with your very specific set of skills, to investigate the missing employee and retrieve the research. But what if there is more to this research, and this company than lies on the surface?",
     "link": "https://deadlockedrooms.com/home.html",
     "languages": "English",
@@ -444,8 +444,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Two endings, follow the letter to the number in hidden room, office setting, entering code onto computer, postbox with clue from previous people who did the room"
   },
   {
     "id": 15,
@@ -460,14 +460,14 @@
     "theming": 7,
     "puzzles": 7,
     "gamesMaster": 7,
-    "value": 6,
+    "value": 5,
     "fun": 7,
-    "total": "68%",
+    "total": "66%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": 2.03,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Trapped in an office with a murderer on the loose – can you find the clues to escape before you become the next victim?",
     "link": "https://knockoutescaperooms.com/9-to-5-assassin/",
     "languages": "English",
@@ -476,8 +476,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Blinds for a code, gun to shoot security cameras, one room, hidden inside the chair, Neil Caffrey, stuff in filing cabinet drawers, reports of murders"
   },
   {
     "id": 16,
@@ -485,7 +485,7 @@
     "location": "Bristol",
     "country": "UK",
     "company": "Riddlr",
-    "name": "The Brunel EnigamesMastera",
+    "name": "The Brunel Enigma",
     "theme": "Steampunk",
     "duration": 60,
     "price": "£50",
@@ -499,17 +499,17 @@
     "photo": "Y",
     "timeRemaining": 17.1,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The year is 1842. Your friend and colleague Isambard Kingdom Brunel has sent for you by telegram. When you arrive at his office, he is missing and all is not as it seems. Fearing for his life, and with a limited time, you must work through the clues he has left, to find out what has happened and hopefully regain contact with your friend. Expect an early Victorian, Bristolian twist in this intriguing puzzle escape room.",
-    "link": "https://www.escapethereview.co.uk/escape-room/12577/riddlr-the-brunel-enigamesMastera/",
+    "link": "https://www.escapethereview.co.uk/escape-room/12577/riddlr-the-brunel-enigma/",
     "languages": "English",
     "status": "Closed",
     "difficulty": null,
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 13,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Skipped a puzzle, bicycle to power light behind code, mixed up typewriter, slider block puzzle, top hat, spot the difference UV lights, all homemade"
   },
   {
     "id": 17,
@@ -540,8 +540,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "WWII theme, in a bunker, pigeons with notes, bomb room, giant computer with wires, messed up typewriter, 4 rooms, Morse code"
   },
   {
     "id": 18,
@@ -572,8 +572,8 @@
     "minPlayers": 2,
     "maxPlayers": 5,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Up the stairs to time travel, train carriage briefing, investigate who wrote the note, disguise to meet station master, fill up the train, levers, kettle, decrypts to find"
   },
   {
     "id": 19,
@@ -586,16 +586,16 @@
     "duration": 60,
     "price": "£50",
     "theming": 8,
-    "puzzles": 8,
+    "puzzles": 7,
     "gamesMaster": 7,
     "value": 8,
     "fun": 8,
-    "total": "78%",
+    "total": "76%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Blackbeard is dead, his loot lies unguarded. Sink or swim? It’s up to you. Step onto a pirate galleon in the middle of a battle for control of the High Seas. Your captain, the terrifying Blackbeard, has just been killed and his ship is shot to pieces and sinking fast. With no chance of victory, you and your scurvy shipmates decide to jump ship – after helping yourself to the contents of Blackbeard’s legendary treasure chest. You’ve broken into his cabin to grab all you can, but now the door has jammed shut and you’ve just 60 minutes to escape; any longer and you’ll drown – if the sharks don’t get you first. Set sail for the high seas in this pirate themed escape room.",
     "link": "https://escapehunt.com/uk/bristol/games/blackbeards-treasure/",
     "languages": "English",
@@ -604,8 +604,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Pirate themed, 3 rooms, ropes maze with gunpowder, puzzle pieces to unlock door, feed parrot, clavichord to match the parrot song, ships in bottles with scents to open door, clothe skeleton for chest"
   },
   {
     "id": 20,
@@ -618,16 +618,16 @@
     "duration": 60,
     "price": "£50",
     "theming": 9,
-    "puzzles": 8,
+    "puzzles": 8.5,
     "gamesMaster": 9,
     "value": 8,
     "fun": 8,
-    "total": "84%",
+    "total": "85%",
     "escaped": "Y",
     "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "It’s your moment to shine in the Crown Jewels Heist! But this is no smash and grab robbery… Your mission has been meticulously planned for months and now is the perfect window of time to execute it. The plotted route will take you on a path through the Medieval Castle before reaching the Royal Family’s prize possessions, the Crown Jewels. Steal the treasure and make your escape, before you are discovered by the Royal Knights guarding the castle.",
     "link": "https://www.escapewindsor.co.uk/rooms/crown-jewels-heist/",
     "languages": "English",
@@ -636,8 +636,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Family made, new escape room, water filling puzzle, high fives the lady, giant floor safe, lazer grid upstairs, wants to improve, friendly guy"
   },
   {
     "id": 21,
@@ -656,10 +656,10 @@
     "fun": 0,
     "total": "4%",
     "escaped": "Y",
-    "photo": "Y",
+    "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You are a professional robber team. You got the information about a huge and rare diamond which is situated in the holiday home of a wealthy family. You've found the house, you have been able to evade the security guard, but it is not easy to find the diamond within the house. You have only one hour to complete the mission, because one hour later, the owner will arrive home. During this limited time, you need to be careful, because the security guard might check the room, where you are expecting to find the diamond, so you need to hide yourselves when you can hear his steps!",
     "link": "https://escapethereview.co.uk/escape-room/12262/exciting-game-oxford-project-the-diamond/",
     "languages": "English",
@@ -668,8 +668,8 @@
     "minPlayers": 2,
     "maxPlayers": 5,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "No security guard as advertised, lots of broken things, no music, non-linear, unenthusiastic host, boring"
   },
   {
     "id": 22,
@@ -688,10 +688,10 @@
     "fun": 3,
     "total": "34%",
     "escaped": "Y",
-    "photo": "N",
+    "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Your team participated in an experiment that aimed to prove the possibility of time travelling using microwave photons. The phenomenon quantum tunnelling seemed to be succeeding when something went wrong and the prisms you were experimenting with exploded. The explosion created a time loop. As a side effect you all lost your memories and you keep losing them as the time loop repeats itself, every 60 minutes. To break the loop and restore the damage you caused, you need to leave the “contaminated” room as you are part of the glitch in time and space. The only problem is: no one remembers the security code of the door...",
     "link": "https://escapethereview.co.uk/escape-room/11581/exciting-game-birmingham-broken-time/",
     "languages": "English",
@@ -700,8 +700,8 @@
     "minPlayers": 2,
     "maxPlayers": 5,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Apology game, better than Oxford, better theming but not the best, no music, scientist's office, messed up keyboards that were wrong, non-linear, frustrating, games master in charge of multiple rooms"
   },
   {
     "id": 23,
@@ -715,15 +715,15 @@
     "price": "£60",
     "theming": 8,
     "puzzles": 8,
-    "gamesMaster": 10,
+    "gamesMaster": 9,
     "value": 8,
     "fun": 8,
-    "total": "84%",
+    "total": "82%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The time-travelling super genius, Professor S. Pottenger, has been kidnapped by unknown assailants! We need you and your best team of detectives to head to the last known location of Pottenger’s abductors - the abandoned Parallax Military Bunker… Break into the hideout and retrieve all information you can before the security protocol is set off!",
     "link": "https://lockedinaroom.co.uk/milton-keynes/rooms",
     "languages": "English",
@@ -732,8 +732,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 7,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Enthusiastic hosts, 'lights!', best briefing to date, lots of items about (some of which were clues), literal red herring, second room with Morse code, bolt to unlock second room"
   },
   {
     "id": 24,
@@ -755,7 +755,7 @@
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Espionage is a treacherous game. In the heart of the cold war your friend alerts you to a mole in the service. He claims he has the final list of operatives, which will be sold soon. On your arrival your friend is dead and you’ve been lured into a trap. You have 60 minutes to break out and head to the safe house, before the timer ends and the whole place detonates! Do you think you’ve got what it takes to escape in under 60 minutes? If so, book online now and see if you can BREAKOUT!",
     "link": "https://www.escapethereview.co.uk/escape-room/11413/breakout-rooms-spy-games/",
     "languages": "English",
@@ -764,8 +764,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Booklet of clues, pictures on the wall, prop gun, UV light with lines on the walls, hidden door in a wardrobe, compass on the floor, money, plant pots with symbols"
   },
   {
     "id": 25,
@@ -780,14 +780,14 @@
     "theming": 7,
     "puzzles": 7,
     "gamesMaster": 8,
-    "value": 8,
+    "value": 7,
     "fun": 8,
-    "total": "76%",
+    "total": "74%",
     "escaped": "Y",
     "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Some say that the inspiration for the character of doctor Frankenstein came from Johann Conrad Dippel, a German scientist, who was born in the Frankenstein castle. Could they be right? In the mystical world of steam machines and airships you have only one hour to revitalize a homunculus and unravel Frankenstein's mystery. You will follow in the mad scientist's footsteps to complete his final experiment and attempt to reanimate the body of Frankenstein's Creature!",
     "link": "https://www.escapethereview.co.uk/escape-room/11786/komnata-quest-central-london-doctor-frankenstein/",
     "languages": "English",
@@ -796,8 +796,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Steampunk theming, costumes, Frankenstein story, lots of puzzles, started behind a curtain with no lights, behind a cell door, steam pipes with actual steam, Frankenstein's monster locked away, heavily discounted"
   },
   {
     "id": 26,
@@ -809,17 +809,17 @@
     "theme": "Time Travel",
     "duration": 90,
     "price": "£50",
-    "theming": 7.5,
+    "theming": 8,
     "puzzles": 8,
     "gamesMaster": 10,
     "value": 9,
     "fun": 9,
-    "total": "87%",
+    "total": "88%",
     "escaped": "Y",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The Wexell Corporation have designed a Time Machine, but unfortunately the first group to head into it never returned. Their actions have left rifts in time, altering history and the future in ways that we cannot fathom. The only way to save the world as we know it is to fix the Time Machine, but you’ll only have one minute to do so. If you fail, the machine will need to charge up before you can try again. Your only help is a small friendly robot called Wexie, and the Time Machine herself, who will try to spit you out in different timezones to try to teach you how to fix her.",
     "link": "https://deadlockedrooms.com/reading/",
     "languages": "English",
@@ -828,8 +828,8 @@
     "minPlayers": 2,
     "maxPlayers": 4,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Enthusiastic host even answered the phone in character, 3 physical rooms but 5 'rooms', 90 minute experience, flower in the vent, computer puzzles, train lines crashing, old ticket machine, Guy Fawkes"
   },
   {
     "id": 27,
@@ -851,7 +851,7 @@
     "photo": "N",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The Bedlam Institute ran for over 75 years, harbouring those thought mentally unstable to be members of society. Opening first in the late 1800s as a refuge for people who needed help, it soon turned into something far more sinister as the doctors began to perform horrifying experiments and tests on some of the patients. Many of the early patients died as a result of the testing, with them disappeared the majority of the records for the patients in what was to become a large scale cover up by those in charge at the institute. In the early 1900s things began to change in society and it became harder for the doctors to continue to cover up their fowl experiments, so they began to operate in secret, continuing their work but under a guise of progressive and new experimental treatments. Most of the records that were kept on patients were either fabricated or simply destroyed, making it almost impossible to track what was actually performed on the unfortunate souls who were admitted to the asylum. Fast forward 50 years to the admittance of Annie Sanbrooke, a poor young lady admitted to Bedlam under false pretences, it was clear from the start that she planned to escape… What happened to her while she was in the institute did she ever escape? You and your party have been sent to discover what happened to Annie and find your own freedom from one of the most evil places imaginable… Nothing is certain, you’re not sure how you got there and there’s an eerie feeling the place is long since abandoned.",
     "link": "https://www.escapethereview.co.uk/escape-room/11844/xscream-escapes-bedlam-escape-the-asylum/",
     "languages": "English",
@@ -860,8 +860,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Terrifying, people who made Big Top, rattling door and cupboard, diary pages, chessboard, typewriter, crawl space into control room"
   },
   {
     "id": 28,
@@ -892,8 +892,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Lovely hosts, 1666 fire of London, lots of shop fronts, egg shoot, 2-sided maze for brooch, courtyard with hidden cheese, choose 3 endings, chose moral good"
   },
   {
     "id": 29,
@@ -924,8 +924,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Alice Through The Looking Glass, mirrored rooms, hidden tiny cupboard, briefcases in order from audio clips, 3/3 collected"
   },
   {
     "id": 30,
@@ -956,8 +956,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Samie, Philip, and Tommie, 1939 WWII theme, car poster, UV table lamp, Hitler / Churchill posters, safety deposit boxes, chess board, typewriter"
   },
   {
     "id": 31,
@@ -979,7 +979,7 @@
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "This is no ordinary bank job. You are a team of professional robbers that have been assigned to break into the Bank of SCRAMM and transfer into an offshore account the incredible amount of €1 billion. You have an inside man and some information has been left behind that will allow you to access the banks systems and transfer the money. Failure is not an option as you only have one hour to complete you mission before the alarms sound and the police arrive !",
     "link": "https://www.scrammliveescape.co.uk/escape-rooms/",
     "languages": "English",
@@ -989,7 +989,7 @@
     "maxPlayers": 6,
     "minAge": 10,
     "escapePercentage": "48%",
-    "review": "Amazing"
+    "review": "1 room separated by iron cage bars, dick typewriter, large safe, unscrew vent in wall, key selotaped under mat, fake book, briefcase, knock knock who's there?"
   },
   {
     "id": 32,
@@ -1003,15 +1003,15 @@
     "price": "£50",
     "theming": 7,
     "puzzles": 4,
-    "gamesMaster": 3,
-    "value": 6,
+    "gamesMaster": 2,
+    "value": 5,
     "fun": 5,
-    "total": "50%",
+    "total": "46%",
     "escaped": "N",
     "photo": "Y",
     "timeRemaining": null,
     "teamSize": 3,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Time moves slowly at HMP Bracknell, where every day feels like an eternity. But fear not! You and your trusted friends won’t spend ten long years in this unjust imprisonment for a crime you didn’t commit. Armed with nothing more than your sharp intellects and unwavering determination, join forces to outsmart the guards and embark on a daring Prison Break to reclaim your freedom! As the clock ticks relentlessly, the stakes are higher than ever in this heart-pounding race for salvation.",
     "link": "https://puzzalogical.co.uk/prison-break/",
     "languages": "English",
@@ -1020,8 +1020,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Dominic, separated into two cells, spoons in a tiny tunnel, broken key drop, key issues when unlocking cells, colour blind issue, puzzles felt like they were missing clues"
   },
   {
     "id": 33,
@@ -1052,8 +1052,8 @@
     "minPlayers": 2,
     "maxPlayers": 7,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Diane, Bank heist, back of van inside room, get in the van, physical bank vault, pulling ATM open with chain and van, loads of safety deposit boxes, drop money into slot, additional calendar puzzle for larger groups, got the full £1m loot"
   },
   {
     "id": 34,
@@ -1065,12 +1065,12 @@
     "theme": "Heist, Prison Break",
     "duration": 120,
     "price": "£100",
-    "theming": 6,
+    "theming": 5,
     "puzzles": 3,
-    "gamesMaster": 6,
-    "value": 6,
+    "gamesMaster": 4,
+    "value": 5,
     "fun": 1,
-    "total": "44%",
+    "total": "36%",
     "escaped": "N",
     "photo": "Y",
     "timeRemaining": null,
@@ -1085,7 +1085,7 @@
     "maxPlayers": 6,
     "minAge": 12,
     "escapePercentage": "30%",
-    "review": "Amazing"
+    "review": "Started handcuffed together, no logical sense to the puzzles, Conor concussion, mini golf, owner wank fest - 'oh, aren't we clever for making these puzzles?', ballon to 'blow up' security box, annoying 'red herrings'"
   },
   {
     "id": 35,
@@ -1116,8 +1116,8 @@
     "minPlayers": 3,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Diane, absolutely stunning, lovely cape and beard, started in a cave, glowing crystals, Avatar tree, potion book, hidden stairs to summoning circle, bee with a key"
   },
   {
     "id": 36,
@@ -1148,8 +1148,8 @@
     "minPlayers": 3,
     "maxPlayers": 7,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Diane and Chloe, dance party!!!, big nuke, fucking wires, clocks on wall matching nicknames, lazer and mirrors"
   },
   {
     "id": 37,
@@ -1171,7 +1171,7 @@
     "photo": "Y",
     "timeRemaining": 5.23,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Samuel Pottenger and Albert Scabworthy; Two of the greatest scientists of a generation, forever locked in bitter rivalry. But now, Professor Pottenger has been kidnapped, and his fabled Infinity Device has begun to melt down, threatening all life on Earth. As a last resort, Pottenger has called upon the one mind powerful enough to find his Infinity Lab and avert disaster: his oldest enemy. As Dr Scabworthy’s most loyal interns, can you solve the mysteries of Pottenger’s house, uncover his greatest secret, and save the universe? Prove yourself worthy, and your names will live on through Infinity…",
     "link": "https://lockedinaroom.co.uk/milton-keynes/rooms",
     "languages": "English",
@@ -1180,8 +1180,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Linear puzzles, musical bells, butterflies, hidden room behind fireplace, playing card box red herring that fit the story, maths on the walls, codename on letters"
   },
   {
     "id": 38,
@@ -1212,8 +1212,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 13,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Didn't log this room, don't remember it at all, other than being disappointed"
   },
   {
     "id": 39,
@@ -1235,7 +1235,7 @@
     "photo": "Y",
     "timeRemaining": 28.23,
     "teamSize": 7,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Inspired by local history, play through a story of smuggling, corruption & revenge in our original and award nominated escape room, 'Smuggler's Ruin'! 'After a riotous run in with the local constabulary, your stalwart band of smugglers have had your precious barrels of gin seized! Rumour has it that your booze is in the possession of the crooked Commissioner of Worthing, and he's secretly storing it somewhere at the town hall...''. Can you beat the Commissioner's clues in time to reclaim your fortune of gin?!",
     "link": "https://www.mindworks-escaperooms.co.uk/smugglersruin",
     "languages": "English",
@@ -1244,8 +1244,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With my whole family, we didn't have much to do, not enough puzzles for a team of 7, started in the preshow room, GM was there with us, sand timer with town bells every 15 mins, sand timer puzzle, musical note bar pull puzzle, brick corridor behind a bookshelf with a pull book to open, UV lantern to reveal constellations, gin or paperwork ending"
   },
   {
     "id": 40,
@@ -1267,7 +1267,7 @@
     "photo": "Y",
     "timeRemaining": 20.56,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Even in the face of danger, the fate of countless lives rests in your hands. Coded enemy messages hold the key to preventing further devastation. Can you crack the code before time runs out?",
     "link": "https://cipherescape.co.uk/",
     "languages": "English",
@@ -1276,8 +1276,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Every inch was themed, starting with sandbags outside the entrance, all props were handmade or genuine 1940s items, no red herrings, decypher machine with spinning disks, TV with headphones and gas mask, heat mug code, send power to machine, coded typewriter, hatch in the floor, red light, bomb sounds and smoke pumped in, sent morse code to finish"
   },
   {
     "id": 41,
@@ -1299,7 +1299,7 @@
     "photo": "Y",
     "timeRemaining": 7.31,
     "teamSize": 3,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You wake up confused. You have never been here before. You try to move and notice you are handcuffed. As you take in your surroundings, reality dawns on you… You have been taken Hostage! You have lost track of time and the days roll into one. You hear the door slam and know that this is your only chance! Realising you can only rely on yourself and your friends, you take the opportunity to escape… ",
     "link": "https://blackoutgames.co.uk/rooms/",
     "languages": "English",
@@ -1309,7 +1309,7 @@
     "maxPlayers": 6,
     "minAge": 10,
     "escapePercentage": "45%",
-    "review": "Amazing"
+    "review": "With Diane, handcuffed to walls, lots of padlocks, crawl tunnel, Alexa, UV, Conor got scared by electric, colour magnet puzzle, tennis ball tube puzzle, fuse box thing puzzle"
   },
   {
     "id": 42,
@@ -1340,8 +1340,8 @@
     "minPlayers": 2,
     "maxPlayers": 5,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Toy shop theme, kept having to hide when Otto woke up (scary), had to find his marbles and put the teddy on display in the shop window, go back to pub and clean to get a clue, steal tablecloth from the hotel, Russian dolls, my name on a sign"
   },
   {
     "id": 43,
@@ -1363,7 +1363,7 @@
     "photo": "Y",
     "timeRemaining": 6.54,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "A game that totally redefines the meaning of ‘against the clock’. Step into the laboratory of Frontier Engineering, a research company tackling the unknowns of science, one paradox at a time. They are seeking teams of 2-6 to undertake a one hour trial of a mysterious and powerful device they call ‘The Unit’. They won’t tell us what it does, but they assure us that it is completely safe. In this weird science fiction adventure with strong undertones of Portal , you will be transported to impossible places and experience one of the craziest twists in escape room history. Seriously, this game will blow your minds! Prepare to enter….The Loop!",
     "link": "https://www.escapethereview.co.uk/escape-room/12925/the-panic-room-gravesend-loop/",
     "languages": "English",
@@ -1372,8 +1372,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Portal theme, old school projector, audio clue, computer forgot password then maze puzzle, then time travel, being chased by our past selves (our audio played back), melt ice to see arrows, holepunch puzzle, A4 page with stats"
   },
   {
     "id": 44,
@@ -1395,7 +1395,7 @@
     "photo": "Y",
     "timeRemaining": 0.1,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "WITCHES AND WIZARDS WANTED. Goblins have escaped Agatha's magic shop. We need you to hunt down what they stole and put them back in their cages. Enter a magical fantasy escape room that is fun for all ages. Wand waving, potion making and spell casting are all just a part of our most immersive and interactive game.",
     "link": "https://www.elusionrooms.com/potions-peril",
     "languages": "English",
@@ -1404,8 +1404,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Different wands with incantations, goblins for cages, eggs to be found and put in order, rain chant musical instruments, transported to goblin lair, make potion in cauldron, put the shop back, graded at the end, we got an A because we had more than 3 clues"
   },
   {
     "id": 45,
@@ -1427,7 +1427,7 @@
     "photo": "Y",
     "timeRemaining": 6.13,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "SOME DOORS SHOULD NOT BE OPENED. An Arctic research team stopped sending signals shortly after they found something in the ice. You have been sent to find out what happened to them... A sci fi thriller inspired by Stranger Things, Alien, John Carpenter's 'The Thing' and similar 80's Sci-Fi horror.",
     "link": "https://www.elusionrooms.com/from-beyond",
     "languages": "English",
@@ -1437,7 +1437,7 @@
     "maxPlayers": 6,
     "minAge": 11,
     "escapePercentage": "93%",
-    "review": "Amazing"
+    "review": "Lab room, find X415 samples to win, find petri dish and test tube to match to specimen chamber, fuses to turn on the power, strange characters mirrored in other room, tentacles on other side, creepy skeleton, eye for retinal scan to exit"
   },
   {
     "id": 46,
@@ -1468,8 +1468,8 @@
     "minPlayers": 2,
     "maxPlayers": 7,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "1927 grocery store front for a gambling ring, find the stolen diamond, figure of 8 toy train set, bottles linked to cans, thread sort linking with loose tiles, push to reveal, hidden coffee, knock 5 times to open 2nd room, push to show jewellery code, loose floorboards, radio"
   },
   {
     "id": 47,
@@ -1478,7 +1478,7 @@
     "country": "UK",
     "company": "Exciting Escapes",
     "name": "Millennium Meltdown",
-    "theme": "Set Time",
+    "theme": "Set Time, Catastrophe",
     "duration": 60,
     "price": "£56",
     "theming": 9,
@@ -1500,8 +1500,8 @@
     "minPlayers": 2,
     "maxPlayers": 2,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Looked like my dad's office, final hour of 1999, old computer that actually worked, clocks on the wall, The Internet, key in a hole punch, aliens, mainframe room, compare to MS Paint, check emails and calendar on computer for info"
   },
   {
     "id": 48,
@@ -1532,8 +1532,8 @@
     "minPlayers": 2,
     "maxPlayers": 7,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Art deco cinema, rubbish (empty cups and popcorn) as clues, popcorn machine, smelly ice cream, eat jelly beans for flavour, hidden pitch black crawl space for touching code, binoculars to see code, radio to hear movie sound tracks, all 5 senses"
   },
   {
     "id": 49,
@@ -1555,7 +1555,7 @@
     "photo": "Y",
     "timeRemaining": 10.47,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "PIRATES & PLUNDER AWAIT YOU. You will need to put together an expedition team and follow a map to the last known haunt of the pirate Captain Keats and the crew of The Wraith. An uncharted cave invites fortune hunters to uncover it's mysteries and make a hard choice between greed and honour.",
     "link": "https://www.elusionrooms.com/cursed-waters",
     "languages": "English",
@@ -1565,7 +1565,7 @@
     "maxPlayers": 8,
     "minAge": null,
     "escapePercentage": "95%",
-    "review": "Amazing"
+    "review": "Cave, Indiana Jones meets POTC, constellation table, throw balls for code, find hat, smoke booby trap, decide between golden apple (morally bad) and horn (morally good)"
   },
   {
     "id": 50,
@@ -1587,7 +1587,7 @@
     "photo": "Y",
     "timeRemaining": 2.23,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Evil genius and Brains's long time nemesis Dr Nogood has invented a time machine with a dastardly plan to travel through time changing the course of history for the worse! It's up to you and your team to stop his evil plans and escape the 80s before you're stuck in the past forever!",
     "link": "https://www.agentbrains.co.uk/",
     "languages": "English",
@@ -1596,8 +1596,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "80s bedroom, Atari with Donkey Kong, film posters, basketball hoop, rotary phone, trophies, rubix cube, toolboxes with padlocks, second room through wardrobe, time machine, GM in charge of 3 rooms"
   },
   {
     "id": 51,
@@ -1619,7 +1619,7 @@
     "photo": "Y",
     "timeRemaining": 1.18,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You are the assistants of a well-known scientist and you have the honour to be the first to test his newest invention. It is called the Time Machine. However, as it often happens with new things, something went wrong. And you've ended up in an a parallel world, the world of Steampunk. The question is - will you be able to get back? Steampunk is a world free from digital gimmicks and internal combustion engines. In this world everything is analog, built on the mechanisms powered by steam. It is a magical universe inspired by the novels of Jules Verne and Herbert Wells with magnificent victorian era interiors and electricity experiments of Nikola Tesla. ",
     "link": "https://myescape.club/our-rooms/steampunk-adventure",
     "languages": "English, Dutch",
@@ -1628,8 +1628,8 @@
     "minPlayers": 2,
     "maxPlayers": 7,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Steampunk time machine, tiny starting room, choose red or blue, help brain in jar to regain his senses, water fill puzzle, typewriter AR puzzle, 4 rooms, clocks set to the same time, little train!"
   },
   {
     "id": 52,
@@ -1660,8 +1660,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Hard hats, Mayan Temple theme, jungle run / crystal maze-esque, lots of climbing and small spaces, The Pit, none pre-recorded, all interaction is GM, insane crawl space to final room, Abi got jump-scared a lot (and screamed many times)"
   },
   {
     "id": 53,
@@ -1692,8 +1692,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Secret society, find blueprints, Tommy the robot (great moustache), little train with cards, cheesed the deck of cards puzzle, chess board under table, lots of padlocked chests"
   },
   {
     "id": 54,
@@ -1715,7 +1715,7 @@
     "photo": "Y",
     "timeRemaining": 8.34,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Howdy partner! (in crime). You've been tasked with looting the bank for all you can. Your buddy on the inside, Jesse Roberts, has left you clues to break into the bank, open the vault and get out of there without leaving a trail. Be sure to grab as much money as you can, but whatever you do, make sure the sheriff don't catch ya! Think you have what it takes?",
     "link": "https://www.therealescape.co.uk/the-western-job",
     "languages": "English",
@@ -1724,8 +1724,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Outside a bank to start, shoot the horseshoes with a toy gun, date padlock, morse code into code which caused map code, option to end early or continue to steal more money, something old something new rings, poker chips, matching symbols on spinning dials"
   },
   {
     "id": 55,
@@ -1756,8 +1756,8 @@
     "minPlayers": 2,
     "maxPlayers": 9,
     "minAge": 14,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Pub, Shitbox talking to us, bathroom behind amp, room behind fruit machine, dart board, Scrabble, find the poison and the deeds, magnetic drawers, we got to write our names in the bathroom graffiti"
   },
   {
     "id": 56,
@@ -1765,7 +1765,7 @@
     "location": "Woking",
     "country": "UK",
     "company": "Paradox Parlours",
-    "name": "Enchanted Relic: Wizard's EnigamesMastera",
+    "name": "Enchanted Relic: Wizard's Enigma",
     "theme": "Magic",
     "duration": 60,
     "price": "£0",
@@ -1779,17 +1779,17 @@
     "photo": "Y",
     "timeRemaining": 0.13,
     "teamSize": 2,
-    "gamesMasterName": "",
-    "description": "Embark on a spellbinding adventure in Paradox Parlour's brand new game, Wizard's EnigamesMastera. Trapped between worlds, Maxwell Mysterium needs your help to find the elusive Elixir and return him to his rightful realm. Gather your team, sharpen your wits, and prepare for a mesmerising journey into the unknown!",
-    "link": "https://paradoxparlours.com/book/woking/wizards-enigamesMastera",
+    "gamesMasterName": null,
+    "description": "Embark on a spellbinding adventure in Paradox Parlour's brand new game, Wizard's Enigma. Trapped between worlds, Maxwell Mysterium needs your help to find the elusive Elixir and return him to his rightful realm. Gather your team, sharpen your wits, and prepare for a mesmerising journey into the unknown!",
+    "link": "https://paradoxparlours.com/book/woking/wizards-enigma",
     "languages": "English",
     "status": "Currently open",
     "difficulty": null,
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Wizards, red/green/blue cupboard, shields puzzle using pictures and names to form a spell, lots of puzzles to get padlock codes but not in a bad way, wands on the mirror to release the wizard"
   },
   {
     "id": 57,
@@ -1811,7 +1811,7 @@
     "photo": "Y",
     "timeRemaining": 5.21,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "After months of detective work, you have been led to Sudz Laundrette, which we believe is linked to a money laundering gang. We have the main suspect, “The Don”, in custody and only an hour remaining before he is released. As investigators, you have this hour to secure the evidence before it is too late. The whole operation rests on you…",
     "link": "https://knockoutescaperooms.com/dirty-money/",
     "languages": "English",
@@ -1820,8 +1820,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Launderette, smelled like clean clothes, washing machines, laundering money, clothes rave room, the don secret room, add liquid to machine, football shirts numbers, super secret video clip on pc, same GM on Deadlocked back to back rooms "
   },
   {
     "id": 58,
@@ -1843,7 +1843,7 @@
     "photo": "Y",
     "timeRemaining": 11.26,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You and your team have been secretly working to develop a drug that gives super powers & create real life super heroes. The government discovered your plan and is about to shut down your lab for good. With no lab assistants or test subjects, you must develop and test the drug on yourself... This is your last chance to change the world... CAN YOU DEVELOP THE DRUG BEFORE THEY LOCKDOWN YOUR LAB?",
     "link": "https://www.bustout360.co.uk/lablockdown",
     "languages": "English",
@@ -1852,8 +1852,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Big chemical puzzle, synthesise the super power drug, jelly beans, changing lights and audio after each 'drug', pass the parcel puzzle with chemicals, plug in the gas line"
   },
   {
     "id": 59,
@@ -1884,8 +1884,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "With Samie, Philip, and Tommie. Oil rig theme, have to stop it blowing up, Allen key and gloves to unscrew the test samples, putting tools back in their places, pictures to get coordinates"
   },
   {
     "id": 60,
@@ -1916,8 +1916,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Barber shop, secret agent gone missing, launch missiles with 6 6-digit coordinates, bullet box for code, mirror hair cut puzzle, combs, got all 6 codes"
   },
   {
     "id": 61,
@@ -1939,7 +1939,7 @@
     "photo": "Y",
     "timeRemaining": 24.23,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The Mad Hatter is in trouble. Save him from the Queen of Hearts without losing your heads. Step into Wonderland, where the Hatter has been accused of stealing the Queen's Tarts. With Alice nowhere to be seen, it's time for you to fill her shoes. You find yourself at the Hatter's cottage. The table is set but no one is around. A sign on the lawn reads 'Tea Party Cancelled by Royal Decree'. Curiouser and curiouser... Find and return the Queen's Tarts in 60 minutes, or it's off with the Hatter's head. Chop chop. Tumble down the rabbit hole in this Alice themed escape room.",
     "link": "https://escapehunt.com/uk/woking/games/alice-in-puzzleland/",
     "languages": "English",
@@ -1948,8 +1948,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Alice in Wonderland, tea party, little house inside the room, tiny door with peepholes, hat Simon says, literal card suits (golf clubs)"
   },
   {
     "id": 62,
@@ -1971,7 +1971,7 @@
     "photo": "Y",
     "timeRemaining": 18.22,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Be part of the history. Join our team.",
     "link": "https://www.basel.adventurerooms.ch/booking-games-en",
     "languages": "English, German, French",
@@ -1980,8 +1980,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 9,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "First puzzle was just getting into the room, employee briefing for directional puzzle (not lock), VR headset with Simon Says and killing monsters, using a word code to find the correct time zone to call someone in, and exiting via the lift"
   },
   {
     "id": 63,
@@ -2003,7 +2003,7 @@
     "photo": "Y",
     "timeRemaining": 16,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "At home while cleaning up, you'll find a long-forgotten free spin game token...",
     "link": "https://www.basel.adventurerooms.ch/booking-games-en",
     "languages": "English, German, French",
@@ -2012,8 +2012,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 9,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Token given before entering, Arcade machines & foosball, fish tank and coloured dice ordering puzzle, Scrabble Monopoly Jenga to create Twister, mini RC Mini, Mario level editing"
   },
   {
     "id": 64,
@@ -2035,7 +2035,7 @@
     "photo": "Y",
     "timeRemaining": 7.05,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Blacksad needs you! A criminal mastermind is putting the famous detective in danger. To stop him, you need to sneak into his secret lair, uncover its secrets and find the documents needed to save Blacksad!",
     "link": "https://www.escapeprod.com/en/adventures/3-blacksad.html",
     "languages": "English, Dutch, French",
@@ -2044,8 +2044,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Find murder weapon, given a cloth to avoid fingerprints on murder weapon, piano & bench, music boxes, knock using morse code linked to a video, given too many clues too quickly"
   },
   {
     "id": 65,
@@ -2076,8 +2076,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Wow. Absolutely speechless. Everything felt and looked real. Alleyway puzzle before you enter the room, all controlled by GM's phone, real sparks, fog, scents, 3 level crawl tunnel, Conor got blasted in the face with fog"
   },
   {
     "id": 66,
@@ -2099,7 +2099,7 @@
     "photo": "Y",
     "timeRemaining": 8,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "The old toy factory of the Harsh family was the leader in its industry for 5 generations. The factory was widely known for producing the most toys. Unfortunately, these days, the factory is in bad condition and the only orders they get are small and from very faraway countries. Strangely enough, the factory is always looking for additional staff. Why don't you apply to work there for an hour? After all, the chances of being turned down are slim.",
     "link": "https://torchdale.be/en/the-toy-factory",
     "languages": "English, Dutch, French",
@@ -2108,8 +2108,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 16,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Scary and atmospheric. Toy shop, employees keep 'disappearing'. Briefing in locker room, uniforms, into ordering, ceiling came down (shrinking room) before going back up to reveal exit handle. Sorting & stuffing room, giant bear, song, split us up. Abi to boss's office, controlled the music and then threw the bears, Conor stayed in place, ranked employees and sorted bears, push the wall to extend the office, unclog the bird from the pipes, sort the boxes, we had to get into a van and were delivered to China"
   },
   {
     "id": 67,
@@ -2140,8 +2140,8 @@
     "minPlayers": 2,
     "maxPlayers": 12,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Entire building floor, all rooms accessible from the start, German U-boat theme, collect the money bags (British treasure), claw machine, lots of little puzzles, Crystal Maze fan room, non-linear, absolute chaos"
   },
   {
     "id": 68,
@@ -2163,7 +2163,7 @@
     "photo": "Y",
     "timeRemaining": 18.26,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "You have entered the Kingdom of the Viking Gods & you are sat in the House of Thor. In an attempt to prevent Thor’s succession to the throne of Asgard, Lowki, Thor’s menacing brother, has stolen & trapped Thor’s weapon in the golden rings of Aesir. The ice giants have got word of this, and they know Thor is helpless to protect the human race without his enchanted war-hammer. The giants are on there way, there mission to defeat Thor and destroy earth. Vikings! You must find the Gods and return them to Asgard as they will help you in you quest. You must find the thunder hammer and put it in the sacred place to create a storm like no-one has seen before. You must release Thor’s Hammer from the golden rings and return it to Thrudheim where it belongs. If you fail you will be the first to die.",
     "link": "https://extremescape.co.uk/viking/",
     "languages": "English",
@@ -2172,8 +2172,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Stunning Viking-themed room, sit behind table to start, rats with clues, shields on walls, separate toilet, drop down ceiling with ships puzzle and targets to hit, Thor's hammer moves, 'Matt Berry' voiceover, Britney spears"
   },
   {
     "id": 69,
@@ -2192,7 +2192,7 @@
     "fun": 10,
     "total": "96%",
     "escaped": "Y",
-    "photo": "",
+    "photo": "Y",
     "timeRemaining": 8.58,
     "teamSize": 2,
     "gamesMasterName": "Tom",
@@ -2204,8 +2204,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Back to the future theme, retrieve the 8 lab coats, 50s kitchen, set off the smoke alarm by turning on the oven, then oven pulls out to enter 80s boys bedroom, Marty McFly gilet which Abi wore, RC car (broken), direction lock related to PacMan's route, time machine"
   },
   {
     "id": 70,
@@ -2224,7 +2224,7 @@
     "fun": 10,
     "total": "96%",
     "escaped": "Y",
-    "photo": "",
+    "photo": "Y",
     "timeRemaining": 21.08,
     "teamSize": 2,
     "gamesMasterName": "Mike",
@@ -2236,8 +2236,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Find Marv, collect money, carnival games (bowlarama, plinko, NERF guns, sweet cart, hook a duck, mini golf), circus behind the scenes, animal fart noises, monkeys falling from ceiling"
   },
   {
     "id": 71,
@@ -2268,8 +2268,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 8,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Spinning straightjacket, orange tree illusion, mirror, Tom's first ever top hat and stage suit, photos with tilting eyes, wall opening to show more puzzles, number trick (pick a random number, do things, get padlock code)"
   },
   {
     "id": 72,
@@ -2300,8 +2300,8 @@
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "22 out of 24 puzzles, 8 missed turds (6 from lockers, 2 from hidden compartment), plumber's office, storage room, UV corridor, bathroom, enter code into computer to get keys, final 5 mins of mayhem to unlock all the lockers, Abi misread tomatoes/potatoes"
   },
   {
     "id": 73,
@@ -2332,15 +2332,15 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": 10,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Started in the street, then into lab, feed neighbours' cat, crawlspace with handprint cutouts to feel, glittery room, Julian the alien, surgical camera to probe the aliens, Aliens for Dummies book, literal space ship in ceiling, Julien got taken home (disappeared)"
   },
   {
     "id": 74,
     "datePlayed": "07/06/2025",
     "location": "Wakefield",
     "country": "UK",
-    "company": "EnigamesMastera Rooms",
+    "company": "Enigma Rooms",
     "name": "GRIMM - Up North",
     "theme": "Story, Collection",
     "duration": 75,
@@ -2357,15 +2357,15 @@
     "teamSize": 2,
     "gamesMasterName": "Ava",
     "description": "Journey into the land of the Brothers Grimm to restore order amongst the fairy tale folk. How many famous tales will you be able to piece back together in 75 minutes? Back in a magical time, the Brothers Grimm were the guardians of the land of fairy-tales, but something is wrong. The brothers are nowhere to be found and the stories are in disarray. We need your help brave adventurers to restore the stories and collect the “Happily Ever Afters”. We have just enough magic to send you to their realm for 75 minutes, after this time you must return to our world. How many will you collect before your time runs out?",
-    "link": "https://enigamesMasterarooms.co.uk/escape-rooms-wakefield/grimm-up-north/",
+    "link": "https://enigmarooms.co.uk/escape-rooms-wakefield/grimm-up-north/",
     "languages": "English",
     "status": "Currently open",
     "difficulty": 4.5,
     "minPlayers": 2,
     "maxPlayers": 6,
     "minAge": 12,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "Main quest, followed by collection (6 Happily Ever Afters), wolf figure on wall to add ears and teeth, tell story with radio, dice sudoku, make a potion, children (us) in cage, laces with redacted story, foot pedal to spin spinning wheel, sleeping beauty, then collection puzzles"
   },
   {
     "id": 75,
@@ -2387,7 +2387,7 @@
     "photo": "Y",
     "timeRemaining": 4.26,
     "teamSize": 2,
-    "gamesMasterName": "",
+    "gamesMasterName": null,
     "description": "Step into The Grand Heist Escape Room Derby — a thrilling 60-minute vault break-in designed to test your team’s skill, speed and nerve. As the pressure mounts, your team must solve puzzles, bypass security systems, and make split-second decisions. Will you play it safe and grab a few bars, or risk everything for the full haul? Whether you’re a seasoned escapee or tackling your first mission, The Grand Heist Escape Room Derby is designed to test your teamwork, timing, and nerve. Every decision matters — and every second counts. So, will you walk away with a handful… or crack the entire vault?",
     "link": "https://theescaperoomguys.co.uk/the-grand-heist/",
     "languages": "English",
@@ -2396,8 +2396,8 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "This was a game of two halves - a short escape room, followed by a set of colleaction-styled puzzles. We found the puzzles to be a little basic, and the theming was there, but sparse."
   },
   {
     "id": 76,
@@ -2428,7 +2428,327 @@
     "minPlayers": 2,
     "maxPlayers": 8,
     "minAge": null,
-    "escapePercentage": "",
-    "review": "Amazing"
+    "escapePercentage": null,
+    "review": "We'd been recommended to do this room by so many people, and finally we managed to make our way to Nottingham. We were met by our GM, Adam, who gave us a briefing before beinging us into the room. It's worth noting that the doors throughout this room are small - raised off the ground, as well as below head height. This room was beautiful, themed from floor to ceiling, and incredibly immersive. The hint system was even themed (and a little sassy), with well-themed, logical puzzles. We really enjoyed this room, along with the sense of humour that we found in unexpected places."
+  },
+  {
+    "id": 77,
+    "datePlayed": "24/06/2025",
+    "location": "Ixelles",
+    "country": "Belgium",
+    "company": "Escape Rush",
+    "name": "Botanist Manor",
+    "theme": "Spy",
+    "duration": 80,
+    "price": "£180",
+    "theming": 11,
+    "puzzles": 9,
+    "gamesMaster": 10,
+    "value": 10,
+    "fun": 10.5,
+    "total": "101%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 4,
+    "teamSize": 3,
+    "gamesMasterName": null,
+    "description": "Your mission “Botanist Manor” will take you to Kirkwall, Scotland, in the Orkney Islands. In 80 minutes, you will have to infiltrate a mysterious escape game called “TimeGates”, owned by the eccentric Ewan McAllister, in order to find Sarah Fisher, a famous journalist who disappeared a week ago. Sarah Fisher, an investigative journalist from the Herald Scotland, disappeared without a trace a week ago near Blair Manor. This historic site has now been transformed into an escape game centre, called “TimeGates”. Your mission, should you choose to accept it, is to use the time machine to go back in time to the town of Kirkwall. Once there, you will have to infiltrate this escape game by posing as ordinary customers and attempt to save the journalist before it’s too late.",
+    "link": "https://escaperush.com/botanist-manor-escape-game-brussels?lang=en",
+    "languages": "English, French, Dutch",
+    "status": "Currently open",
+    "difficulty": 4,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "minAge": 16,
+    "escapePercentage": null,
+    "review": "Oh my, where do we even start with Botanist Manor? Firstly, as it's a room with a minimum of 3 players, we brought Conor's brother with us for this room. We were the first room of the day. Given the overall theme of Escape Rush is that they are a secret spy agency, it made so much sense that they didn't have a big shop front. In fact, the only sign that they were even there was a small sign that stated the name of the spy agency, Ravenswood. Upon meeting our GM, we were asked if we were there to buy a suit. We took far too long to catch on, so he very helpfully reminded us that we'd booked for a floral suit fitting, as we're BOTANISTS. He led us through the door, past some elaborate shop fronts, into one that looked exactly like a London tailer's shop. It felt like we were on the set of Kingsman (if you haven't seen that film, we recommend it). We were then given a briefing, in a secret agent briefing room, before beginning the room. The story is a little complex, with you being people doing an escape room, pretending to be secret agents going back in time, to do an escape room, to solve a disappearance. As always, we won't give spoilers in this review, but just know that the word 'stunning' doesn't even begin to cover how well-themed this room was. The whole thing felt like being in a movie, with some incredible moments that we still can't stop talking about. This was truly an escape experience, rather than an escape room. While there weren't lots of puzzles, Botanist Manor is one that we would recommend as a must-do room."
+  },
+  {
+    "id": 78,
+    "datePlayed": "20/07/2025",
+    "location": "Guildford",
+    "country": "UK",
+    "company": "Paradox Parlours",
+    "name": "Venus",
+    "theme": "Sci-Fi",
+    "duration": 60,
+    "price": "£68",
+    "theming": 6.5,
+    "puzzles": 8,
+    "gamesMaster": 10,
+    "value": 8,
+    "fun": 10,
+    "total": "85%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 16.16,
+    "teamSize": 2,
+    "gamesMasterName": "Kieran",
+    "description": "The fate of the world rests on your shoulders. Will you rise to the challenge and put an end to VENUS? Or will technology tighten its hold on mankind, forever altering the course of history?",
+    "link": "https://paradoxparlours.com/escape-rooms/guildford",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": null,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "minAge": 11,
+    "escapePercentage": null,
+    "review": "With a theme of an AI assistant gone wrong, we weren't really sure what to expect. It was our first visit to the Guildford branch of Paradox Parlours, and our first time meeting Kieran, our GM. While the theming wasn't that special (it was themed to a living room, but it was fairly basic), the communications with the AI assistant (played by Kieran) were hilarious! It started with polite comments, before evolving through sassy remarks, joking with us (and at our expense), and finally ending up singing over us trying to share puzzle answers. The room itself wasn't anything special, but this room was absolutely worth it for the AI assistant! Top marks to Kieran, who also gave us a wonderful debrief after, along with a fairly long chat about escape rooms and theme parks."
+  },
+  {
+    "id": 79,
+    "datePlayed": "02/08/2025",
+    "location": "Reading",
+    "country": "UK",
+    "company": "Knockout",
+    "name": "The Curious Cabin",
+    "theme": "Set Time",
+    "duration": 60,
+    "price": "£80",
+    "theming": 8.5,
+    "puzzles": 8.5,
+    "gamesMaster": 10,
+    "value": 9,
+    "fun": 9,
+    "total": "90%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 20.4,
+    "teamSize": 3,
+    "gamesMasterName": "Winter",
+    "description": "For many years, you have been intrigued about the goings-on in this cabin. The workers have downed tools and this has given you the chance to enter and explore. The risks you face are the danger of what’s inside and if you can escape before they return or be trapped forever. At last, you may find out answers to your curiosities, BUT will you return to tell the secrets? Venture into – The Curious Cabin…",
+    "link": "https://knockoutescaperooms.com/the-curious-cabin/",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": 3,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "minAge": 10,
+    "escapePercentage": null,
+    "review": "Having had good experiences with Knockout in the past, we were excited to be back. We brought Conor's brother along with us for this room. Our GM, Winter, was bubbly and enthusiastic. The theming in this room was beautiful, the puzzles were varied, and there were some pretty cool moments during the room, including one mechanic that we'd never seen before. We also really enjoyed the sassy character that our GM became while giving us hints! Overall, this room was such good fun!"
+  },
+  {
+    "id": 80,
+    "datePlayed": "03/08/2025",
+    "location": "Salisbury",
+    "country": "UK",
+    "company": "Live Escape Salisbury",
+    "name": "The Brig",
+    "theme": "Pirates",
+    "duration": 60,
+    "price": "£55",
+    "theming": 9.5,
+    "puzzles": 8,
+    "gamesMaster": 10.5,
+    "value": 9,
+    "fun": 9,
+    "total": "92%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 21,
+    "teamSize": 2,
+    "gamesMasterName": "Charlie",
+    "description": "Captured by the East India Trading Company you and your pirate crew have been chained up and locked in the brig of their galleon, anchored in Salisbury Docks. When the King’s men arrive you and your crew will face the executioner. Use your collective cunning to escape your floating prison and reclaim your treasure (currently being plundered at The Plume of Feathers Inn).",
+    "link": "https://live-escape.co.uk/salisbury-escape/",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": null,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "minAge": null,
+    "escapePercentage": null,
+    "review": "Upon entering, our GM (Charlie) greeted us in character. He asked us to take a seat at the large, beautiful wooden table in the center of the room, and gestured to the cells that were directly in front of us. He informed us that we would be chained up in the brig for our crimes. He started by giving us nicknames (Abi was Brains, as the brains of the operation, and Conor was Muscles, because he's the strong one), before chaining us up (with soft, easy-release velcro cuffs) in separate cells, and leaving us to work out our escape. The executioner came to visit at points during the room, and we had to pretend to still be chained up if we'd managed to get our cuffs off (following the game machanics, not just by removing them ourselves). If we needed it, he gave us cryptic clues, and it was such an immersive way of providing hints. Once we got over the fact that anyone walking past the shop front could see us, we quickly were immersed, and we absolutely loved the variety of puzzles. A fantastic room, an enthusiastic and lovely GM, and a wonderful experience."
+  },
+  {
+    "id": 81,
+    "datePlayed": "03/08/2025",
+    "location": "Chandler's Ford",
+    "country": "UK",
+    "company": "Genius Escapes",
+    "name": "Nuclear Nightmare",
+    "theme": "Catastrophe",
+    "duration": 60,
+    "price": "£56",
+    "theming": 6.5,
+    "puzzles": 7,
+    "gamesMaster": 7,
+    "value": 7,
+    "fun": 6,
+    "total": "67%",
+    "escaped": "N",
+    "photo": null,
+    "timeRemaining": null,
+    "teamSize": 2,
+    "gamesMasterName": null,
+    "description": "You have arrived for your guided tour at Fusion-Tec, a new startup company that has developed a miniature nuclear module to power military vehicles. You are one of a select few who have been given a chance to see the inner workings of this exciting, state-of-the-art company. But, there is a problem, a BIG problem, can you and your team mates use your problem-solving skills to solve the problems and prevent a nuclear disaster?",
+    "link": "https://geniusescapes.com/room/nuclear-nightmare/",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": 4,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "minAge": null,
+    "escapePercentage": "55%",
+    "review": "We were excited for this room, as the idea of having difficulty levels was a new one for us. You could choose Standard (for players who have played 5 or less escape rooms, up to 10 clues), Advanced (for players who have played more than 5 escape rooms, up to 5 clues), or Genius (for players who have played more than 50 escape rooms, up to 3 clues). We chose Advanced, as while we've done more than 50 escape rooms, we're only a team of two. This difficulty level determines which manual you are given. After a video briefing, we were directed to the room by our GM. Unfortunately, the puzzles in this room felt very disjointed. Once you find the manual, the rest of the room was a confusing mess of looking at the manual and trying to find a thing that looked like it matches what's in the manual. We weren't given many hints, until the final 3 minutes, when suddenly we were bombarded with so many clues that we couldn't make use of them all. One item that we needed to find was hidden high up, above head height, so Abi (who's 5 foot 6 inches tall) couldn't see it, even after our GM pointed it out to us. In the end, we weren't successful, being two puzzles away from escaping. We felt a little let down by this room - we don't mind not escaping if we've had a good time, but it was more stressful than enjoyable."
+  },
+  {
+    "id": 82,
+    "datePlayed": "04/08/2025",
+    "location": "Bournemouth",
+    "country": "UK",
+    "company": "MARVO",
+    "name": "Room 1: Marvo Induction",
+    "theme": "Story",
+    "duration": 60,
+    "price": "£64",
+    "theming": 11,
+    "puzzles": 9,
+    "gamesMaster": 11,
+    "value": 10,
+    "fun": 10,
+    "total": "102%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 5.23,
+    "teamSize": 2,
+    "gamesMasterName": "David",
+    "description": "You enter the world of M.A.R.V.O as Volunteers looking to recover a Mysterious Artifact, all is not what it seems. Old stories and books give a glimpse into another world, a mirror world, a wonderland filled with powerful Artifacts. Has someone found a way to travel between them? You must search for clues, solve the mystery, recover the Artifact and try to escape, all before time runs out.",
+    "link": "https://www.marvomysteries.co.uk/marvo/",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": null,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "minAge": 10,
+    "escapePercentage": "42%",
+    "review": "This room absolutely blew our minds. It's as high-quality as some of the best rooms in Europe, without the Europe price tag. Our GM, Agent David, was in character from the moment we stepped foot through their doors. In fact, we were involved in the story before we arrived, being directed to a secret entrance via instructions in our confirmation email. We were given time to explore their museum (with most items being hand-made), before the room began. For this room, we won't tell you anything specific - you need to experience it! It felt more akin to the escape experiences that are more common in Europe, and the story was told beautifully. This room immediately became one of our favourite rooms, to the point that we actually bought merch! Marvo Induction is definitely a must-do room in the UK, and it's worth a visit, no matter how long the journey is to get there."
+  },
+  {
+    "id": 83,
+    "datePlayed": "05/08/2025",
+    "location": "Bournemouth",
+    "country": "UK",
+    "company": "Arcadia Escape Rooms (U-Escape)",
+    "name": "The Street Artist (Franksy)",
+    "theme": "Detective",
+    "duration": 60,
+    "price": "£56",
+    "theming": 8,
+    "puzzles": 8,
+    "gamesMaster": 9,
+    "value": 8,
+    "fun": 9,
+    "total": "84%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 13.07,
+    "teamSize": 2,
+    "gamesMasterName": "George",
+    "description": "Reporting on the story of the world-famous graffiti artist who is hiding in the city. Your news firm will pay top dollar for information leading to his identity, so when tipped about the whereabouts of his hideout your aim is simple... or is it?",
+    "link": "https://www.arcadia-escape.co.uk/the-street-artist.aspx",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": 5,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "minAge": 10,
+    "escapePercentage": null,
+    "review": "As the last room from the former U-Escape (now Arcadia Escape Rooms), we've been wanting to do this room for a while. We'd been putting it off a little due to the conflicting reviews - some saying it's really good, others saying it wasn't being well-maintained. Our GM, George, was friendly and welcoming, and he led us down to the basement for the start of this room. The main room was themed pretty well, feeling like a graffiti'd alley. However, the reviews were right. The puzzles themselves were good, although nothing special. One of the puzzles was difficult to complete as some paint had worn away. It also relied on colour a lot, which was difficult due to Conor being colour blind. The entire room had a mild damp smell, and when we entered the final room, we could see light patches of mold all over one of the walls. Such a shame, it felt like this room was once fantastic, but hasn't been cared for as much as it should have been."
+  },
+  {
+    "id": 84,
+    "datePlayed": "06/08/2025",
+    "location": "Basingstoke",
+    "country": "UK",
+    "company": "Exciting Escapes",
+    "name": "The Disappearing Duchess: Chapter 1 (1896)",
+    "theme": "Set Time",
+    "duration": 60,
+    "price": "£63",
+    "theming": 9.5,
+    "puzzles": 9,
+    "gamesMaster": 10,
+    "value": 9,
+    "fun": 9,
+    "total": "93%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 25.36,
+    "teamSize": 2,
+    "gamesMasterName": "Savannah",
+    "description": "It's 1896, and the disappearance of a member of the Russian nobility threatens a diplomatic incident. Can you find the clues and solve the mystery of her disappearance?",
+    "link": "https://excitingescapes.co.uk/locations/basingstoke/",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": 3.5,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "minAge": 8,
+    "escapePercentage": null,
+    "review": "We've never played a bad room with Exciting Escapes, and this room was no exception. Our GM, Savannah, was fantastic, even going out of her way to move our second booked room earlier so we didn't have to wait around between rooms. The Disappearing Duchess: Chapter 1 is set in 1896, on a ship. Despite having such a small footprint, this room genuinely felt like we were on a boat (without the horrible rocking motion of an actual boat, thankfully). There were quite a few puzzles and tasks that we hadn't seen done in that way before, and the whole room was such fun! While it is part 1 of a multi-part escape room series, it could definitely be done as a standalone room."
+  },
+  {
+    "id": 85,
+    "datePlayed": "06/08/2025",
+    "location": "Basingstoke",
+    "country": "UK",
+    "company": "Exciting Escapes",
+    "name": "The Disappearing Duchess: Chapter 2 (1914)",
+    "theme": "War",
+    "duration": 60,
+    "price": "£63",
+    "theming": 9.5,
+    "puzzles": 8.5,
+    "gamesMaster": 10,
+    "value": 9,
+    "fun": 8.5,
+    "total": "91%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 7.15,
+    "teamSize": 2,
+    "gamesMasterName": "Savannah",
+    "description": "Its 1914, on the front line of World War 1. Can you survive 60 minutes in the trenches and uncover the the secrets before the order comes to go 'over the top'? Playable as a follow on adventure to chapter 1, or as a standalone game.",
+    "link": "https://excitingescapes.co.uk/locations/basingstoke/",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": 4,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "minAge": 8,
+    "escapePercentage": null,
+    "review": "Yet another great room from Exciting Escapes! We had the same GM for this as we had for The Disappearing Duchess: Chapter 1, called Savannah, and she was just as fantastic for this room. This Chapter is set in 1914, and you're started in the trenches of World War One. It's worth noting here that this first room is a little narrow, so going past each other was tricky, even with just two of us in the room. We enjoyed this room, although we did have a few moments of standing around wondering what we were missing in order to progress. There's also one puzzle that's difficult (but not impossible) with only two people. While it is part 2 of a multi-part escape room series, it could definitely be done as a standalone room."
+  },
+  {
+    "id": 86,
+    "datePlayed": "11/08/2025",
+    "location": "Crawley",
+    "country": "UK",
+    "company": "Hounds",
+    "name": "The Explorer's Diary",
+    "theme": "Jungle",
+    "duration": 90,
+    "price": "£90",
+    "theming": 9.5,
+    "puzzles": 8.5,
+    "gamesMaster": 11,
+    "value": 9.5,
+    "fun": 9,
+    "total": "95%",
+    "escaped": "Y",
+    "photo": "Y",
+    "timeRemaining": 28.36,
+    "teamSize": 3,
+    "gamesMasterName": "Lady Beatrice",
+    "description": "You've heard of Sir Benjamin Diggit, a famous archaeologist who disappeared along with his treasures. Following his ruined diary, and assisted by a rather stuck-up member of the British Authorities, your Mission is set! Just make sure the same fate doesn't befall you…",
+    "link": "https://www.houndsescape.co.uk/the-explorers-diary",
+    "languages": "English",
+    "status": "Currently open",
+    "difficulty": null,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "minAge": 8,
+    "escapePercentage": null,
+    "review": "We'd heard incredible things about the rooms at Hounds, so we felt like it was definitely time to give one a go. After a bit of confusion when we tried to enter the building 15 minutes early, and finding our access code hadn't been enabled yet, we managed to get in. Our amazing GM, Lady Beatrice, met us at the top of the stairs, fully in character from the moment we saw her. She led us into a room where we 'flew' to Peru. From there, she led us into the first room of the escape room. We won't give you any spoilers, but the entire thing was absolutely beautiful, and the fact that it was a hot day outside definitely helped us to feel like we were in Peru! With some very cool mechanics in place, including a moment in which we were very glad we'd been nice to Lady Beatrice. This escape room also had a choice of endings, as well as a lovely points score about the things that we'd done (and a joke about how bad we are at anagrams). Overall, it was a very enjoyable room, the theming was beautiful, and the puzzles were fun."
   }
 ]

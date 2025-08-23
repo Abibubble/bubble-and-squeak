@@ -3,13 +3,19 @@ import { spacing } from '../../theme'
 
 export const SelectorGroup = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  gap: ${spacing.medium};
-  margin: ${spacing.small} 0;
+  flex-direction: column;
+  gap: ${spacing.tiny};
+  margin: ${spacing.tiny} 0;
   align-items: flex-start;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
+  @media (min-width: 480px) {
+    margin: ${spacing.small} 0;
     gap: ${spacing.small};
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: ${spacing.medium};
   }
 `

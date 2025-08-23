@@ -3,18 +3,39 @@ import { fonts, spacing, colours } from '../../theme'
 
 export const TableContainer = styled.div`
   width: 100%;
-  overflow-x: auto;
-  margin: ${spacing.small} 0;
-  border-radius: ${spacing.tiny};
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: ${spacing.tiny} 0;
+  border-radius: ${spacing.fine};
   box-shadow: 0 ${spacing.mini} ${spacing.tiny} ${colours.shadowLight};
   background: ${colours.white};
+
+  @media (min-width: 480px) {
+    margin: ${spacing.small} 0;
+    border-radius: ${spacing.tiny};
+    overflow-x: auto;
+  }
 `
 
 export const Table = styled.table`
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   font-size: ${fonts.small};
-  min-width: 600px;
+  min-width: 320px;
+  table-layout: auto;
+
+  @media (min-width: 360px) {
+    min-width: 360px;
+  }
+
+  @media (min-width: 480px) {
+    min-width: 500px;
+  }
+
+  @media (min-width: 640px) {
+    min-width: 600px;
+  }
 `
 
 export const TableHead = styled.thead`
@@ -37,23 +58,86 @@ export const TableRow = styled.tr`
 `
 
 export const TableHeader = styled.th`
-  padding: 12px ${spacing.small};
+  padding: ${spacing.fine} ${spacing.micro};
   text-align: left;
   font-weight: 600;
   color: ${colours.slateGrey};
   border-bottom: ${spacing.micro} solid ${colours.borderGrey};
+  font-size: ${fonts.small};
+  word-wrap: break-word;
+
+  @media (min-width: 360px) {
+    padding: ${spacing.tiny} ${spacing.fine};
+  }
+
+  @media (min-width: 480px) {
+    padding: 12px ${spacing.small};
+  }
+
+  &.hide-mobile {
+    display: none;
+
+    @media (min-width: 640px) {
+      display: table-cell;
+    }
+  }
+
+  &.hide-small {
+    display: none;
+
+    @media (min-width: 480px) {
+      display: table-cell;
+    }
+  }
 `
 
 export const TableCell = styled.td`
-  padding: 12px ${spacing.small};
+  padding: ${spacing.fine} ${spacing.micro};
   vertical-align: middle;
   color: ${colours.charcoal};
+  font-size: ${fonts.small};
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  hyphens: auto;
+  min-width: 0;
+
+  @media (min-width: 360px) {
+    padding: ${spacing.tiny} ${spacing.fine};
+  }
+
+  @media (min-width: 480px) {
+    padding: 12px ${spacing.small};
+  }
+
+  &.hide-mobile {
+    display: none;
+
+    @media (min-width: 640px) {
+      display: table-cell;
+    }
+  }
+
+  &.hide-small {
+    display: none;
+
+    @media (min-width: 480px) {
+      display: table-cell;
+    }
+  }
 `
 
 export const RoomLink = styled.a`
   color: ${colours.blue};
   text-decoration: none;
   font-weight: 500;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  display: block;
+  white-space: normal;
+  max-width: 100%;
+  min-width: 0;
+  width: 100%;
 
   &:hover {
     text-decoration: underline;
@@ -67,11 +151,12 @@ interface ScoreCellProps {
 
 export const ScoreCell = styled.span<ScoreCellProps>`
   display: inline-block;
-  padding: ${spacing.fine} ${spacing.tiny};
+  padding: ${spacing.micro} ${spacing.fine};
   border-radius: ${spacing.fine};
   font-weight: 600;
   text-align: center;
-  min-width: 40px;
+  min-width: 25px;
+  font-size: ${fonts.small};
   color: ${colours.white};
   background-color: ${props => {
     const score = Number(props.score)
@@ -82,4 +167,13 @@ export const ScoreCell = styled.span<ScoreCellProps>`
     if (score >= 4) return colours.orange
     return colours.red
   }};
+
+  @media (min-width: 360px) {
+    padding: ${spacing.fine} ${spacing.tiny};
+    min-width: 30px;
+  }
+
+  @media (min-width: 480px) {
+    min-width: 40px;
+  }
 `

@@ -16,10 +16,16 @@ export default function ListView({ rooms }: ListViewProps) {
       <Styled.Table>
         <Styled.TableHead>
           <Styled.TableRow>
-            <Styled.TableHeader>Room Name</Styled.TableHeader>
-            <Styled.TableHeader>Company</Styled.TableHeader>
-            <Styled.TableHeader>Location</Styled.TableHeader>
-            <Styled.TableHeader>Overall Score</Styled.TableHeader>
+            <Styled.TableHeader>Room</Styled.TableHeader>
+            <Styled.TableHeader className='hide-small'>
+              Company
+            </Styled.TableHeader>
+            <Styled.TableHeader className='hide-mobile'>
+              Location
+            </Styled.TableHeader>
+            <Styled.TableHeader className='hide-mobile'>
+              Score
+            </Styled.TableHeader>
           </Styled.TableRow>
         </Styled.TableHead>
         <Styled.TableBody>
@@ -36,11 +42,13 @@ export default function ListView({ rooms }: ListViewProps) {
                   {room.name}
                 </Styled.RoomLink>
               </Styled.TableCell>
-              <Styled.TableCell>{room.company || 'Unknown'}</Styled.TableCell>
-              <Styled.TableCell>
+              <Styled.TableCell className='hide-small'>
+                {room.company || 'Unknown'}
+              </Styled.TableCell>
+              <Styled.TableCell className='hide-mobile'>
                 {room.location}, {room.country}
               </Styled.TableCell>
-              <Styled.TableCell>
+              <Styled.TableCell className='hide-mobile'>
                 <Styled.ScoreCell score={parseFloat(getOverall(room)) || 0}>
                   {getOverall(room)}
                 </Styled.ScoreCell>
