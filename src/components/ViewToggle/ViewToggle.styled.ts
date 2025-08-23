@@ -6,7 +6,7 @@ export const ToggleContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   gap: ${spacing.tiny};
-  margin: ${spacing.small} 0;
+  margin: ${spacing.small} 0 0;
   width: 100%;
 
   @media (min-width: 640px) {

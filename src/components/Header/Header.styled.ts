@@ -2,18 +2,93 @@ import styled from 'styled-components'
 import { spacing, colours } from '../../theme'
 
 export const HeaderContainer = styled.header`
-  display: grid;
-  grid-template-columns: 1fr;
   background-color: ${colours.black};
   color: ${colours.white};
-  text-align: center;
-  padding: ${spacing.small};
 
   @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     min-height: ${spacing.giant};
-    line-height: ${spacing.giant};
+    padding: 0 ${spacing.medium};
+  }
+`
+
+export const HeaderTop = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: ${spacing.small};
+  text-align: left;
+
+  a p {
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  @media (min-width: 768px) {
     padding: 0;
+    flex: 0 0 auto;
+  }
+`
+
+export const BurgerButton = styled.button`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: ${spacing.tiny};
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: ${colours.darkGrey};
+  }
+
+  &:focus {
+    outline: 2px solid ${colours.blue};
+    outline-offset: 2px;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+`
+
+export const BurgerLine = styled.div<{ isOpen: boolean }>`
+  width: 25px;
+  height: 3px;
+  background-color: ${colours.white};
+  transition: all 0.3s ease;
+  transform-origin: center;
+
+  &:nth-child(1) {
+    transform: ${props =>
+      props.isOpen ? 'rotate(45deg) translate(6px, 6px)' : 'none'};
+  }
+
+  &:nth-child(2) {
+    opacity: ${props => (props.isOpen ? '0' : '1')};
+  }
+
+  &:nth-child(3) {
+    transform: ${props =>
+      props.isOpen ? 'rotate(-45deg) translate(6px, -6px)' : 'none'};
+  }
+`
+
+export const NavContainer = styled.nav<{ isOpen: boolean }>`
+  @media (max-width: 767px) {
+    display: ${props => (props.isOpen ? 'block' : 'none')};
+    border-top: 1px solid ${colours.darkGrey};
+  }
+
+  @media (min-width: 768px) {
+    display: block;
+    flex: 1;
   }
 `
 
@@ -21,20 +96,58 @@ export const NavLinks = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
   list-style: none;
-  gap: ${spacing.tiny};
+  margin: 0;
+  padding: 0;
 
   li a {
     display: block;
     width: 100%;
     height: 100%;
+    padding: ${spacing.small};
+    text-decoration: none;
+    color: ${colours.white};
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: ${colours.darkGrey};
+    }
   }
 
-  @media (min-width: 400px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: 640px) {
-    grid-template-columns: repeat(4, 1fr);
+  @media (max-width: 767px) {
     gap: 0;
+
+    li:not(:last-child) {
+      border-bottom: 1px solid ${colours.darkGrey};
+    }
+  }
+
+  @media (min-width: 400px) and (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+
+    li {
+      border-bottom: 1px solid ${colours.darkGrey};
+    }
+
+    li:nth-child(odd) {
+      border-right: 1px solid ${colours.darkGrey};
+    }
+  }
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: flex-end;
+    gap: ${spacing.medium};
+
+    li a {
+      text-align: center;
+      padding: ${spacing.small} ${spacing.medium};
+      line-height: 1.2;
+      border-radius: 4px;
+      white-space: nowrap;
+
+      &:hover {
+        background-color: ${colours.darkGrey};
+      }
+    }
   }
 `

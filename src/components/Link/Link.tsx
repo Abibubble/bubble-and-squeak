@@ -9,6 +9,7 @@ interface LinkProps {
   center?: boolean
   dark?: boolean
   fontSize?: string
+  onClick?: () => void
 }
 
 export default function Link({
@@ -18,6 +19,7 @@ export default function Link({
   center = false,
   dark = false,
   fontSize = fonts.body,
+  onClick,
 }: LinkProps) {
   return (
     <Styled.Link
@@ -26,6 +28,7 @@ export default function Link({
       $center={center}
       $dark={dark}
       $fontSize={fontSize}
+      onClick={onClick}
     >
       {children}
     </Styled.Link>
