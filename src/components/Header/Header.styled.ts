@@ -4,6 +4,9 @@ import { spacing, colours, breakpoints } from '../../theme'
 export const HeaderContainer = styled.header`
   background-color: ${colours.black};
   color: ${colours.white};
+  overflow: hidden;
+  contain: layout;
+  position: relative;
 
   @media (min-width: ${breakpoints.tabletLarge}) {
     display: flex;
@@ -21,10 +24,29 @@ export const HeaderTop = styled.div`
   padding: ${spacing.small};
   text-align: left;
 
-  a p {
-    margin: 0;
-    font-weight: bold;
-    line-height: 1.2;
+  a {
+    text-decoration: none;
+    color: ${colours.white};
+    padding: ${spacing.tiny};
+    border-radius: ${spacing.fine};
+    transition: background-color 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background-color: ${colours.darkGrey};
+      text-decoration: underline;
+    }
+
+    &:focus {
+      outline: 2px solid ${colours.blue};
+      outline-offset: 2px;
+    }
+
+    p {
+      margin: 0;
+      font-weight: bold;
+      line-height: 1.2;
+    }
   }
 
   @media (min-width: ${breakpoints.tabletLarge}) {
@@ -81,6 +103,8 @@ export const BurgerLine = styled.div<{ isOpen: boolean }>`
 `
 
 export const NavContainer = styled.nav<{ isOpen: boolean }>`
+  overflow: hidden;
+
   @media (max-width: ${parseInt(breakpoints.tabletLarge) - 1}px) {
     display: ${props => (props.isOpen ? 'block' : 'none')};
     border-top: 1px solid ${colours.darkGrey};
@@ -98,6 +122,11 @@ export const NavLinks = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+
+  li {
+    box-sizing: border-box;
+  }
 
   li a {
     display: block;
@@ -107,9 +136,13 @@ export const NavLinks = styled.ul`
     text-decoration: none;
     color: ${colours.white};
     transition: background-color 0.2s ease;
+    box-sizing: border-box;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: ${colours.darkGrey};
+      text-decoration: underline;
+      border-radius: ${spacing.fine};
     }
   }
 
@@ -139,16 +172,29 @@ export const NavLinks = styled.ul`
     display: flex;
     justify-content: flex-end;
     gap: ${spacing.medium};
+    align-items: center;
+    height: 100%;
+
+    li {
+      height: auto;
+    }
 
     li a {
       text-align: center;
       padding: ${spacing.small} ${spacing.medium};
       line-height: 1.2;
-      border-radius: 4px;
       white-space: nowrap;
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+      height: auto;
+      width: auto;
 
-      &:hover {
+      &:hover,
+      &:focus {
         background-color: ${colours.darkGrey};
+        text-decoration: underline;
+        border-radius: 4px;
       }
     }
   }

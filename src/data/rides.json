@@ -126,7 +126,7 @@
   },
   {
     "name": "Avalanche",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Mack Rides",
     "model": "Bobsled Coaster",
     "level": "Family",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Avatar Airbender",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Zamperla",
     "model": "Mega Disk'O",
     "level": "Family",
@@ -226,7 +226,7 @@
   },
   {
     "name": "Big Dipper",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Philadelphia Toboggan Company",
     "model": "Wooden Coaster",
     "level": "Family",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Blue Flyer",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "National Amusement Devices",
     "model": "Comet Junior",
     "level": "Kiddie",
@@ -376,7 +376,7 @@
   },
   {
     "name": "Cat-O-Pillar Coaster",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Zierer",
     "model": "Tivoli",
     "level": "Kiddie",
@@ -426,7 +426,7 @@
   },
   {
     "name": "Cobra",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Gerstlauer",
     "model": "Bobsled Coaster",
     "level": "Family",
@@ -626,7 +626,7 @@
   },
   {
     "name": "Dino Chase",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Zierer",
     "model": "Tivoli",
     "level": "Kiddie",
@@ -676,7 +676,7 @@
   },
   {
     "name": "Dragon Khan",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "B&M",
     "model": "Sitting Coaster",
     "level": "Thrill",
@@ -726,7 +726,7 @@
   },
   {
     "name": "Dragon's Fury",
-    "park": "Chessington",
+    "park": "Chessington World Of Adventures",
     "manufacturer": "Maurer",
     "model": "Spinning Coaster",
     "level": "Family",
@@ -851,7 +851,7 @@
   },
   {
     "name": "El Diablo - Tren de la Mina",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "Arrow Dynamics",
     "model": "Runaway Train",
     "level": "Family",
@@ -951,7 +951,7 @@
   },
   {
     "name": "Farmyard Flyer",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Zierer",
     "model": "Force",
     "level": "Kiddie",
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "Flight of the Pterosaur",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Vekoma",
     "model": "Suspended Family Coaster",
     "level": "Family Thrill",
@@ -1076,7 +1076,7 @@
   },
   {
     "name": "Furius Baco",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "Intamin",
     "model": "Water Coaster",
     "level": "Thrill",
@@ -1176,7 +1176,7 @@
   },
   {
     "name": "Grand National",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Charles Paige",
     "model": "Roller Coaster",
     "level": "Family",
@@ -1301,7 +1301,7 @@
   },
   {
     "name": "ICON",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Mack Rides",
     "model": "Launch Coaster",
     "level": "Thrill",
@@ -1326,7 +1326,7 @@
   },
   {
     "name": "Infusion",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Vekoma",
     "model": "Suspended Looping Coaster",
     "level": "Thrill",
@@ -1501,7 +1501,7 @@
   },
   {
     "name": "KOBRA",
-    "park": "Chessington",
+    "park": "Chessington World Of Adventures",
     "manufacturer": "Zamperla",
     "model": "Disk'O",
     "level": "Family",
@@ -1651,7 +1651,7 @@
   },
   {
     "name": "Mandrill Mayhem",
-    "park": "Chessington",
+    "park": "Chessington World Of Adventures",
     "manufacturer": "B&M",
     "model": "Wing Coaster",
     "level": "Family Thrill",
@@ -1876,7 +1876,7 @@
   },
   {
     "name": "Nickelodeon Streak",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Charles Paige",
     "model": "Wooden Coaster",
     "level": "Family Thrill",
@@ -2151,7 +2151,7 @@
   },
   {
     "name": "Rattlesnake",
-    "park": "Chessington",
+    "park": "Chessington World Of Adventures",
     "manufacturer": "Maurer",
     "model": "Wild Mouse",
     "level": "Family Thrill",
@@ -2201,7 +2201,7 @@
   },
   {
     "name": "Revolution",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Arrow Development",
     "model": "Launched Loop",
     "level": "Thrill",
@@ -2326,7 +2326,7 @@
   },
   {
     "name": "Scorpion Express",
-    "park": "Chessington",
+    "park": "Chessington World Of Adventures",
     "manufacturer": "Mack Rides",
     "model": "Powered Coaster",
     "level": "Family",
@@ -2351,7 +2351,7 @@
   },
   {
     "name": "Shambhala: Expedición Al Himalaya",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "B&M",
     "model": "Hyper Coaster",
     "level": "Thrill",
@@ -2476,7 +2476,7 @@
   },
   {
     "name": "Stampida (Azul)",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "Custom Coasters International",
     "model": "Wooden Coaster",
     "level": "Family Thrill",
@@ -2501,7 +2501,7 @@
   },
   {
     "name": "Stampida (Roja)",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "Custom Coasters International",
     "model": "Wooden Coaster",
     "level": "Family Thrill",
@@ -2551,7 +2551,7 @@
   },
   {
     "name": "Steeplechase (Green)",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Arrow Development",
     "model": "Steeplechase",
     "level": "Family",
@@ -2576,7 +2576,7 @@
   },
   {
     "name": "Steeplechase (Red)",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Arrow Development",
     "model": "Steeplechase",
     "level": "Family",
@@ -2601,7 +2601,7 @@
   },
   {
     "name": "Steeplechase (Yellow)",
-    "park": "Pleasure Beach",
+    "park": "Blackpool Pleasure Beach",
     "manufacturer": "Arrow Development",
     "model": "Steeplechase",
     "level": "Family",
@@ -2626,7 +2626,7 @@
   },
   {
     "name": "Storm Chaser",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Mack Rides",
     "model": "Spinning Coaster",
     "level": "Family Thrill",
@@ -2651,7 +2651,7 @@
   },
   {
     "name": "Tami Tami",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "Vekoma",
     "model": "Junior Coaster",
     "level": "Kiddie",
@@ -2751,7 +2751,7 @@
   },
   {
     "name": "The Edge",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Zamperla",
     "model": "Disk'O",
     "level": "Family",
@@ -2926,7 +2926,7 @@
   },
   {
     "name": "Tomahawk",
-    "park": "PortAventura",
+    "park": "PortAventura World",
     "manufacturer": "Custom Coasters International",
     "model": "Wooden Coaster",
     "level": "Family Thrill",
@@ -3126,7 +3126,7 @@
   },
   {
     "name": "Vampire",
-    "park": "Chessington",
+    "park": "Chessington World Of Adventures",
     "manufacturer": "Arrow Dynamics",
     "model": "Suspended Coaster",
     "level": "Family Thrill",
@@ -3151,7 +3151,7 @@
   },
   {
     "name": "Velociraptor",
-    "park": "Poulton's Park",
+    "park": "Poultons Park",
     "manufacturer": "Vekoma",
     "model": "Family Boomerang",
     "level": "Family Thrill",

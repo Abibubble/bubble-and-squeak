@@ -72,7 +72,7 @@ export default function Card({ children, description, item, type }: CardProps) {
               target.alt = 'Default placeholder image'
             }}
           />
-          <div>
+          <Styled.CardContent>
             <Styled.Title>{item.name}</Styled.Title>
             <Styled.Location>
               {location}, {country}
@@ -81,7 +81,7 @@ export default function Card({ children, description, item, type }: CardProps) {
               <Styled.Description>{item.description}</Styled.Description>
             )}
             <Styled.StatsGrid>{children}</Styled.StatsGrid>
-          </div>
+          </Styled.CardContent>
         </Styled.Grid>
       </Styled.Link>
     </article>

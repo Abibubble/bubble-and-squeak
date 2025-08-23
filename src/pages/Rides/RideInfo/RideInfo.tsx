@@ -46,7 +46,9 @@ function RideInfo() {
         />
         <Styled.InfoGrid>
           {Object.entries(ride)
-            .filter(([key, value]) => value !== null && value !== '')
+            .filter(
+              ([key, value]) => value !== null && value !== '' && key !== 'park'
+            )
             .map(([key, value]) => (
               <CardStat stat={key} value={value as string | number} key={key} />
             ))}

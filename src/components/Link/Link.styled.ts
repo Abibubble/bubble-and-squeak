@@ -20,6 +20,12 @@ export const Link = styled.a<StyledLinkProps>`
     text-decoration: underline;
   }
 
+  &:focus {
+    text-decoration: underline;
+    outline: 2px solid ${colours.blue};
+    outline-offset: 2px;
+  }
+
   &:visited {
     ${({ $dark }) =>
       $dark ? `color: ${colours.black};` : `color: ${colours.white};`}
