@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import {
+  Accessibility,
   EscapeRooms,
   Home,
   Rides,
@@ -24,6 +25,7 @@ root.render(
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/accessibility' element={<Accessibility />} />
           <Route path='/escape-rooms' element={<EscapeRooms />} />
           <Route
             path='/escape-rooms/room-info/:roomName'

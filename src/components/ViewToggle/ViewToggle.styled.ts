@@ -60,6 +60,13 @@ export const ToggleButton = styled.button<ToggleButtonProps>`
       props.$active ? colours.darkBlue : colours.veryLightGrey};
   }
 
+  &:focus {
+    outline: 2px solid ${colours.blue};
+    outline-offset: 2px;
+    background: ${props =>
+      props.$active ? colours.darkBlue : colours.veryLightGrey};
+  }
+
   &:not(:last-child) {
     border-right: ${spacing.micro} solid ${colours.lightGrey};
   }

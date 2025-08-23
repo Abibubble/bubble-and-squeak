@@ -1,3 +1,4 @@
+export { Accessibility } from './Accessibility'
 export { EscapeRooms } from './EscapeRooms'
 export { Home } from './Home'
 export { Parks } from './Parks'

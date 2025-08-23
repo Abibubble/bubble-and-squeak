@@ -143,6 +143,13 @@ export const RoomLink = styled.a`
     text-decoration: underline;
     color: ${colours.darkBlue};
   }
+
+  &:focus {
+    outline: 2px solid ${colours.blue};
+    outline-offset: 2px;
+    text-decoration: underline;
+    color: ${colours.darkBlue};
+  }
 `
 
 interface ScoreCellProps {

@@ -53,6 +53,11 @@ export default function Header() {
                 Escape Rooms
               </Link>
             </li>
+            <li>
+              <Link href='/accessibility' onClick={closeMobileMenu}>
+                Accessibility
+              </Link>
+            </li>
           </Styled.NavLinks>
         </nav>
       </Styled.NavContainer>

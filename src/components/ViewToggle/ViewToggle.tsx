@@ -11,11 +11,13 @@ export default function ViewToggle({
 }: ViewToggleProps) {
   return (
     <Styled.ToggleContainer>
-      <Styled.ToggleLabel>View:</Styled.ToggleLabel>
-      <Styled.ToggleButtonGroup>
+      <Styled.ToggleLabel id="view-toggle-label">View:</Styled.ToggleLabel>
+      <Styled.ToggleButtonGroup role="radiogroup" aria-labelledby="view-toggle-label">
         <Styled.ToggleButton
           $active={viewMode === 'list'}
           onClick={() => onViewChange('list')}
+          role="radio"
+          aria-checked={viewMode === 'list'}
           aria-label='List view'
         >
           <Styled.ListIcon>☰</Styled.ListIcon>
@@ -24,6 +26,8 @@ export default function ViewToggle({
         <Styled.ToggleButton
           $active={viewMode === 'blog'}
           onClick={() => onViewChange('blog')}
+          role="radio"
+          aria-checked={viewMode === 'blog'}
           aria-label='Card view'
         >
           <Styled.BlogIcon>⚏</Styled.BlogIcon>
