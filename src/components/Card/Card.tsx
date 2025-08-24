@@ -34,6 +34,11 @@ export default function Card({ children, description, item, type }: CardProps) {
   }
 
   let urlId: string = formatString(item.name, 'dash', 'lower')
+  let imageUrl: string = `/images/${baseUrl}/${formatString(
+    item.name,
+    'dash',
+    'lower'
+  )}.jpg`
 
   let url: string = ''
   if (type === 'room') {
@@ -42,13 +47,14 @@ export default function Card({ children, description, item, type }: CardProps) {
     url = `/theme-parks/park-info/${urlId}`
   } else if (type === 'ride') {
     url = `/rides/ride-info/${urlId}`
+    if (item.park) {
+      imageUrl = `/images/${baseUrl}/${formatString(
+        item.name,
+        'dash',
+        'lower'
+      )}-${formatString(item.park, 'dash', 'lower')}.jpg`
+    }
   }
-
-  const imageUrl = `/images/${baseUrl}/${formatString(
-    item.name,
-    'dash',
-    'lower'
-  )}.jpg`
 
   const linkText = `View details for ${item.name} in ${location}, ${country}`
 
