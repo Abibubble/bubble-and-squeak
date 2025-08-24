@@ -186,7 +186,6 @@ export default function EscapeRooms() {
               type='room'
               key={room.id}
             >
-              {/* Pass in date we played the room, near the location */}
               {roomStats
                 .filter(stat => room[stat] !== null && room[stat] !== '')
                 .map(stat => (

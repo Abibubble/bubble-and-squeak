@@ -27,6 +27,9 @@ function CollageImage({
       $row={position.row}
       $col={position.col}
       $rotation={rotation}
+      role='presentation'
+      tabIndex={-1}
+      aria-hidden={alt === '' ? 'true' : undefined}
     />
   )
 }

@@ -49,6 +49,8 @@ export const CollageImage = styled.img<CollageImageStyledProps>`
   box-shadow: 0 ${spacing.fine} ${spacing.small} ${colours.shadowMedium};
   object-fit: cover;
   border: ${spacing.tiny} solid ${colours.white};
+  pointer-events: none;
+  user-select: none;
 
   width: ${({ $size }) => mobileSizes[$size].width};
   height: ${({ $size }) => mobileSizes[$size].height};
