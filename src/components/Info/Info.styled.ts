@@ -25,12 +25,12 @@ export const InfoGrid = styled.div`
   text-align: center;
 
   @media (min-width: ${breakpoints.mobileSmall}) {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: left;
   }
 
   @media (min-width: ${breakpoints.mobileLarge}) {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: ${spacing.tiny} ${spacing.small};
     margin: ${spacing.tiny} ${spacing.small};
   }

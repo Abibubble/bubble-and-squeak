@@ -1,4 +1,4 @@
-import { CardStat, Link, MainContent, Title } from '../../../components'
+import { Info, Link, MainContent, Title } from '../../../components'
 import * as Styled from './RideInfo.styled'
 import rides from '../../../data/rides.json'
 import parks from '../../../data/parks.json'
@@ -15,11 +15,31 @@ function RideInfo() {
 
   const park = parks.find(park => park.name === ride.park)
 
+  const basicInfoKeys = ['manufacturer', 'model', 'type', 'level', 'material']
+  const specificationsKeys = [
+    'height',
+    'dropHeight',
+    'length',
+    'speed',
+    'duration',
+    'inversions',
+    'car',
+  ]
+  const operationalKeys = [
+    'yearOpened',
+    'yearClosed',
+    'heightRequirement',
+    'fastPassAvailable',
+    'capacity',
+    'ridability',
+    'previousNames',
+  ]
+
   return (
     <MainContent>
       <Styled.PageWrapper>
         <Title>{ride.name}</Title>
-        <Styled.Subtitle>
+        <Styled.Location>
           <Link
             dark
             href={
@@ -34,26 +54,44 @@ function RideInfo() {
           >
             {ride.park}, {park ? park.country : 'Unknown'}
           </Link>
-        </Styled.Subtitle>
-        <Styled.Image
-          src={`/images/rides/${formatString(ride.name, 'dash', 'lower')}.jpg`}
-          alt={ride.name}
-          onError={e => {
-            const target = e.target as HTMLImageElement
-            target.onerror = null
-            target.src = '/images/bubble-and-squeak.png'
-          }}
-        />
+        </Styled.Location>
+        <Styled.ImageContainer>
+          <Styled.Image
+            src={`/images/rides/${formatString(
+              ride.name,
+              'dash',
+              'lower'
+            )}.jpg`}
+            alt={ride.name}
+            onError={e => {
+              const target = e.target as HTMLImageElement
+              target.onerror = null
+              target.src = '/images/bubble-and-squeak.png'
+              target.alt = 'Default placeholder image'
+            }}
+          />
+        </Styled.ImageContainer>
+
+        {ride.description && (
+          <Styled.Description>{ride.description}</Styled.Description>
+        )}
+
         <Styled.InfoGrid>
-          {Object.entries(ride)
-            .filter(
-              ([key, value]) => value !== null && value !== '' && key !== 'park'
-            )
-            .map(([key, value]) => (
-              <CardStat stat={key} value={value as string | number} key={key} />
-            ))}
+          <Info item={ride} keys={basicInfoKeys} type='Basic Information' />
+          <Info item={ride} keys={specificationsKeys} type='Specifications' />
+          <Info
+            item={ride}
+            keys={operationalKeys}
+            type='Operational Information'
+          />
         </Styled.InfoGrid>
-        {ride.description && <p>{ride.description}</p>}
+
+        {ride.review && (
+          <Styled.ReviewContainer>
+            <Styled.ReviewTitle>Our Review</Styled.ReviewTitle>
+            <Styled.ReviewText>{ride.review}</Styled.ReviewText>
+          </Styled.ReviewContainer>
+        )}
       </Styled.PageWrapper>
     </MainContent>
   )

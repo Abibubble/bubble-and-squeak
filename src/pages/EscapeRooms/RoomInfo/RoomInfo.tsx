@@ -48,6 +48,7 @@ function RoomInfo() {
             const target = e.target as HTMLImageElement
             target.onerror = null
             target.src = '/images/bubble-and-squeak.png'
+            target.alt = 'Default placeholder image'
           }}
         />
       </Styled.ImageContainer>

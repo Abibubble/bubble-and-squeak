@@ -7,9 +7,24 @@ export const PageWrapper = styled.article`
 `
 
 export const Location = styled.p`
-  font-style: italic;
   text-align: center;
   margin: ${spacing.tiny} 0;
+
+  a {
+    color: ${colours.blue};
+    text-decoration: underline;
+    font-weight: 600;
+
+    &:hover {
+      color: ${colours.darkBlue};
+      text-decoration: none;
+    }
+
+    &:focus {
+      outline: 2px solid ${colours.blue};
+      outline-offset: 2px;
+    }
+  }
 `
 
 export const ImageContainer = styled.div`
@@ -210,7 +225,6 @@ export const RideDetail = styled.span`
 export const NoRidesMessage = styled.p`
   text-align: center;
   color: ${colours.black};
-  font-style: italic;
   padding: ${spacing.medium};
   border: ${spacing.mini} solid ${colours.borderGrey};
   border-radius: ${spacing.tiny};

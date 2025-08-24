@@ -6,6 +6,15 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #root {
@@ -15,6 +24,8 @@
   flex-direction: column;
   min-height: 100vh;
   font-family: Arial, sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 main {

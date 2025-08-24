@@ -2,9 +2,24 @@ import styled from 'styled-components'
 import { spacing, fonts, colours, breakpoints } from '../../../theme'
 
 export const Location = styled.p`
-  font-style: italic;
   text-align: center;
   margin: ${spacing.tiny} 0;
+
+  a {
+    color: ${colours.blue};
+    text-decoration: underline;
+    font-weight: 600;
+
+    &:hover {
+      color: ${colours.darkBlue};
+      text-decoration: none;
+    }
+
+    &:focus {
+      outline: 2px solid ${colours.blue};
+      outline-offset: 2px;
+    }
+  }
 `
 
 export const ImageContainer = styled.div`

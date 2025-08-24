@@ -1,6 +1,7 @@
 export { Card } from './Card'
 export { CardsFlex } from './CardsFlex'
 export { CardStat } from './CardStat'
+export { default as CollageImage } from './CollageImage'
 export { Footer } from './Footer'
 export { Header } from './Header'
 export { Info } from './Info'

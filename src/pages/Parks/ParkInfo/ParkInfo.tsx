@@ -21,7 +21,15 @@ function ParkInfo() {
       <Styled.PageWrapper>
         <Title>{park.name}</Title>
         <Styled.Location>
-          {park.location}, {park.country}
+          <a
+            href={`https://www.google.com/maps/search/${encodeURIComponent(
+              `${park.name} ${park.location} ${park.country}`
+            )}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {park.location}, {park.country}
+          </a>
         </Styled.Location>
         <Styled.ImageContainer>
           <Styled.Image
@@ -35,6 +43,7 @@ function ParkInfo() {
               const target = e.target as HTMLImageElement
               target.onerror = null
               target.src = '/images/bubble-and-squeak.png'
+              target.alt = 'Default placeholder image'
             }}
           />
         </Styled.ImageContainer>
