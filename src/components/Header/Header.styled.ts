@@ -80,7 +80,7 @@ export const BurgerButton = styled.button`
   }
 `
 
-export const BurgerLine = styled.div<{ isOpen: boolean }>`
+export const BurgerLine = styled.div<{ $isOpen: boolean }>`
   width: 25px;
   height: 3px;
   background-color: ${colours.white};
@@ -89,24 +89,24 @@ export const BurgerLine = styled.div<{ isOpen: boolean }>`
 
   &:nth-child(1) {
     transform: ${props =>
-      props.isOpen ? 'rotate(45deg) translate(6px, 6px)' : 'none'};
+      props.$isOpen ? 'rotate(45deg) translate(6px, 6px)' : 'none'};
   }
 
   &:nth-child(2) {
-    opacity: ${props => (props.isOpen ? '0' : '1')};
+    opacity: ${props => (props.$isOpen ? '0' : '1')};
   }
 
   &:nth-child(3) {
     transform: ${props =>
-      props.isOpen ? 'rotate(-45deg) translate(6px, -6px)' : 'none'};
+      props.$isOpen ? 'rotate(-45deg) translate(6px, -6px)' : 'none'};
   }
 `
 
-export const NavContainer = styled.nav<{ isOpen: boolean }>`
+export const NavContainer = styled.nav<{ $isOpen: boolean }>`
   overflow: hidden;
 
   @media (max-width: ${parseInt(breakpoints.tabletLarge) - 1}px) {
-    display: ${props => (props.isOpen ? 'block' : 'none')};
+    display: ${props => (props.$isOpen ? 'block' : 'none')};
     border-top: 1px solid ${colours.darkGrey};
   }
 

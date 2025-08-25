@@ -207,7 +207,7 @@ function Coasters() {
       ) : (
         <CardsFlex key={`cards-${renderCount}-${manufacturerFilter}`}>
           {sortedCoasters.map((coaster, index) => {
-            const cardKey = `${renderCount}-${manufacturerFilter}-${coaster.name}`
+            const cardKey = `${coaster.name}--${coaster.park || 'unknown'}`
             return (
               <Card item={coaster} type='coaster' key={cardKey}>
                 {Object.entries(coaster)

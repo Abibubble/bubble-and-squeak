@@ -25,12 +25,12 @@ export default function Header() {
           aria-expanded={isMobileMenuOpen}
           aria-controls='main-navigation'
         >
-          <Styled.BurgerLine isOpen={isMobileMenuOpen} />
-          <Styled.BurgerLine isOpen={isMobileMenuOpen} />
-          <Styled.BurgerLine isOpen={isMobileMenuOpen} />
+          <Styled.BurgerLine $isOpen={isMobileMenuOpen} />
+          <Styled.BurgerLine $isOpen={isMobileMenuOpen} />
+          <Styled.BurgerLine $isOpen={isMobileMenuOpen} />
         </Styled.BurgerButton>
       </Styled.HeaderTop>
-      <Styled.NavContainer isOpen={isMobileMenuOpen}>
+      <Styled.NavContainer $isOpen={isMobileMenuOpen}>
         <nav id='main-navigation' aria-label='Main navigation'>
           <Styled.NavLinks>
             <li>

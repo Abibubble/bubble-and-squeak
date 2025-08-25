@@ -17,14 +17,21 @@ export const formatString = (
   let formattedText
 
   if (url && typeof spacedText === 'string') {
+    spacedText = spacedText.replace(
+      /\s*\(([^)]+)\)\s*/g,
+      (match, p1, offset) => {
+        return (offset === 0 ? '' : '-') + p1
+      }
+    )
     spacedText = spacedText
-      .replace(/\s*\(.*?\)\s*/g, '')
       .replace(/&/g, 'and')
       .replace(/½/g, '-5')
       .replace(/['#:.\\\\/]/g, '')
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
       .trim()
+    spacedText = spacedText.replace(/-+/g, '-')
+    spacedText = spacedText.replace(/^[-\s]+|[-\s]+$/g, '')
   }
 
   spacedText = spacedText.replace(/(?!^)([A-Z])/g, ' $1')

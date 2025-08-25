@@ -19,6 +19,7 @@ export type CardProps = {
 
 export default function Card({ children, description, item, type }: CardProps) {
   const [errored, setErrored] = useState(false)
+  const [useJpg, setUseJpg] = useState(false)
 
   let baseUrl: string = type
   let park
@@ -37,11 +38,20 @@ export default function Card({ children, description, item, type }: CardProps) {
   }
 
   let urlId: string = formatString(item.name, 'dash', 'lower')
-  let imageUrl: string = `/images/${baseUrl}/${formatString(
-    item.name,
-    'dash',
-    'lower'
-  )}.jpg`
+  let imageUrl: string
+  if (type === 'coaster' && item.park) {
+    imageUrl = `/images/${baseUrl}/${formatString(
+      item.name,
+      'dash',
+      'lower'
+    )}-${formatString(item.park, 'dash', 'lower')}.jpg`
+  } else {
+    imageUrl = `/images/${baseUrl}/${formatString(
+      item.name,
+      'dash',
+      'lower'
+    )}.jpg`
+  }
 
   let url: string = ''
   if (type === 'room') {
@@ -50,13 +60,6 @@ export default function Card({ children, description, item, type }: CardProps) {
     url = `/theme-parks/park-info/${urlId}`
   } else if (type === 'coaster') {
     url = `/coasters/coaster-info/${urlId}`
-    if (item.park) {
-      imageUrl = `/images/${baseUrl}/${formatString(
-        item.name,
-        'dash',
-        'lower'
-      )}-${formatString(item.park, 'dash', 'lower')}.jpg`
-    }
   }
 
   const linkText = `View details for ${item.name} in ${location}, ${country}`
@@ -77,17 +80,21 @@ export default function Card({ children, description, item, type }: CardProps) {
               alt={'Default placeholder image'}
             />
           ) : (
-            <picture>
-              <source srcSet={webpSrc} type='image/webp' />
-              <Styled.Image
-                src={imageUrl}
-                alt={altText}
-                onError={() => setErrored(true)}
-                width={400}
-                height={225}
-                loading='lazy'
-              />
-            </picture>
+            <Styled.Image
+              src={useJpg ? imageUrl : webpSrc}
+              alt={altText}
+              width={400}
+              height={225}
+              loading='lazy'
+              onError={() => {
+                if (!useJpg) {
+                  setUseJpg(true)
+                } else {
+                  console.log('Image failed to load: ', imageUrl)
+                  setErrored(true)
+                }
+              }}
+            />
           )}
           <Styled.CardContent>
             <Styled.Title>{item.name}</Styled.Title>

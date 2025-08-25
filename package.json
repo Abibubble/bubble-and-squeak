@@ -19,7 +19,11 @@
     "test:a11y:lighthouse": "lighthouse http://localhost:3000 --only-categories=accessibility --chrome-flags='--headless' --output=json --output-path=./lighthouse-a11y-report.json",
     "test:a11y:axe": "axe http://localhost:3000 --save axe-a11y-report.json",
     "serve:build": "npx serve -s build -l 3000",
-    "convert:webp": "./convert-and-compress-images.sh"
+    "compress:coasters": "./src/scripts/compress-coasters.sh",
+    "convert:webp": "./src/scripts/convert-and-compress-images.sh",
+    "resize": "node ./src/scripts/resize-images.js public/images",
+    "test:a11y:script": "./src/scripts/test-a11y.sh",
+    "test:accessibility:script": "./src/scripts/test-accessibility.sh"
   },
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -74,6 +78,7 @@
     "axe-core": "^4.10.3",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "jest-axe": "^10.0.0",
+    "sharp": "^0.34.3",
     "typescript": "^5.1.6"
   }
 }

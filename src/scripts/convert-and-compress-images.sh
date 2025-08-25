@@ -7,8 +7,14 @@ set -e
 
 IMG_DIR="public/images"
 
+
 find "$IMG_DIR" -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) | while read -r img; do
   base="${img%.*}"
-  cwebp -q 85 "$img" -o "$base.webp"
-  echo "Compressed $img to $base.webp"
+  webp_file="$base.webp"
+  if [ ! -f "$webp_file" ]; then
+    cwebp -q 85 "$img" -o "$webp_file"
+    echo "Compressed $img to $webp_file"
+  else
+    echo "Skipping $img (webp already exists)"
+  fi
 done
