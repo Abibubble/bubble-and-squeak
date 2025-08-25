@@ -18,6 +18,8 @@ function Home() {
             size='xlarge'
             position={{ row: 0, col: 0 }}
             rotation='right'
+            width={385}
+            height={180}
           />
           <CollageImage
             src='/images/escape-rooms/photos/dark-deeds-and-groceries.jpg'

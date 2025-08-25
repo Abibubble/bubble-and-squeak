@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import * as Styled from './Card.styled'
 import { formatString } from '../../utils'
 import parks from '../../data/parks.json'
@@ -17,6 +18,8 @@ export type CardProps = {
 }
 
 export default function Card({ children, description, item, type }: CardProps) {
+  const [errored, setErrored] = useState(false)
+
   let baseUrl: string = type
   let park
   let country = item.country || 'Unknown'
@@ -57,27 +60,35 @@ export default function Card({ children, description, item, type }: CardProps) {
   }
 
   const linkText = `View details for ${item.name} in ${location}, ${country}`
+  const getFormatSrc = (src: string, ext: string) =>
+    src.replace(/\.(jpg|jpeg|png)$/i, `.${ext}`)
+  const webpSrc = getFormatSrc(imageUrl, 'webp')
+  const altText = `${item.name} - ${
+    type === 'park' ? 'Theme park' : type === 'room' ? 'Escape room' : 'Coaster'
+  }`
 
   return (
     <article>
       <Styled.Link href={url} key={item.id || item.name} aria-label={linkText}>
         <Styled.Grid>
-          <Styled.Image
-            src={imageUrl}
-            alt={`${item.name} - ${
-              type === 'park'
-                ? 'Theme park'
-                : type === 'room'
-                ? 'Escape room'
-                : 'Coaster'
-            }`}
-            onError={e => {
-              const target = e.target as HTMLImageElement
-              target.onerror = null
-              target.src = '/images/bubble-and-squeak.png'
-              target.alt = 'Default placeholder image'
-            }}
-          />
+          {errored ? (
+            <Styled.Image
+              src={'/images/bubble-and-squeak.png'}
+              alt={'Default placeholder image'}
+            />
+          ) : (
+            <picture>
+              <source srcSet={webpSrc} type='image/webp' />
+              <Styled.Image
+                src={imageUrl}
+                alt={altText}
+                onError={() => setErrored(true)}
+                width={400}
+                height={225}
+                loading='lazy'
+              />
+            </picture>
+          )}
           <Styled.CardContent>
             <Styled.Title>{item.name}</Styled.Title>
             <Styled.Location>
