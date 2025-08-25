@@ -78,6 +78,8 @@ export default function Card({ children, description, item, type }: CardProps) {
             <Styled.Image
               src={'/images/bubble-and-squeak.png'}
               alt={'Default placeholder image'}
+              width={400}
+              height={225}
             />
           ) : (
             <Styled.Image
