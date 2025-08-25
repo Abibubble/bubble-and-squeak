@@ -44,8 +44,8 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href='/rides' onClick={closeMobileMenu}>
-                Rides
+              <Link href='/coasters' onClick={closeMobileMenu}>
+                Coasters
               </Link>
             </li>
             <li>

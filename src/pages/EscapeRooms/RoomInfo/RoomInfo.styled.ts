@@ -39,6 +39,7 @@ export const Image = styled.img`
 
 export const Description = styled.p`
   margin: ${spacing.small};
+  text-align: center;
 
   @media (min-width: ${breakpoints.mobileLarge}) {
     margin: ${spacing.small} ${spacing.medium};

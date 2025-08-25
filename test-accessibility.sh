@@ -40,8 +40,8 @@ run_axe_tests() {
     echo "Testing theme parks page..."
     npx axe http://localhost:3000/theme-parks --reporter json > axe-parks-report.json 2>&1
 
-    echo "Testing rides page..."
-    npx axe http://localhost:3000/rides --reporter json > axe-rides-report.json 2>&1
+    echo "Testing coasters page..."
+    npx axe http://localhost:3000/coasters --reporter json > axe-coasters-report.json 2>&1
 
     echo "Testing escape rooms page..."
     npx axe http://localhost:3000/escape-rooms --reporter json > axe-rooms-report.json 2>&1
@@ -80,7 +80,7 @@ $(if [ -f eslint-a11y-report.txt ]; then echo "Completed - see eslint-a11y-repor
 ### axe-core Tests
 $(if [ -f axe-home-report.json ]; then echo "Home page tested"; else echo "Home page not tested"; fi)
 $(if [ -f axe-parks-report.json ]; then echo "Parks page tested"; else echo "Parks page not tested"; fi)
-$(if [ -f axe-rides-report.json ]; then echo "Rides page tested"; else echo "Rides page not tested"; fi)
+$(if [ -f axe-coasters-report.json ]; then echo "Coasters page tested"; else echo "Coasters page not tested"; fi)
 $(if [ -f axe-rooms-report.json ]; then echo "Escape rooms page tested"; else echo "Escape rooms page not tested"; fi)
 
 ### Code Pattern Analysis

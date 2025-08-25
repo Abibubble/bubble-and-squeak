@@ -5,8 +5,8 @@ import {
   Accessibility,
   EscapeRooms,
   Home,
-  Rides,
-  RideInfo,
+  Coasters,
+  CoasterInfo,
   RoomInfo,
   Parks,
   ParkInfo,
@@ -31,8 +31,11 @@ root.render(
             path='/escape-rooms/room-info/:roomName'
             element={<RoomInfo />}
           />
-          <Route path='/rides' element={<Rides />} />
-          <Route path='/rides/ride-info/:rideName' element={<RideInfo />} />
+          <Route path='/coasters' element={<Coasters />} />
+          <Route
+            path='/coasters/coaster-info/:coasterName'
+            element={<CoasterInfo />}
+          />
           <Route path='/theme-parks' element={<Parks />} />
           <Route
             path='/theme-parks/park-info/:parkName'

@@ -7,13 +7,13 @@ function Home() {
       <Title>Bubble & Squeak</Title>
       <Styled.Subtitle>Escapes and Thrills</Styled.Subtitle>
 
-      <section aria-label='Photo collage showcasing theme park rides and escape rooms'>
+      <section aria-label='Photo collage showcasing roller coasters and escape rooms'>
         <Styled.CollageContainer
           role='img'
           aria-label='A decorative collage of photos featuring various roller coasters including Hyperia and Voltron Nevera, and escape room experiences like Dark Deeds and Groceries and The Golden Banana'
         >
           <CollageImage
-            src='/images/rides/hyperia-thorpe-park.jpg'
+            src='/images/coasters/hyperia-thorpe-park.jpg'
             alt=''
             size='xlarge'
             position={{ row: 0, col: 0 }}
@@ -26,7 +26,7 @@ function Home() {
             position={{ row: 0, col: 1 }}
           />
           <CollageImage
-            src='/images/rides/voltron-nevera-powered-by-rimac-europa-park.jpg'
+            src='/images/coasters/voltron-nevera-powered-by-rimac-europa-park.jpg'
             alt=''
             size='medium'
             position={{ row: 0, col: 2 }}
@@ -46,7 +46,7 @@ function Home() {
             position={{ row: 1, col: 1 }}
           />
           <CollageImage
-            src='/images/rides/toutatis-parc-asterix.jpg'
+            src='/images/coasters/toutatis-parc-asterix.jpg'
             alt=''
             size='medium'
             position={{ row: 1, col: 2 }}
@@ -60,7 +60,7 @@ function Home() {
             rotation='tilted'
           />
           <CollageImage
-            src='/images/rides/euro-mir-europa-park.jpg'
+            src='/images/coasters/euro-mir-europa-park.jpg'
             alt=''
             size='large'
             position={{ row: 2, col: 1 }}

@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
 
-A fully accessible React/TypeScript web application for reviews and tracking of escape rooms, theme parks, and rides. Built with WCAG 2.1 AA compliance and comprehensive accessibility testing.
+A fully accessible React/TypeScript web application for reviews and tracking of escape rooms, theme parks, and roller coasters. Built with WCAG 2.1 AA compliance and comprehensive accessibility testing.
 
 ## 📋 Table of Contents
 
@@ -27,9 +27,9 @@ A fully accessible React/TypeScript web application for reviews and tracking of 
 
 - **Escape Room Reviews**: Browse escape rooms with detailed ratings for theming, puzzles, games master, value, and fun
 - **Theme Park Directory**: Explore theme parks with comprehensive information
-- **Ride Database**: Discover thrilling rides with photos and detailed reviews
+- **Ride Database**: Discover thrilling coasters with photos and detailed reviews
 - **Interactive Navigation**: User-friendly interface with responsive design
-- **Photo Gallery**: Visual showcase of escape rooms, parks, and rides
+- **Photo Gallery**: Visual showcase of escape rooms, parks, and coasters
 - **Filtering & Sorting**: Find exactly what you're looking for with search functionality
 - **Accessibility First**: WCAG 2.1 AA compliant with full keyboard navigation and screen reader support
 
@@ -184,12 +184,12 @@ src/
 ├── data/               # Static data files
 │   ├── escape-rooms.json
 │   ├── parks.json
-│   └── rides.json
+│   └── coasters.json
 ├── pages/              # Page components
 │   ├── EscapeRooms/    # Escape room pages
 │   ├── Home/           # Homepage
 │   ├── Parks/          # Theme park pages
-│   └── Rides/          # Ride pages
+│   └── Coasters/       # Coaster pages
 ├── theme/              # Design system
 │   ├── colours.json
 │   ├── font.json
@@ -226,7 +226,7 @@ src/
 - `/` - Homepage
 - `/escape-rooms` - Escape room directory
 - `/escape-rooms/room-info/:roomName` - Individual escape room details
-- `/rides` - Ride directory
-- `/rides/ride-info/:rideName` - Individual ride details
+- `/coasters` - Ride directory
+- `/coasters/coaster-info/:rideName` - Individual ride details
 - `/theme-parks` - Theme park directory
 - `/theme-parks/park-info/:parkName` - Individual theme park details

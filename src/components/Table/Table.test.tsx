@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import { axe } from 'jest-axe'
 import Table, { TableColumn } from './Table'
-import { Park, Ride } from '../../types'
+import { Park, Coaster } from '../../types'
 
 describe('Table', () => {
   const mockParks: Park[] = [
@@ -21,7 +21,7 @@ describe('Table', () => {
     },
   ]
 
-  const mockRides: Ride[] = [
+  const mockCoasters: Coaster[] = [
     {
       name: 'Toutatis',
       park: 'Parc Astérix',
@@ -46,7 +46,7 @@ describe('Table', () => {
       previousNames: '',
       description: 'A launched coaster with three inversions',
       review: 'Incredible launch and smooth inversions',
-    } as Ride,
+    } as Coaster,
   ]
 
   const parkColumns: TableColumn<Park>[] = [
@@ -79,7 +79,7 @@ describe('Table', () => {
   })
 
   it('uses custom render function for ride data', () => {
-    const rideColumns: TableColumn<Ride>[] = [
+    const rideColumns: TableColumn<Coaster>[] = [
       { key: 'name', header: 'Ride Name' },
       {
         key: 'speed',
@@ -94,7 +94,7 @@ describe('Table', () => {
       },
     ]
 
-    render(<Table data={mockRides} columns={rideColumns} />)
+    render(<Table data={mockCoasters} columns={rideColumns} />)
 
     expect(screen.getByText('Toutatis')).toBeInTheDocument()
     expect(screen.getByText('107 km/h')).toBeInTheDocument()

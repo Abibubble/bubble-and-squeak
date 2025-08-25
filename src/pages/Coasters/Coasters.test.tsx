@@ -1,8 +1,8 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import { axe } from 'jest-axe'
-import Rides from './Rides'
+import Coasters from './Coasters'
 
-jest.mock('../../data/rides.json', () => [
+jest.mock('../../data/Coasters.json', () => [
   {
     name: 'Toutatis',
     park: 'Parc Astérix',
@@ -31,7 +31,7 @@ jest.mock('../../data/rides.json', () => [
   {
     name: 'Hyperia',
     park: 'Thorpe Park',
-    manufacturer: 'Mack Rides',
+    manufacturer: 'Mack Coasters',
     model: 'Hyper Coaster',
     level: 'Extreme',
     car: '3 x 8',
@@ -55,23 +55,23 @@ jest.mock('../../data/rides.json', () => [
   },
 ])
 
-describe('Rides Page', () => {
+describe('Coasters Page', () => {
   it('has no accessibility violations', async () => {
-    const { container } = render(<Rides />)
+    const { container } = render(<Coasters />)
     const results = await axe(container)
     expect(results).toHaveNoViolations()
   })
 
   it('renders page title and ride data', () => {
-    render(<Rides />)
+    render(<Coasters />)
 
-    expect(screen.getByText('Rides')).toBeInTheDocument()
+    expect(screen.getByText('Coasters')).toBeInTheDocument()
     expect(screen.getByText('Toutatis')).toBeInTheDocument()
     expect(screen.getByText('Hyperia')).toBeInTheDocument()
   })
 
   it('includes view toggle functionality', () => {
-    render(<Rides />)
+    render(<Coasters />)
 
     expect(screen.getByRole('radiogroup')).toBeInTheDocument()
     expect(screen.getByRole('radio', { name: 'List view' })).toBeInTheDocument()
@@ -79,7 +79,7 @@ describe('Rides Page', () => {
   })
 
   it('includes multiple filter and sort options', () => {
-    render(<Rides />)
+    render(<Coasters />)
 
     expect(
       screen.getByRole('combobox', { name: 'Sort by selection' })
@@ -97,8 +97,8 @@ describe('Rides Page', () => {
     ).toBeInTheDocument()
   })
 
-  it('filters rides by park location', () => {
-    render(<Rides />)
+  it('filters Coasters by park location', () => {
+    render(<Coasters />)
 
     const locationSelector = screen.getByRole('combobox', {
       name: 'Filter by Location selection',
@@ -109,8 +109,8 @@ describe('Rides Page', () => {
     expect(screen.queryByText('Toutatis')).not.toBeInTheDocument()
   })
 
-  it('filters rides by manufacturer', () => {
-    render(<Rides />)
+  it('filters Coasters by manufacturer', () => {
+    render(<Coasters />)
 
     const manufacturerSelector = screen.getByRole('combobox', {
       name: 'Filter by Manufacturer selection',
@@ -121,8 +121,8 @@ describe('Rides Page', () => {
     expect(screen.queryByText('Hyperia')).not.toBeInTheDocument()
   })
 
-  it('sorts rides by name alphabetically', () => {
-    render(<Rides />)
+  it('sorts Coasters by name alphabetically', () => {
+    render(<Coasters />)
 
     const sortSelector = screen.getByRole('combobox', {
       name: 'Sort by selection',
@@ -137,7 +137,7 @@ describe('Rides Page', () => {
   })
 
   it('switches to list view and shows table structure', () => {
-    render(<Rides />)
+    render(<Coasters />)
 
     const listViewButton = screen.getByRole('radio', { name: 'List view' })
     fireEvent.click(listViewButton)
@@ -148,7 +148,7 @@ describe('Rides Page', () => {
   })
 
   it('displays ride statistics in card view', () => {
-    render(<Rides />)
+    render(<Coasters />)
 
     expect(screen.getByText(': 107 km/h', { exact: false })).toBeInTheDocument()
     expect(screen.getByText(': 129 km/h', { exact: false })).toBeInTheDocument()

@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import rides from '../../data/rides.json'
+import coasters from '../../data/coasters.json'
 import {
   filterData,
   getUniqueOptions,
@@ -77,7 +77,7 @@ const sortOptions = [
   },
 ]
 
-function Rides() {
+function Coasters() {
   const [sortOrder, setSortOrder] = useState(sortOptions[0].value)
   const [locationFilter, setLocationFilter] = useState('')
   const [heightFilter, setHeightFilter] = useState('')
@@ -86,41 +86,42 @@ function Rides() {
 
   const renderCount = Date.now()
 
-  const locationOptions = getUniqueOptions(rides, ride => ride.park).map(
-    option => ({ value: option, label: option })
-  )
+  const locationOptions = getUniqueOptions(
+    coasters,
+    coaster => coaster.park
+  ).map(option => ({ value: option, label: option }))
   const heightOptions = getUniqueOptions(
-    rides,
-    ride => ride.heightRequirement
+    coasters,
+    coaster => coaster.heightRequirement
   ).map(option => ({ value: option, label: option }))
   const manufacturerOptions = getUniqueOptions(
-    rides,
-    ride => ride.manufacturer
+    coasters,
+    coaster => coaster.manufacturer
   ).map(option => ({ value: option, label: option }))
 
-  const filteredRides = useMemo(() => {
+  const filteredCoasters = useMemo(() => {
     const filters = {
       park: locationFilter,
       heightRequirement: heightFilter,
       manufacturer: manufacturerFilter,
     }
 
-    return filterData(rides, filters)
+    return filterData(coasters, filters)
   }, [locationFilter, heightFilter, manufacturerFilter])
 
   const selectedSort = sortOptions.find(option => option.value === sortOrder)
-  const sortedRides = selectedSort
+  const sortedCoasters = selectedSort
     ? sortData(
-        filteredRides,
+        filteredCoasters,
         selectedSort.key,
         selectedSort.direction as 'asc' | 'desc',
         selectedSort.type as 'string' | 'number' | 'date'
       )
-    : filteredRides
+    : filteredCoasters
 
   return (
     <MainContent>
-      <Title>Rides</Title>
+      <Title>Coasters</Title>
 
       <ViewToggle viewMode={viewMode} onViewChange={setViewMode} />
 
@@ -163,7 +164,7 @@ function Rides() {
           <ListViewStyled.Table>
             <ListViewStyled.TableHead>
               <ListViewStyled.TableRow>
-                <ListViewStyled.TableHeader>Ride</ListViewStyled.TableHeader>
+                <ListViewStyled.TableHeader>coaster</ListViewStyled.TableHeader>
                 <ListViewStyled.TableHeader className='hide-small'>
                   Park
                 </ListViewStyled.TableHeader>
@@ -176,27 +177,27 @@ function Rides() {
               </ListViewStyled.TableRow>
             </ListViewStyled.TableHead>
             <ListViewStyled.TableBody>
-              {sortedRides.map(ride => (
-                <ListViewStyled.TableRow key={ride.name}>
+              {sortedCoasters.map(coaster => (
+                <ListViewStyled.TableRow key={coaster.name}>
                   <ListViewStyled.TableCell>
                     <ListViewStyled.RoomLink
-                      href={`/rides/ride-info/${formatString(
-                        ride.name,
+                      href={`/coasters/coaster-info/${formatString(
+                        coaster.name,
                         'dash',
                         'lower'
                       )}`}
                     >
-                      {ride.name}
+                      {coaster.name}
                     </ListViewStyled.RoomLink>
                   </ListViewStyled.TableCell>
                   <ListViewStyled.TableCell className='hide-small'>
-                    {ride.park}
+                    {coaster.park}
                   </ListViewStyled.TableCell>
                   <ListViewStyled.TableCell className='hide-mobile'>
-                    {ride.manufacturer || 'Unknown'}
+                    {coaster.manufacturer || 'Unknown'}
                   </ListViewStyled.TableCell>
                   <ListViewStyled.TableCell className='hide-mobile'>
-                    {ride.yearOpened || 'Unknown'}
+                    {coaster.yearOpened || 'Unknown'}
                   </ListViewStyled.TableCell>
                 </ListViewStyled.TableRow>
               ))}
@@ -205,11 +206,11 @@ function Rides() {
         </ListViewStyled.TableContainer>
       ) : (
         <CardsFlex key={`cards-${renderCount}-${manufacturerFilter}`}>
-          {sortedRides.map((ride, index) => {
-            const cardKey = `${renderCount}-${manufacturerFilter}-${ride.name}`
+          {sortedCoasters.map((coaster, index) => {
+            const cardKey = `${renderCount}-${manufacturerFilter}-${coaster.name}`
             return (
-              <Card item={ride} type='ride' key={cardKey}>
-                {Object.entries(ride)
+              <Card item={coaster} type='coaster' key={cardKey}>
+                {Object.entries(coaster)
                   .filter(([key, value]) => value !== null && value !== '')
                   .map(([key, value]) => (
                     <CardStat
@@ -227,4 +228,4 @@ function Rides() {
   )
 }
 
-export default Rides
+export default Coasters

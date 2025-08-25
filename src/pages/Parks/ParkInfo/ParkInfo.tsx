@@ -1,9 +1,9 @@
 import { Link, MainContent, Title } from '../../../components'
 import * as Styled from './ParkInfo.styled'
 import parks from '../../../data/parks.json'
-import rides from '../../../data/rides.json'
+import coasters from '../../../data/coasters.json'
 import { useParams } from 'react-router-dom'
-import { Park, Ride } from '../../../types'
+import { Park, Coaster } from '../../../types'
 import { formatString } from '../../../utils'
 
 function ParkInfo() {
@@ -14,7 +14,9 @@ function ParkInfo() {
   )
   if (!park) return <div>Park not found</div>
 
-  const parkRides = (rides as Ride[]).filter(ride => ride.park === park.name)
+  const parkCoasters = (coasters as Coaster[]).filter(
+    coaster => coaster.park === park.name
+  )
 
   return (
     <MainContent>
@@ -62,56 +64,57 @@ function ParkInfo() {
           </Styled.InfoItem>
         </Styled.InfoGrid>
 
-        <Styled.RidesSection>
-          <Styled.RidesTitle>
-            Rides at {park.name} ({parkRides.length})
-          </Styled.RidesTitle>
-          {parkRides.length > 0 ? (
-            <Styled.RidesList>
-              {parkRides.map((ride, index) => (
-                <Styled.RideItem key={index}>
-                  <Styled.RideCardLink
-                    href={`/rides/ride-info/${formatString(
-                      ride.name,
+        <Styled.CoastersSection>
+          <Styled.CoastersTitle>
+            Coasters at {park.name} ({parkCoasters.length})
+          </Styled.CoastersTitle>
+          {parkCoasters.length > 0 ? (
+            <Styled.CoastersList>
+              {parkCoasters.map((coaster, index) => (
+                <Styled.CoasterItem key={index}>
+                  <Styled.CoasterCardLink
+                    href={`/coasters/coaster-info/${formatString(
+                      coaster.name,
                       'dash',
                       'lower'
                     )}`}
                   >
-                    <Styled.RideContent>
-                      <Styled.RideName>{ride.name}</Styled.RideName>
-                      <Styled.RideDetails>
-                        {ride.manufacturer && (
-                          <Styled.RideDetail>
-                            <strong>Manufacturer:</strong> {ride.manufacturer}
-                          </Styled.RideDetail>
+                    <Styled.CoasterContent>
+                      <Styled.CoasterName>{coaster.name}</Styled.CoasterName>
+                      <Styled.CoasterDetails>
+                        {coaster.manufacturer && (
+                          <Styled.CoasterDetail>
+                            <strong>Manufacturer:</strong>{' '}
+                            {coaster.manufacturer}
+                          </Styled.CoasterDetail>
                         )}
-                        {ride.type && (
-                          <Styled.RideDetail>
-                            <strong>Type:</strong> {ride.type}
-                          </Styled.RideDetail>
+                        {coaster.type && (
+                          <Styled.CoasterDetail>
+                            <strong>Type:</strong> {coaster.type}
+                          </Styled.CoasterDetail>
                         )}
-                        {ride.yearOpened && (
-                          <Styled.RideDetail>
-                            <strong>Opened:</strong> {ride.yearOpened}
-                          </Styled.RideDetail>
+                        {coaster.yearOpened && (
+                          <Styled.CoasterDetail>
+                            <strong>Opened:</strong> {coaster.yearOpened}
+                          </Styled.CoasterDetail>
                         )}
-                        {ride.level && (
-                          <Styled.RideDetail>
-                            <strong>Level:</strong> {ride.level}
-                          </Styled.RideDetail>
+                        {coaster.level && (
+                          <Styled.CoasterDetail>
+                            <strong>Level:</strong> {coaster.level}
+                          </Styled.CoasterDetail>
                         )}
-                      </Styled.RideDetails>
-                    </Styled.RideContent>
-                  </Styled.RideCardLink>
-                </Styled.RideItem>
+                      </Styled.CoasterDetails>
+                    </Styled.CoasterContent>
+                  </Styled.CoasterCardLink>
+                </Styled.CoasterItem>
               ))}
-            </Styled.RidesList>
+            </Styled.CoastersList>
           ) : (
-            <Styled.NoRidesMessage>
-              No rides data available for this park.
-            </Styled.NoRidesMessage>
+            <Styled.NoCoastersMessage>
+              No roller coaster data available for this park.
+            </Styled.NoCoastersMessage>
           )}
-        </Styled.RidesSection>
+        </Styled.CoastersSection>
       </Styled.PageWrapper>
     </MainContent>
   )

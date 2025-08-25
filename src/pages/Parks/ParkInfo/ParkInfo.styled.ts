@@ -86,18 +86,18 @@ export const InfoValue = styled.span`
   font-size: ${fonts.body};
 `
 
-export const RidesSection = styled.section`
+export const CoastersSection = styled.section`
   margin-top: ${spacing.medium};
 `
 
-export const RidesTitle = styled.h3`
+export const CoastersTitle = styled.h3`
   font-size: ${fonts.large};
   color: ${colours.darkGrey};
   margin-bottom: ${spacing.small};
   font-weight: 600;
 `
 
-export const RidesList = styled.div`
+export const CoastersList = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: ${spacing.small};
@@ -111,7 +111,7 @@ export const RidesList = styled.div`
   }
 `
 
-export const RideItem = styled.div`
+export const CoasterItem = styled.div`
   border: ${spacing.mini} solid ${colours.borderGrey};
   border-radius: ${spacing.tiny};
   background-color: ${colours.white};
@@ -138,7 +138,7 @@ export const RideItem = styled.div`
   }
 `
 
-export const RideContent = styled.div`
+export const CoasterContent = styled.div`
   padding: ${spacing.small};
   display: block;
   text-decoration: none;
@@ -167,7 +167,7 @@ export const RideContent = styled.div`
   }
 `
 
-export const RideCardLink = styled.a`
+export const CoasterCardLink = styled.a`
   text-decoration: none !important;
   color: inherit;
   display: block;
@@ -193,7 +193,7 @@ export const RideCardLink = styled.a`
   }
 `
 
-export const RideName = styled.h4`
+export const CoasterName = styled.h4`
   margin: 0 0 ${spacing.tiny} 0;
   font-size: 18px;
   font-weight: 600;
@@ -204,7 +204,7 @@ export const RideName = styled.h4`
   }
 `
 
-export const RideDetails = styled.div`
+export const CoasterDetails = styled.div`
   display: flex;
   flex-direction: column;
   gap: ${spacing.tiny};
@@ -216,13 +216,13 @@ export const RideDetails = styled.div`
   }
 `
 
-export const RideDetail = styled.span`
+export const CoasterDetail = styled.span`
   &:not(:last-child) {
     margin-bottom: ${spacing.tiny};
   }
 `
 
-export const NoRidesMessage = styled.p`
+export const NoCoastersMessage = styled.p`
   text-align: center;
   color: ${colours.black};
   padding: ${spacing.medium};

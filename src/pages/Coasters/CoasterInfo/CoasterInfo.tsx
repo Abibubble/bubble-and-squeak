@@ -1,19 +1,19 @@
 import { Info, Link, MainContent, Title } from '../../../components'
-import * as Styled from './RideInfo.styled'
-import rides from '../../../data/rides.json'
+import * as Styled from './CoasterInfo.styled'
+import coasters from '../../../data/coasters.json'
 import parks from '../../../data/parks.json'
 import { useParams } from 'react-router-dom'
 import { formatString } from '../../../utils'
 
-function RideInfo() {
-  const { rideName } = useParams<{ rideName: string }>()
+function CoasterInfo() {
+  const { coasterName } = useParams<{ coasterName: string }>()
 
-  const ride = rides.find(
-    ride => formatString(ride.name, 'dash', 'lower') === rideName
+  const coaster = coasters.find(
+    coaster => formatString(coaster.name, 'dash', 'lower') === coasterName
   )
-  if (!ride) return <div>Ride not found</div>
+  if (!coaster) return <div>Coaster not found</div>
 
-  const park = parks.find(park => park.name === ride.park)
+  const park = parks.find(park => park.name === coaster.park)
 
   const basicInfoKeys = ['manufacturer', 'model', 'type', 'level', 'material']
   const specificationsKeys = [
@@ -38,7 +38,7 @@ function RideInfo() {
   return (
     <MainContent>
       <Styled.PageWrapper>
-        <Title>{ride.name}</Title>
+        <Title>{coaster.name}</Title>
         <Styled.Location>
           <Link
             dark
@@ -52,17 +52,17 @@ function RideInfo() {
                 : '#'
             }
           >
-            {ride.park}, {park ? park.country : 'Unknown'}
+            {coaster.park}, {park ? park.country : 'Unknown'}
           </Link>
         </Styled.Location>
         <Styled.ImageContainer>
           <Styled.Image
-            src={`/images/rides/${formatString(
-              ride.name,
+            src={`/images/coasters/${formatString(
+              coaster.name,
               'dash',
               'lower'
             )}.jpg`}
-            alt={ride.name}
+            alt={coaster.name}
             onError={e => {
               const target = e.target as HTMLImageElement
               target.onerror = null
@@ -72,24 +72,28 @@ function RideInfo() {
           />
         </Styled.ImageContainer>
 
-        {ride.description && (
-          <Styled.Description>{ride.description}</Styled.Description>
+        {coaster.description && (
+          <Styled.Description>{coaster.description}</Styled.Description>
         )}
 
         <Styled.InfoGrid>
-          <Info item={ride} keys={basicInfoKeys} type='Basic Information' />
-          <Info item={ride} keys={specificationsKeys} type='Specifications' />
+          <Info item={coaster} keys={basicInfoKeys} type='Basic Information' />
           <Info
-            item={ride}
+            item={coaster}
+            keys={specificationsKeys}
+            type='Specifications'
+          />
+          <Info
+            item={coaster}
             keys={operationalKeys}
             type='Operational Information'
           />
         </Styled.InfoGrid>
 
-        {ride.review && (
+        {coaster.review && (
           <Styled.ReviewContainer>
             <Styled.ReviewTitle>Our Review</Styled.ReviewTitle>
-            <Styled.ReviewText>{ride.review}</Styled.ReviewText>
+            <Styled.ReviewText>{coaster.review}</Styled.ReviewText>
           </Styled.ReviewContainer>
         )}
       </Styled.PageWrapper>
@@ -97,4 +101,4 @@ function RideInfo() {
   )
 }
 
-export default RideInfo
+export default CoasterInfo

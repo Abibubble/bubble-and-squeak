@@ -40,7 +40,7 @@ export interface Park {
   yearOpened: number
 }
 
-export interface Ride {
+export interface Coaster {
   name: string
   park: string
   manufacturer: string

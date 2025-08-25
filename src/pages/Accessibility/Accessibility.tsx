@@ -19,7 +19,7 @@ function Accessibility() {
             Bubble & Squeak strives to ensure that our website is accessible to
             all users, including those with disabilities. We aim to provide an
             inclusive experience that allows everyone to access and enjoy our
-            content about theme parks, rides, and escape rooms.
+            content about theme parks, roller roasters, and escape rooms.
           </Styled.Paragraph>
         </Styled.Section>
 

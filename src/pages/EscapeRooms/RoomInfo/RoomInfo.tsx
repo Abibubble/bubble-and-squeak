@@ -52,7 +52,7 @@ function RoomInfo() {
           }}
         />
       </Styled.ImageContainer>
-      <Styled.Description>{room.description}</Styled.Description>
+      <Styled.Description>"{room.description}"</Styled.Description>
       <RatingStars percentage={parseInt(room.total.replace('%', ''))} />
       <Styled.InfoGrid>
         <Info item={room} keys={stats} type='Stats' />

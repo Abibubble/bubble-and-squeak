@@ -13,7 +13,7 @@ export type CardProps = {
     park?: string
     [key: string]: any // TODO: Fix this - Allow additional properties for different data types
   }
-  type: 'park' | 'room' | 'ride'
+  type: 'park' | 'room' | 'coaster'
 }
 
 export default function Card({ children, description, item, type }: CardProps) {
@@ -26,8 +26,8 @@ export default function Card({ children, description, item, type }: CardProps) {
     baseUrl = 'parks'
   } else if (type === 'room') {
     baseUrl = 'escape-rooms/photos'
-  } else if (type === 'ride') {
-    baseUrl = 'rides'
+  } else if (type === 'coaster') {
+    baseUrl = 'coasters'
     park = parks.find(park => park.name === item.park)
     country = park ? park.country : 'Unknown'
     location = item.park
@@ -45,8 +45,8 @@ export default function Card({ children, description, item, type }: CardProps) {
     url = `/escape-rooms/room-info/${urlId}`
   } else if (type === 'park') {
     url = `/theme-parks/park-info/${urlId}`
-  } else if (type === 'ride') {
-    url = `/rides/ride-info/${urlId}`
+  } else if (type === 'coaster') {
+    url = `/coasters/coaster-info/${urlId}`
     if (item.park) {
       imageUrl = `/images/${baseUrl}/${formatString(
         item.name,
@@ -69,7 +69,7 @@ export default function Card({ children, description, item, type }: CardProps) {
                 ? 'Theme park'
                 : type === 'room'
                 ? 'Escape room'
-                : 'Ride'
+                : 'Coaster'
             }`}
             onError={e => {
               const target = e.target as HTMLImageElement

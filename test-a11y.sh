@@ -34,7 +34,7 @@ run_axe_tests() {
     echo "Running axe-core accessibility tests..."
 
     # Test different pages
-    declare -a pages=("/" "/theme-parks" "/rides" "/escape-rooms")
+    declare -a pages=("/" "/theme-parks" "/coasters" "/escape-rooms")
 
     for page in "${pages[@]}"; do
         page_name=$(echo $page | sed 's/\//-/g' | sed 's/^-//')
